@@ -35,7 +35,7 @@ You now can import a Actor Sheet model and gear and other items. **Check the com
   <tr>
     <th>
       <p align="center">
-        <img width="500" src="docs/docs-import.webp">
+        <img width="800" src="docs/docs-import.webp">
       </p>
     </th>
   </tr>
