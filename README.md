@@ -12,7 +12,7 @@ You need **Simple Worldbuilding System** to use this module.
 
 You also need **Forged in the Dark Roller**.
 
-You can't really play without the [PDF](https://matteosciutteri.itch.io/bloodstone).
+You need the [PDF](https://matteosciutteri.itch.io/bloodstone) to play.
 
 After have everything create a world, activate the modules. 
 
