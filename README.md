@@ -12,7 +12,7 @@ BLOODSTONE is designed for one-shot games: every time we play, we play different
   <tr>
     <th>
       <p align="center">
-        <img width="500" src="docs/docs-overview.webp">
+        <img width="900" src="docs/docs-overview.webp">
       </p>
     </th>
   </tr>
