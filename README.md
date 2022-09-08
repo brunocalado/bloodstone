@@ -48,7 +48,7 @@ You now can import a Actor Sheet model and gear and other items. **Check the com
 Search **Bloodstone** at Foundry VTT modules.
 
 ## Manual Installation
-Manifest: https://raw.githubusercontent.com/brunocalado/rpgnextcriticos/main/module.json
+Manifest: https://raw.githubusercontent.com/brunocalado/bloodstone/main/module.json
 
 # About
 If you want to learn about this game go to [Bloodstone](https://matteosciutteri.itch.io/bloodstone) and get the PDFs.
