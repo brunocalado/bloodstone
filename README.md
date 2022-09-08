@@ -7,6 +7,18 @@ The players are a group of hunters, sent to the city of Heliwyr on a blood moon 
 The game has a high pace: the Hunt is a race against the clock. 
 BLOODSTONE is designed for one-shot games: every time we play, we play different Hunters, who will face new obstacles and challenges every time: the blood moon nights in Heliwyr never end.
 
+<table>
+<thead>
+  <tr>
+    <th>
+      <p align="center">
+        <img width="500" src="docs/docs-overview.webp">
+      </p>
+    </th>
+  </tr>
+</thead>
+</table>
+
 # Documentation
 You need **Simple Worldbuilding System** to use this module.
 
