@@ -42,6 +42,8 @@ You now can import a Actor Sheet model and gear and other items. **Check the com
 </thead>
 </table>
 
+There is journal **Read Me** with more instructions. 
+
 # Installation
 
 ## Installation
@@ -62,3 +64,8 @@ This work is based on Blades in the Dark, product of One Seven Design, developed
 You can also check the license reading the comments at: [Bloodstone](https://matteosciutteri.itch.io/bloodstone). I requested permission in there.
 
 If I add any code it'll be under [LICENSE](LICENSE).
+
+# Assets
+- Oath - PTBT -> Oath of Hunter - Bloodstone © 2022 by Mestre Digital is licensed under CC BY-SA 4.0
+- clock skull -> https://pixabay.com/service/license/
+- clocks -> Some assets were taken from here (thank you timdenee and joesinghaus): https://github.com/joesinghaus/Blades-in-the-Dark

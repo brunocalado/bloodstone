@@ -2,56 +2,48 @@
   "id": "bloodstone",
   "title": "Bloodstone - Action-Horror mini Forged in the Dark",
   "description": "The city of Heliwyr is damned. Decades ago, a mad priest officiated an ancient ritual, awakening a wicked force that branded every inhabitant, corrupting their blood. On nights with a blood moon, the curse awakens, depriving the inhabitants of their minds. Those who decide to follow the path of the priest, voluntarily feeding on the corrupt blood of people, become Apostles: almost immortal creatures, with bestial features, devoid of any humanity.",
-  
-  "authors": [{
-    "name": "Mestre Digital",
-    "url": "https://www.youtube.com/c/MestreDigital"
-  }],
-
-  "flags": {},
-  "version": "0.0.2",
+  "authors": [
+    {
+      "name": "Mestre Digital",
+      "url": "https://www.youtube.com/c/MestreDigital",
+      "flags": {}
+    }
+  ],
+  "version": "0.0.3",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
     "maximum": "10"
-  },  
-  
-  "scripts": [],
-  "esmodules": [],
-  "styles": [],
-  
-  "languages": [],
-  
+  },
   "packs": [
     {
       "label": "Bloodstone",
       "type": "Adventure",
       "name": "bloodstone",
       "path": "packs/bloodstone.db",
-      "module": "worldbuilding",
       "private": false,
-      "flags": {}
+      "flags": {},
+      "system": "worldbuilding"
     }
   ],
-  
   "relationships": {
-    "systems": [{
-      "id": "worldbuilding"
-    }],
-    "requires": [{
-      "id": "foundryvtt-fitdroller",
-      "type": "module",
-      "manifest": "https://raw.githubusercontent.com/drewg13/foundryvtt-fitdroller/main/module.json"
-    }]
-  },  
-  
-  "socket": false,
-
-  "url": "https://github.com/brunocalado/bloodstone", 
+    "systems": [
+      {
+        "id": "worldbuilding",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "foundryvtt-fitdroller",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/drewg13/foundryvtt-fitdroller/main/module.json",
+        "compatibility": {}
+      }
+    ]
+  },
+  "url": "https://github.com/brunocalado/bloodstone",
   "manifest": "https://raw.githubusercontent.com/brunocalado/bloodstone/main/module.json",
-  "download": "https://codeload.github.com/brunocalado/bloodstone/zip/main",
-
-  "protected": false,
-
-  "library": false
+  "download": "https://codeload.github.com/brunocalado/bloodstone/zip/main"
 }
