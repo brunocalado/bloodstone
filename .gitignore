@@ -1,2 +1,3 @@
 WORKSPACE
 bloodstone.lock
+.gitignore

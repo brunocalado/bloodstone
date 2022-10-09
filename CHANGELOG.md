@@ -1,3 +1,6 @@
+# 0.0.6
+- macros style fix
+
 # 0.0.4
 - macro: firearm actions
 - macro resist
