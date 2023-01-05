@@ -1,3 +1,8 @@
+# 0.0.7
+- permission fix
+- trick weapon macro
+- wounds fix
+
 # 0.0.6
 - macros style fix
 
