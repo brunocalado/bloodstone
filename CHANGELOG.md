@@ -1,3 +1,6 @@
+# 0.0.8
+- v11 only
+
 # 0.0.7
 - permission fix
 - trick weapon macro

@@ -9,21 +9,25 @@
       "flags": {}
     }
   ],
-  "version": "0.0.7",
+  "version": "0.0.8",
   "compatibility": {
-    "minimum": "10",
-    "verified": "10"
+    "minimum": "11",
+    "verified": "11"
   },
   "packs": [
     {
       "label": "Bloodstone",
-      "type": "Adventure",
       "name": "bloodstone",
-      "path": "packs/bloodstone.db",
-      "private": false,
-      "flags": {},
-      "system": "worldbuilding"
+      "type": "Adventure",
+      "system": "worldbuilding",
+      "path": "packs/bloodstone",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
+    
   ],
   "relationships": {
     "systems": [

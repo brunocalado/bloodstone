@@ -69,3 +69,6 @@ If I add any code it'll be under [LICENSE](LICENSE).
 - Oath - PTBT -> Oath of Hunter - Bloodstone © 2022 by Mestre Digital is licensed under CC BY-SA 4.0
 - clock skull -> https://pixabay.com/service/license/
 - clocks -> Some assets were taken from here (thank you timdenee and joesinghaus): https://github.com/joesinghaus/Blades-in-the-Dark
+
+# Mestre Digital
+About this module creator: https://sites.google.com/view/mestredigitalmodules
