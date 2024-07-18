@@ -1,15 +1,15 @@
-2023/07/22-18:14:29.636 dac Recovering log #77
-2023/07/22-18:14:29.644 dac Delete type=0 #77
-2023/07/22-18:14:29.644 dac Delete type=3 #75
-2023/07/22-18:17:49.005 690 Level-0 table #82: started
-2023/07/22-18:17:49.008 690 Level-0 table #82: 25471 bytes OK
-2023/07/22-18:17:49.009 690 Delete type=0 #80
-2023/07/22-18:17:49.018 690 Manual compaction at level-0 from '!adventures!lh0HPVVlBca4KK7M' @ 72057594037927935 : 1 .. '!adventures!lh0HPVVlBca4KK7M' @ 0 : 0; will stop at (end)
-2023/07/22-18:17:49.018 690 Manual compaction at level-1 from '!adventures!lh0HPVVlBca4KK7M' @ 72057594037927935 : 1 .. '!adventures!lh0HPVVlBca4KK7M' @ 0 : 0; will stop at '!adventures!lh0HPVVlBca4KK7M' @ 4 : 1
-2023/07/22-18:17:49.018 690 Compacting 1@1 + 1@2 files
-2023/07/22-18:17:49.028 690 Generated table #83@1: 1 keys, 25471 bytes
-2023/07/22-18:17:49.028 690 Compacted 1@1 + 1@2 files => 25471 bytes
-2023/07/22-18:17:49.035 690 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/07/22-18:17:49.035 690 Delete type=2 #22
-2023/07/22-18:17:49.035 690 Delete type=2 #82
-2023/07/22-18:17:49.035 690 Manual compaction at level-1 from '!adventures!lh0HPVVlBca4KK7M' @ 4 : 1 .. '!adventures!lh0HPVVlBca4KK7M' @ 0 : 0; will stop at (end)
+2024/07/18-09:15:53.333 18e0 Recovering log #201
+2024/07/18-09:15:53.337 18e0 Delete type=0 #201
+2024/07/18-09:15:53.337 18e0 Delete type=3 #200
+2024/07/18-09:16:06.035 4d64 Level-0 table #205: started
+2024/07/18-09:16:06.036 4d64 Level-0 table #205: 26298 bytes OK
+2024/07/18-09:16:06.037 4d64 Delete type=0 #203
+2024/07/18-09:16:06.038 4d64 Manual compaction at level-0 from '!adventures!lh0HPVVlBca4KK7M' @ 72057594037927935 : 1 .. '!adventures!lh0HPVVlBca4KK7M' @ 0 : 0; will stop at (end)
+2024/07/18-09:16:06.039 4d64 Manual compaction at level-1 from '!adventures!lh0HPVVlBca4KK7M' @ 72057594037927935 : 1 .. '!adventures!lh0HPVVlBca4KK7M' @ 0 : 0; will stop at '!adventures!lh0HPVVlBca4KK7M' @ 5 : 1
+2024/07/18-09:16:06.039 4d64 Compacting 1@1 + 1@2 files
+2024/07/18-09:16:06.041 4d64 Generated table #206@1: 1 keys, 26298 bytes
+2024/07/18-09:16:06.041 4d64 Compacted 1@1 + 1@2 files => 26298 bytes
+2024/07/18-09:16:06.041 4d64 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/07/18-09:16:06.041 4d64 Delete type=2 #83
+2024/07/18-09:16:06.042 4d64 Delete type=2 #205
+2024/07/18-09:16:06.050 4d64 Manual compaction at level-1 from '!adventures!lh0HPVVlBca4KK7M' @ 5 : 1 .. '!adventures!lh0HPVVlBca4KK7M' @ 0 : 0; will stop at (end)
