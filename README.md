@@ -78,13 +78,13 @@ The code and the content of this module are under different licenses.
 
 The code (`scripts/`, `styles/` and `tools/`) is under the GNU General Public License version 3. See [LICENSE](LICENSE).
 
-The content (the journals, the Hunter, the items, the roll tables and the map) comes from [Bloodstone](https://matteosciutteri.itch.io/bloodstone), a game by Matteo Sciutteri licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was adapted for Foundry VTT and is shared under the same license, so it cannot be used commercially. I requested permission in the comments on the game's page.
+The content (the journals, the Hunter, the items, the roll tables and the map) comes from [Bloodstone](https://matteosciutteri.itch.io/bloodstone), a game by Matteo Sciutteri licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was adapted for Foundry VTT and is shared under the same license, so it cannot be used commercially. Matteo Sciutteri gave permission to update this module and add the map, in the comments on [the game's page](https://matteosciutteri.itch.io/bloodstone) (November 2026): asked "Can I update the Foundry VTT Module and add the map?", he answered "of course! Please do it."
 
 This work is based on Blades in the Dark, product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license.
 
 # Assets
 - Oath - PTBT -> Oath of Hunter - Bloodstone © 2022 by Mestre Digital is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-- Map of Heliwyr -> by Matteo Sciutteri, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/): https://matteosciutteri.itch.io/bloodstone. Converted from the game's map PDF to a WebP image for the scene.
+- Map of Heliwyr -> by Matteo Sciutteri, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/): https://matteosciutteri.itch.io/bloodstone. Converted from the game's map PDF to a WebP image for the scene, with the author's permission (see License).
 - Clock icons -> from [game-icons.net](https://game-icons.net), licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 # Mestre Digital
