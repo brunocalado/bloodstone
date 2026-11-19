@@ -28,6 +28,20 @@
  * Only `_Adventure.json` carries a `_key`; it lists every embedded file by relative path, and
  * `recursive` is what lets the compiler find it in its subfolder.
  *
+ * `bloodstone-pt-br` is the same Adventure translated, and every embedded document keeps the id
+ * of its English twin; only the Adventure itself has its own. Links and triggers then need no
+ * rewriting, and importing one language over the other updates the same documents in place
+ * (core asks before overwriting) instead of adding a second Hunter, macro set and directory.
+ * New ids would let both languages live in one world, at the cost of rewriting every link and
+ * trigger for a table nobody plays in two languages. A Babele overlay on the English pack would
+ * keep one source, but adds a dependency whose handling of an expanded Adventure was never
+ * confirmed. An edit to one pack's ids, links or non-text fields belongs in the other too.
+ *
+ * TAF matches an item group to the Hunter's `system.carryCapacity` by `toID(group)`, which
+ * lowercases, turns spaces into `_` and strips `\W` — accented letters included. A translated
+ * group needs its capacity key spelled that way ("Memória" -> `memria`), or the sheet shows a
+ * capacity bar with NaN.
+ *
  * Both directions start from an empty destination, so a document deleted on one side does not
  * linger on the other.
  *
