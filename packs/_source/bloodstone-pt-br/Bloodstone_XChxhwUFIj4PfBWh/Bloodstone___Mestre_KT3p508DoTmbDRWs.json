@@ -1,0 +1,156 @@
+{
+  "_id": "KT3p508DoTmbDRWs",
+  "name": "Bloodstone - Mestre",
+  "folder": null,
+  "sort": 200000,
+  "pages": [
+    {
+      "_id": "7zoaqYOVP8mZxffz",
+      "name": "Agenda do Mestre",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<ul><li><p>Transmita uma cidade amaldiçoada durante a noite da Caçada.</p></li><li><p>Apresente personagens estranhos e enigmáticos.</p></li><li><p>Encha a vida dos Caçadores de horror e escuridão.</p></li><li><p>Jogue para descobrir.</p></li></ul><h2>Cenário</h2><p>A cidade de <strong>Heliwyr</strong> está condenada. Décadas atrás, um sacerdote louco celebrou um ritual antigo, despertando uma força perversa que marcou cada habitante, corrompendo seu sangue.</p><p>Nas noites de <strong>lua de sangue</strong>, a maldição desperta, privando os habitantes de suas mentes. Poucos são os que conseguem resistir ao chamado do sangue amaldiçoado, trancando-se em casa e rezando aos deuses que abandonaram estas terras.</p><p>A maioria, por outro lado, dá vazão à própria loucura com atos depravados e violentos, vagando pelas ruas da cidade armada de tochas e forcados, em busca de vítimas para matar e torturar, e depois comer sua carne.</p><p>Por fim, aqueles que decidem seguir o caminho do sacerdote, alimentando-se voluntariamente do sangue corrompido das pessoas, tornam-se <strong>Apóstolos</strong>: criaturas quase imortais, de feições bestiais, desprovidas de qualquer humanidade.</p><p>Nesta noite de lua de sangue, um grupo de caçadores foi enviado à cidade de Heliwyr para acabar com a loucura de uma vez por todas.</p><blockquote><p><em>Nascemos envoltos em trevas, cobertos de sangue. Mas a luz nos tocou, e agora nossos olhos estão abertos. A Caçada é o nosso caminho, a Caçada é o nosso propósito.</em></p></blockquote><h2>A Caçada</h2><p>BLOODSTONE é um jogo de terror repleto de ação, com uma atmosfera sombria e gótica.</p><p>Os Personagens dos Jogadores (PJs) são um grupo de <strong>caçadores</strong>, enviados à cidade de Heliwyr numa noite de lua de sangue para caçar um Apóstolo que tenta ascender, abrindo um portal para o reino dos Antigos. O que os espera é uma tarefa arriscada, provavelmente mortal: a cidade está sitiada por cidadãos enlouquecidos pela marca da besta, e chegar à <strong>Catedral</strong> exigirá coragem e estratégia.</p><p>Como Mestre, você apresenta obstáculos e situações arriscadas aos Jogadores e pergunta como eles querem lidar com elas. Não tente contar uma história: esse não é o seu trabalho.</p><p>Seu papel é conceber uma cidade decadente e corrompida e dar vida a ela, imaginando seus habitantes desesperados, seus lugares abandonados e escuros e os perigos que a assombram. Deixe-se surpreender pelo que vai acontecer: a história que vocês jogarem surgirá naturalmente das escolhas dos Jogadores diante dos perigos que você imaginou.</p><p>O jogo tem ritmo acelerado: a <strong>Caçada</strong> é uma corrida contra o relógio. Os Caçadores chegam à cidade de Heliwyr ao anoitecer e precisam encontrar o lugar onde o Apóstolo se esconde antes que soe a meia-noite. Só assim conseguirão impedir o ritual.</p><p>BLOODSTONE foi feito para sessões <em>únicas</em>: toda vez que jogamos, jogamos com Caçadores diferentes, que enfrentarão novos obstáculos e desafios a cada vez. As noites de lua de sangue em Heliwyr nunca terminam.</p><p>A Rolagem de Ação, com Posição, Efeito e a tabela de resultados, está na página @UUID[JournalEntry.t3pSbCOssfwvNPwg.JournalEntryPage.qIyhoXP1Yog2Xa75]{Rolagem de Ação} dos jogadores.</p><hr><p><em>Bloodstone é um jogo de Matteo Sciutteri (matteosciutteri.itch.io), licenciado sob CC BY-NC-SA 4.0. Este trabalho é baseado em Blades in the Dark, produto da One Seven Design, desenvolvido e escrito por John Harper, e licenciado para nosso uso sob a licença Creative Commons Attribution 3.0 Unported.</em></p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7y4bT1CKN7ztSIJi",
+      "name": "Conduzindo o Jogo",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Uma partida de BLOODSTONE se organiza em três Atos: <em>a caçada</em>, <em>a batalha final</em> e <em>o epitáfio</em>.</p><h2>Preparação</h2><p>Antes da partida, prepare algumas ideias. Procure imagens evocativas que ajudem você a visualizar <strong>a sua</strong> Heliwyr, para conseguir transmitir essa ideia aos outros jogadores.</p><blockquote><p><em>Como é a cidade? Ela se ergue ao longo de um rio? Ou se empoleira no alto de uma montanha? Que cheiro paira no ar? Que forma têm os pináculos das torres altas? Que criaturas alienígenas estão representadas nas grandes estátuas espalhadas pela Universidade?</em></p></blockquote><p>Detalhe três ou quatro <strong>locais</strong> da cidade e ligue-os entre si, estabelecendo conexões entre as áreas. Pelo menos uma dessas áreas deve estar ligada à <strong>Catedral</strong>: o lugar onde os PJs vão encontrar o <strong>Apóstolo</strong>. Você deve ter um diagrama como este:</p><ul><li><p><strong>Início</strong> → Portões da Cidade Velha</p></li><li><p>Portões da Cidade Velha → Tumba Proibida</p></li><li><p>Tumba Proibida → Distrito Abandonado, por uma passagem secreta</p></li><li><p>Distrito Abandonado → Ponte, por um túnel</p></li><li><p>Portões da Cidade Velha → Ponte</p></li><li><p>Ponte → <strong>Catedral</strong></p></li></ul><p>Ao detalhar um lugar, marque pelo menos <strong>três pontos de interesse</strong> (objetos ou elementos da área que escondem pedaços da história da cidade).</p><p>Sempre que um PJ observar ou interagir com um desses pontos de interesse, enriqueça a descrição com detalhes estranhos e perturbadores. Não explique as coisas! Mostre a loucura da cidade, tanto na arquitetura quanto nos detalhes, e deixe os jogadores especularem sobre ela.</p><p>Depois, recompense o PJ com <strong>1 de Discernimento</strong>.</p><p>Para o <strong>Ato I</strong>, você também vai precisar de alguns <strong>obstáculos</strong> e <strong>inimigos</strong> para enfrentar. Use as @UUID[.ASgnj3KYHNMsTrx2]{tabelas} como inspiração, ou invente tudo do zero, talvez inspirando-se em livros ou filmes de que você goste.</p><h2>Ato I: A Caçada</h2><p>Como Mestre, sua tarefa é apresentar a situação inicial: os caçadores chegaram a Heliwyr e agora terão de atravessar as ruas labirínticas da cidade, enfrentando os cidadãos enlouquecidos marcados pela besta, para reunir informações sobre o paradeiro do Apóstolo. Descreva a cena brevemente.</p><p>Depois de apresentar a chegada dos caçadores à cidade, coloque-os imediatamente diante de um obstáculo. Seja um grupo de aldeões violentos, uma criatura corrompida pelo sangue ou um perigo a enfrentar, o importante é que <strong>os PJs tenham logo algo a resolver</strong>, para pôr o jogo em movimento.</p><p>Depois do primeiro obstáculo, pergunte o que eles querem fazer. Indique os lugares que podem visitar e deixe que decidam aonde ir e por quê.</p><p>Descreva o que eles veem ao adentrar as entranhas da cidade. <strong>Mantenha a tensão alta.</strong> Vagar por Heliwyr deve ser uma experiência surreal e assustadora: qualquer tipo de horror pode estar escondido em cada esquina. Use as faíscas de inspiração deste manual, se quiser.</p><p>Quando os PJs chegarem ao novo local, apresente a nova situação.</p><p>O jogo segue assim até que um destes dois eventos aconteça: o @UUID[.tRujNlivxEYsNrd7]{Relógio da Noite} marca a meia-noite ou os PJs chegam à Catedral. Nos dois casos, o <strong>Ato I</strong> termina e começa o <strong>Ato II</strong>.</p><h2>Ato II: A Batalha Final</h2><p>Se os Caçadores chegarem à Catedral a tempo, encontram o Apóstolo celebrando o ritual, ainda incompleto. Se, por outro lado, o Relógio da Noite chegar à meia-noite, o Apóstolo completa o ritual e liberta o poder amaldiçoado dos Antigos. Será ele quem irá até os PJs, onde quer que estejam.</p><p><strong>Apresente o Apóstolo</strong>: que monstruosidade deformou sua carne? Descreva o que ele está fazendo e como se prepara para lutar contra os Caçadores.</p><p>O Apóstolo é um oponente formidável: ele toma a iniciativa e investe contra os Caçadores, sem esperar que eles façam o primeiro movimento. Pergunte aos PJs como reagem e deixe que tentem encontrar um jeito de lidar com ele.</p><p>Quando a luta terminar (com sucesso ou não), o <strong>Ato II</strong> termina e começa o <strong>Ato III</strong>.</p><h2>Ato III: Epitáfios</h2><p>Os Caçadores que sobreviveram podem saudar o amanhecer. Peça a cada PJ que descreva o que pensa e como derrotar um Apóstolo o mudou. <em>Vai caçar de novo? Ou vai se aposentar? Será capaz de encontrar paz, depois de todos os horrores que viu em Heliwyr?</em></p><p>Se nenhum Caçador sobreviveu, o Apóstolo prevaleceu, e será você, o Mestre, quem descreverá como o horror dos Antigos se abate sobre a cidade e o mundo inteiro.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "T0IEjau6RbP1MtIH",
+      "name": "Consequências e Dano",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Efeito Reduzido:</strong> o nível de Efeito dele é reduzido.</p><p><strong>Complicação:</strong> introduza um problema imediato que resulte da ação, crie ou avance o relógio de um perigo, avance o Relógio da Noite ou consuma os recursos dele (por exemplo, balas).</p><p><strong>Oportunidade Perdida:</strong> as circunstâncias mudaram e ele perdeu a oportunidade.</p><p><strong>Posição Pior:</strong> coloque-o numa posição ruim.</p><p><strong>Dano:</strong> cause de 1 a 5 Danos ao caçador envolvido, de acordo com a Posição.</p><p>O PJ marca Sangue para cada Dano sofrido. Se o PJ marcar o último Sangue, ele está <strong>morto</strong>.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tRujNlivxEYsNrd7",
+      "name": "Relógios de Progresso",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Os obstáculos mais simples podem ser superados com um simples sucesso. Já obstáculos complexos ou inimigos particularmente poderosos podem exigir mais esforço dos personagens.</p><p>Quando precisar acompanhar situações assim, você pode usar <strong>relógios de progresso</strong>.</p><p>Um relógio de progresso é um círculo dividido em segmentos. Quanto maior a complexidade do obstáculo ou o perigo da ameaça, mais segmentos compõem o relógio: <strong>4</strong>, <strong>6</strong> ou <strong>8</strong>. Quando todos os segmentos estão preenchidos, o relógio se completa e o obstáculo é superado. Você também pode usá-los para acompanhar um evento ao longo do tempo ou uma contagem regressiva.</p><p>O avanço de um relógio de progresso depende do nível de Efeito: <strong>limitado</strong> marca 1 segmento, <strong>padrão</strong> marca 2 segmentos e <strong>grande</strong> marca 3 segmentos.</p><h2>O Relógio da Noite</h2><p>O Relógio da Noite é um relógio especial de <strong>8 segmentos</strong> que você <strong>deve</strong> criar no início da partida. Com ele, você acompanha o tempo que resta até a meia-noite.</p><p>Você pode avançá-lo escolhendo isso como <strong>Consequência</strong>, ou quando os personagens se deslocam de um lugar para outro na cidade.</p><p>Quando este relógio se completa, começa o <strong>Ato II</strong>.</p><h2>No Foundry</h2><p>Os relógios ficam no módulo <strong>Global Progress Clocks</strong>. Cada macro abaixo adiciona um relógio a ele; renomeie um relógio e preencha ou esvazie seus segmentos na própria janela desse módulo.</p><ul><li><p>@UUID[Macro.LFbTwb5WL1Tsw1Wv]{Relógio da Noite}</p></li><li><p>@UUID[Macro.qk5zL4D1b9wJE6NI]{Relógio (4)}</p></li><li><p>@UUID[Macro.DIOFAZ4Np4ME0eDu]{Relógio (6)}</p></li><li><p>@UUID[Macro.dHNvWkxbzm6mIU3O]{Relógio (8)}</p></li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "orVlH7u4RuzjuVbC",
+      "name": "Heliwyr, a Cidade Vermelha",
+      "type": "text",
+      "sort": 500000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Heliwyr</strong>, a cidade vermelha (ou a cidade condenada), é a cidade mais antiga do reino. Outrora rica e próspera, caiu em desgraça depois da maldição dos Antigos.</p><p>Hoje é um amontoado de sujeira, casas abandonadas e decadentes, ruas emaranhadas e escuras. Os poucos habitantes que não deixaram a cidade são arredios, assustados ou insanos.</p><p>Ao descrever a cidade aos jogadores, tire ideias destes elementos:</p><blockquote><p><em>Altos edifícios góticos, casas decadentes cobertas de mofo, violinos distantes tocando réquiens de morte. Lampiões tremeluzentes, montes de entulho habitados por ratos, pontes e telhados desmoronando. Esgotos labirínticos e igrejas profanadas. Pináculos entrelaçados de um jeito antinatural. Habitantes entrincheirados em casa, assustados, chorando e se contorcendo. Cães furiosos, magros e fedorentos, à procura de presas. Condenados pela marca da besta vagam pela cidade. Loucos gritando e praguejando, amaldiçoando os deuses. Praças com estátuas macabras e lápides empilhadas umas sobre as outras.</em></p></blockquote>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OMvjkDCxvfWb3pYU",
+      "name": "As Catedrais",
+      "type": "text",
+      "sort": 600000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>O @UUID[Scene.B6MTdXU9tuErrttX]{Mapa de Heliwyr} marca cinco catedrais. Suas regras dizem:</p><blockquote><p>No início da sessão, o Mestre escolhe, sem revelar, uma das catedrais marcadas no mapa. É ali que o Apóstolo se esconde e tenta despertar o poder dos Antigos, o alvo da caçada. Quando os Caçadores chegarem a essa catedral, use as regras especiais do painel esquerdo.</p><p>Boa caçada.</p></blockquote><h2>Catedral das Correntes Negras</h2><p>A primeira catedral construída na cidade. Iluminada pelas fogueiras dos cidadãos que, tomados pela loucura, ergueram piras ao longo das ruas em louvor aos Antigos, ela é envolta pelo cheiro repugnante do sangue corrompido que escorre de seus altos pináculos.</p><p><strong>Regra Especial:</strong> O sangue que desce pelas torres e cai dentro da catedral pertence a um <em>deus moribundo</em>, preso por um ritual profano às próprias paredes deste lugar para ter seu poder drenado. Seu sangue alimenta a corrupção do Apóstolo: enquanto continuar a correr, seu <strong>Efeito</strong> é <em>reduzido em um nível</em>.</p><h2>Catedral das Sombras Errantes</h2><p>A nave central é formada por uma torre em espiral, cujas paredes perfuradas a intervalos regulares eram usadas outrora para espalhar os cantos clericais por todo o bairro. Hoje, porém, só os gritos e lamentos daqueles marcados pela maldição, que rastejam até estes lugares em busca do conforto da escuridão, ecoam no ar.</p><p><strong>Regra Especial:</strong> O <em>coração petrificado</em> de uma Abominação, cujo canto pode levar à loucura, foi acorrentado no alto da torre. Quando você entrar neste lugar pela primeira vez, crie a <em>Loucura do Locus</em>, um <strong>relógio</strong> dividido em 4 segmentos. Toda vez que tirar 1-3 numa Rolagem de Ação, marque um segmento. Se completar o relógio, seu personagem é devorado pela loucura. Você pode gastar <strong>2 de Discernimento</strong> para limpar um segmento do relógio ao visitar a Oficina.</p><h2>Catedral da Aurora Partida</h2><p>Mais que uma catedral, é um conjunto retorcido de torres, edifícios decadentes, muros desabados e entulho. Construída a mando do <strong>Bispo Brederic</strong>, foi a sede do tribunal da <em>Verdade do Sangue</em>.</p><p><strong>Regra Especial:</strong> Os cidadãos torturados e executados entre estas paredes despertam como <strong>mortos-vivos</strong> nas noites de lua de sangue. Furiosos, sedentos de vingança, vagam pelos corredores da catedral, cada vez mais ferozes à medida que o amanhecer se aproxima, cientes de que, quando a manhã chegar, serão lançados de volta ao Abismo. Quando você age contra eles, tem <strong>-1D</strong> nas rolagens de <strong>Proeza</strong> e <strong>Astúcia</strong>. Eles são imunes a balas de prata, mas temem o fogo.</p><h2>Catedral do Sangue Divino</h2><p>Envolta no miasma da corrupção está a catedral onde tudo começou: entre estas paredes foi realizado o ritual que despertou a <em>marca da besta</em>. Nas ruas ao redor, centenas de cadáveres foram empilhados, formando montanhas de corpos, braços, pernas e rostos distorcidos pela loucura. Esperando para ser despertados.</p><p><strong>Regra Especial:</strong> Quando você ferir o Apóstolo, o Mestre deve rolar 1D para cada Caçador ainda vivo. Num resultado 6, os gritos despertam uma <strong>Pilha de Cadáveres</strong> [<em>Colossal, Cruel.</em> <strong>Movimentos:</strong> esmagar um alvo, que rola para escapar ou destruir; arrancar um pedaço do próprio corpo e usá-lo como arma].</p><h2>Catedral d[…]</h2><p><em>No mapa, este trecho está impresso sob manchas de tinta. Só as palavras legíveis foram mantidas aqui; cada […] marca uma lacuna.</em></p><p>Esta catedra[…]a Senhora Lya[…]na […]ndo, um sonho qu[…] nunca termina. Durant[…]noite do 6º mê[…]do 60º ano[…]Besta</p><p><strong>Regra Espe[…]</strong>[…]o início d[…]a noite, você perderá tu[…]</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ASgnj3KYHNMsTrx2",
+      "name": "Tabelas",
+      "type": "text",
+      "sort": 700000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<blockquote><p>Antes de sortear, mude o modo de rolagem do chat para <strong>Privado para Mestres</strong> ou <strong>Somente para Si</strong>, para que os jogadores não vejam o resultado.</p></blockquote><ul><li><p>@UUID[RollTable.zlIGtpk250Xvl0lr]{Perigos e Obstáculos}</p></li><li><p>@UUID[RollTable.4eMPkdxSJnVgxK3j]{Locais}</p></li><li><p>@UUID[RollTable.wHFvCk1a9gXRyxzs]{Personagens Estranhos}</p></li><li><p>@UUID[RollTable.oqSBhU20UnvDmmxi]{Apóstolos}</p></li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "AdiXwLQWmADNRtwN",
+      "name": "Jogando no TAF",
+      "type": "text",
+      "sort": 800000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>O Caçador</h2><p>Dê a cada jogador uma cópia do @UUID[Actor.c6vtPlB97k7nIf3c]{Caçador}. Na aba Attributes, o botão <strong>Roll</strong> ao lado de Proeza, Determinação e Astúcia abre a Rolagem de Ação. Na aba Items, o botão <strong>Use</strong> ao lado de uma arma transformável ou de uma arma de fogo faz a rolagem dela.</p><p>A macro @UUID[Macro.OnJlC6a6vo9Bql9P]{Resistir} rola Resistência. Para a barra de atalhos, @UUID[Macro.OtTrZU3nUMPvGV0a]{Rolagens de Bloodstone} abre uma janela com um botão para cada rolagem: Rolagem de Ação, Resistir, Arma de Fogo e cada arma transformável que o Caçador carrega.</p><h2>Atributos de Bloodstone em atores novos</h2><p>O TAF dá a todo ator novo os atributos padrão do mundo. Para que sejam os de Bloodstone, abra o Caçador como Mestre, abra o menu do cabeçalho da ficha (⋮) e escolha <strong>Save Attributes as Defaults</strong>. Isso salva os atributos do Caçador, com seus valores atuais, como padrão.</p><h2>Relógios</h2><p>Veja @UUID[.tRujNlivxEYsNrd7]{Relógios de Progresso}.</p><h2>Módulos opcionais</h2><ul><li><p><strong>Dice So Nice</strong> mostra os dados rolando em 3D.</p></li><li><p><strong>Dice Tray</strong> adiciona botões de dados abaixo do chat.</p></li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

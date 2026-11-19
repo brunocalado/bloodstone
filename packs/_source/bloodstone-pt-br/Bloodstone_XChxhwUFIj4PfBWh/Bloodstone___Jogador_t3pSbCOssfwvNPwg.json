@@ -1,0 +1,138 @@
+{
+  "_id": "t3pSbCOssfwvNPwg",
+  "name": "Bloodstone - Jogador",
+  "folder": null,
+  "sort": 100000,
+  "pages": [
+    {
+      "_id": "nIXr3ZFH8xdj1shI",
+      "name": "Juramento dos Caçadores",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<blockquote><p><em>Nascemos envoltos em trevas, cobertos de sangue. Mas a luz nos tocou, e agora nossos olhos estão abertos. A Caçada é o nosso caminho, a Caçada é o nosso propósito.</em></p></blockquote><p>Você é um <strong>Caçador</strong>. Você jurou seguir o caminho do sangue e pôr fim às aberrações nascidas da sede de poder.</p><p>Nesta noite de lua de sangue, pediram que você fosse à cidade de <strong>Heliwyr</strong>. Um Apóstolo tenta ascender, abrindo um portal entre o nosso mundo e o dos Antigos, que devorará a cidade inteira. Sua tarefa é chegar à <strong>Catedral</strong> da cidade antes que seja tarde demais.</p><p>Você terá de explorar uma cidade amaldiçoada, cujos cidadãos enlouquecidos vagam pelas ruas armados de forcados, amaldiçoando os deuses caídos, à procura de forasteiros para assassinar. Na escuridão da noite amaldiçoada, horrores enterrados esperam por você, para pôr à prova seu sangue e sua mente. Nesta missão, você arriscará a danação eterna.</p><p>Mas a Caçada não pode parar. Então pegue seu equipamento e suas armas: a carruagem está para partir. Ela levará você e seus companheiros até os portões da cidade.</p><p>Boa caçada.</p><h2>Agenda do Jogador</h2><ul><li><p>Abrace os perigos da Caçada. Use seu equipamento.</p></li><li><p>Faça perguntas, use as respostas para agir.</p></li><li><p>Explore a estranheza e a loucura de Heliwyr.</p></li><li><p>Aceite o risco, não tenha medo da morte.</p></li></ul><h2>Áudio</h2><p>O Mestre pode tocar para a mesa uma leitura do juramento: @UUID[Playlist.EEqO0UpifYcbA1Ac.PlaylistSound.4MTFXwPFMII6Ho4b]{Juramento dos Caçadores - Português (Brasil)}.</p><p>Quer adicionar uma leitura no seu idioma? Compartilhe o arquivo de áudio nas <a href=\"https://github.com/brunocalado/bloodstone/issues\">issues do módulo</a>.</p><hr><p><em>Bloodstone é um jogo de Matteo Sciutteri, licenciado sob CC BY-NC-SA 4.0. Este trabalho é baseado em Blades in the Dark, produto da One Seven Design, desenvolvido e escrito por John Harper, e licenciado para nosso uso sob a licença Creative Commons Attribution 3.0 Unported.</em></p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qIyhoXP1Yog2Xa75",
+      "name": "Rolagem de Ação",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Quando um Caçador enfrenta uma situação arriscada, o resultado é decidido pela <strong>Rolagem de Ação</strong>.</p><p>O Caçador descreve o que quer realizar e qual <strong>Atributo</strong> e qual <strong>Equipamento</strong> vai empregar para isso.</p><h2>Posição e Efeito</h2><p>O Mestre avalia a situação e diz se ela é <em>controlada</em>, <em>arriscada</em> ou <em>desesperada</em>: essa é a <strong>Posição</strong> do Caçador. Quanto pior a Posição, mais duras as consequências.</p><p>O Mestre também diz o nível de <strong>Efeito</strong> que o Caçador alcançaria (<em>grande</em>, <em>padrão</em> ou <em>limitado</em>) e os possíveis desfechos da rolagem. Algum <strong>Equipamento</strong> ou <strong>Habilidade</strong> pode melhorar o nível de Efeito.</p><p>O Caçador pode então aumentar ou diminuir o Efeito ao custo de uma Posição pior, ou vice-versa.</p><h2>Junte os dados</h2><ul><li><p>Uma quantidade igual ao valor do Atributo.</p></li><li><p>Dados bônus de Vigor, Sangue ou Ajudar.</p></li></ul><p>Se ficar com zero dados ou menos para rolar, role 2 dados e fique com o menor.</p><h2>Leia o resultado</h2><p>O Caçador rola todos os dados e lê o maior resultado individual (dois ou mais seis são os \"6s\" da tabela). Jogador e Mestre narram a ação juntos, mas o Mestre tem a palavra final sobre o desfecho e é quem declara as <strong>Consequências</strong>.</p><table><tbody><tr><td><p><strong>6s</strong></p></td><td><p><strong>Crítico.</strong> Consegue, com Efeito aumentado.</p></td></tr><tr><td><p><strong>6</strong></p></td><td><p><strong>Sucesso.</strong> Sai tão bem quanto o planejado.</p></td></tr><tr><td><p><strong>4/5</strong></p></td><td><p><strong>Sucesso Parcial.</strong> Consegue, mas também sofre uma Consequência: <em>Dano</em>, <em>Efeito Reduzido</em>, <em>Oportunidade Perdida</em>, <em>Posição Pior</em> ou <em>Complicação</em>.</p></td></tr><tr><td><p><strong>1-3</strong></p></td><td><p><strong>Falha.</strong> As coisas dão errado e sofre as Consequências.</p></td></tr></tbody></table><h2>No Foundry</h2><p>Clique no botão de rolagem ao lado de Proeza, Determinação ou Astúcia no seu Caçador, ou execute a macro @UUID[Macro.UCn2tE9ecIF5FNUV]{Rolagem de Ação}. Escolha Forçar, os dados bônus, a Posição e o Efeito: o card do chat lê o resultado e diz o que marcar. Nada é marcado por você; altere os números na sua ficha. As macros de 0d a 9d rolam dados simples.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8UhfEyLF7gbjXatU",
+      "name": "O Despertar",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Seu sonho é agitado. Fragmentos do seu passado, de quando você era criança. Você tenta pôr ordem no caos da sua mente.</p><p><strong>Quem você foi um dia?</strong> Escolha sua <strong>Origem</strong>:</p><ul><li><p>@UUID[Item.R1CngSJUIbxF4Tdm]{Sobrevivente Solitário}: você sempre age primeiro.</p></li><li><p>@UUID[Item.UGliwRCtrktjDDHu]{Infância Conturbada}: você sempre sabe quando alguém está mentindo.</p></li><li><p>@UUID[Item.64zHs3qUCOhqBgbJ]{Passado Violento}: +Efeito quando você recorre à violência física.</p></li><li><p>@UUID[Item.nYnS21Bnx9fZiLpt]{Herdeiro Nobre}: +1d quando você <strong>Recarregar</strong>.</p></li><li><p>@UUID[Item.U5OQcr2VB2dw4UcO]{Peso Morto}: nenhuma.</p></li></ul><p>A primeira cena que emerge na sua memória é a mais próxima da sua verdadeira natureza visceral: uma cena da sua infância que marcou sua vida, deixando uma mácula indelével na sua carne e no seu espírito, e fazendo de você quem você é hoje.</p><p><strong>Do que você se lembra?</strong> Escolha uma e marque os <strong>Atributos</strong>:</p><ul><li><p>@UUID[Item.GpSU9cXDTquJfX5f]{Uma briga num beco}: <em>Uma briga num beco, os nós dos dedos manchados de sangue, o couro das correias batendo nas suas costas.</em> [Proeza 3, Determinação 2, Astúcia 1]</p></li><li><p>@UUID[Item.h9RaGbkP1prlMCMo]{Uma garotinha}: <em>Uma garotinha menor que você, com o rosto coberto de fuligem, cercada por garotos mais velhos. Seus gritos para que fugissem. Uma lâmina penetrando seu flanco, chutes no seu rosto.</em> [Proeza 2, Determinação 3, Astúcia 1]</p></li><li><p>@UUID[Item.QQjTHHl1GDHyoGSJ]{Um lugar proibido}: <em>Um lugar proibido. Velas no chão. O gorgolejar de um ser deitado na escuridão. Os gritos atrás de você, e o som de ossos quebradiços sendo devorados.</em> [Proeza 1, Determinação 3, Astúcia 2]</p></li></ul><p>Você acorda gritando. Sua cabeça gira. O cheiro pungente de desinfetante paira no ar. Você se levanta devagar. Numa cadeira estão suas roupas. <strong>Que tipo de roupa é a sua?</strong> Escolha seu <strong>Traje</strong>:</p><ul><li><p>@UUID[Item.N1pgixlwhDD1Ivpp]{Caçador}: evite <strong>Dano</strong> em combate.</p></li><li><p>@UUID[Item.iF4PWg3vpyjGHnKL]{Nobre}: +1d em rolagens de <strong>Determinação</strong>.</p></li><li><p>@UUID[Item.yK2v1Awbbkp69TiZ]{Sacerdote}: evite <strong>Consequências do oculto</strong>.</p></li><li><p>@UUID[Item.K7B7GyFh6PUC8YD9]{Carrasco}: evite <strong>Dano mental</strong>.</p></li><li><p>@UUID[Item.vh0y0stoF8Ia0D1F]{Cavaleiro}: <strong>Proteger</strong> sem <strong>Consequência</strong>.</p></li><li><p>@UUID[Item.voQlsOJxkgACwaTJ]{Estudante}: +1d em rolagens de <strong>Astúcia</strong>.</p></li></ul><p>Você olha ao redor: está numa espécie de clínica.</p><p>«Ah, enfim acordado, forasteiro.» Um velho numa cadeira de rodas surge da escuridão. «Eu sou o Mestre Edwin. Encontramos você no meio de uma pilha de cadáveres, coberto de sangue. Você foi o único sobrevivente.»</p><p>Você não se lembra de nada. Tudo está tão turvo…</p><p>«Não se preocupe: vamos cuidar de você. Qual é o seu nome?», pergunta o Mestre Edwin. <strong>Qual é o seu nome?</strong> Dê um nome ao seu Caçador.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XgO6dxZzosyedBOn",
+      "name": "O Caminho do Caçador",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Meses se passaram desde o seu despertar. Você se juntou aos caçadores do Mestre Edwin. Foi treinado, conheceu outros caçadores como você.</p><p>Como caçador, você tem uma Arma Transformável e uma Arma de Fogo. Com uma lâmina de prata, a Arma Transformável permite ferir todo tipo de criatura. Ela tem dois modos de uso: <em>forma base</em> e <em>forma alternativa</em>. Além disso, você pode <em>embeber a arma</em> no seu próprio sangue para ganhar dados extras numa rolagem feita com ela.</p><p>A Arma de Fogo serve para aparar ataques ou atordoar inimigos.</p><p><strong>Quais são as suas armas?</strong> Escolha sua <strong>Arma Transformável</strong>:</p><ul><li><p>@UUID[Item.l5gyuihwOt243eYb]{Machado | Machado Longo} [grande alcance]</p></li><li><p>@UUID[Item.M17d1md8paGmUrqz]{Lâmina | Marreta} [+Efeito contra mortos-vivos]</p></li><li><p>@UUID[Item.DkrhlY29eRB1B5W8]{Cutelo | Lança-Serra} [+Efeito contra bestas]</p></li></ul><p>E sua <strong>Arma de Fogo</strong>:</p><ul><li><p>@UUID[Item.wNdU82sFYJb0OeaP]{Pistola} [Aparar: 4+] [Atordoar: 6+]</p></li><li><p>@UUID[Item.u0HE3layibpDNiHm]{Bacamarte} [Aparar: 6+] [Atordoar: 4+]</p></li><li><p>@UUID[Item.kxvyBtjWqC2BAiLL]{Rifle} [Aparar: 5+] [Atordoar: 5+]</p></li></ul><p>No seu Caçador, o botão ao lado de cada arma faz a rolagem dela.</p><h2>Vigor</h2><p>Você aprendeu como seu corpo funciona. Você tem ◆◆◆ de <strong>Vigor</strong> e pode gastá-lo para <strong>Forçar</strong>, <strong>Resistir</strong> ou usar sua <strong>Arma Transformável</strong>. Lembre-se de usar seu Vigor com estratégia: se gastar um ou mais pontos e falhar na Rolagem de Ação, você só recupera esses ◆ gastos depois de enfrentar a <strong>Consequência</strong> da ação.</p><p>Para completar seu treinamento, leia em voz alta o @UUID[.nIXr3ZFH8xdj1shI]{Juramento dos Caçadores}. Bem-vindo, bom caçador.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "oXrRoOTl85izY2xw",
+      "name": "Informações do Caçador",
+      "type": "text",
+      "sort": 500000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Sangue</h2><p><strong>Marcar:</strong> ao sofrer Danos ou usar a Arma Transformável.</p><p><strong>Recuperar:</strong> 2 usando um @UUID[Item.8zHwacOX5cDxu59t]{Frasco de Sangue}.</p><p><strong>Marcar o último:</strong> você está morto.</p><h2>Vigor</h2><p><strong>Gastar:</strong> para Forçar ou Resistir, ou ao usar a Arma Transformável.</p><p><strong>Recuperar tudo:</strong> depois da Consequência de qualquer ação.</p><h2>Discernimento</h2><p><strong>Ganhar:</strong> explorando o mundo e sua estranheza.</p><p><strong>Gastar:</strong> para Invocar Fantasmas ou na Oficina.</p><h2>Ações</h2><p><strong>Proeza</strong> cobre todas as ações que envolvem luta, atletismo, resistência física e força.</p><p><strong>Determinação</strong> cobre todas as ações que envolvem força de vontade, fortitude, carisma e persuasão.</p><p><strong>Astúcia</strong> cobre todas as ações que envolvem percepção, reflexos, inteligência e o arcano.</p><h2>No seu Caçador</h2><p>Sangue (5), Vigor (3), Bandoleira (4), Armadura (2), Armadura Especial (1) e Balas de Prata (6) contam o que ainda resta, como na ficha de papel: diminua o número em um a cada marca e aumente-o quando recuperar.</p><p><strong>Discernimento</strong> conta ao contrário: começa em 0 e você ganha até 4.</p><p><strong>Proeza</strong>, <strong>Determinação</strong> e <strong>Astúcia</strong> começam em 0. Defina-as a partir da sua Memória (uma Ação em 3, uma em 2, uma em 1, como a Memória diz).</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "z5bmn5BAu4OP0F0d",
+      "name": "Ações Especiais",
+      "type": "text",
+      "sort": 600000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Forçar:</strong> durante uma Rolagem de Ação, você pode adicionar <strong>+1d à sua rolagem</strong> para cada ◆ de Vigor gasto.</p><p><strong>Resistir:</strong> reduza ou evite <strong>Consequências</strong>. Descreva como faz isso e role 1d para cada ◆ de Vigor gasto. Role com a macro @UUID[Macro.OnJlC6a6vo9Bql9P]{Resistir}.</p><table><tbody><tr><td><p><strong>6s</strong></p></td><td><p><strong>Perfeito.</strong> Você evita a consequência por completo e recupera 1 de Sangue.</p></td></tr><tr><td><p><strong>6</strong></p></td><td><p><strong>Bom.</strong> Você evita a consequência por completo.</p></td></tr><tr><td><p><strong>4/5</strong></p></td><td><p><strong>Por pouco.</strong> Você reduz a consequência em parte.</p></td></tr><tr><td><p><strong>1-3</strong></p></td><td><p><strong>Ruim.</strong> Você sofre a consequência inteira.</p></td></tr></tbody></table><p><strong>Ajudar:</strong> auxilie outro Caçador que está enfrentando uma Rolagem de Ação. Descreva como você ajuda. Gaste ◆◆ de Vigor para <strong>dar +1d</strong> a ele. Você se expõe às consequências. Só um PJ pode ajudar numa mesma rolagem.</p><p><strong>Proteger:</strong> intervenha para <strong>proteger outro Caçador</strong>, sofrendo as consequências no lugar dele. Descreva como você intervém.</p><p><strong>Preparar:</strong> realize uma ação de preparação para <strong>apoiar indiretamente</strong> outro Caçador. Faça uma Rolagem de Ação para melhorar a Posição ou o Efeito (você escolhe) da próxima Rolagem de Ação dele.</p><p><strong>Usar a Armadura:</strong> marque os espaços de traje comuns para <strong>reduzir</strong> Danos físicos.</p><p><strong>Usar a Armadura Especial:</strong> marque o espaço de traje especial para usar sua <strong>habilidade especial</strong>, de acordo com a situação na ficção.</p><p><strong>Invocar Fantasma:</strong> toque seu @UUID[Item.3QCcuCT6oOxJ8VON]{Sino Espiritual} e invoque um fantasma de outro mundo. Faça ao fantasma uma pergunta da lista abaixo para cada Discernimento que você gastou.</p><ul><li><p><em>Como posso feri-los?</em></p></li><li><p><em>Quem é o mais perigoso aqui?</em></p></li><li><p><em>O que eles pretendem fazer?</em></p></li><li><p><em>Onde eles são vulneráveis?</em></p></li><li><p><em>O que está escondido ou perdido aqui?</em></p></li><li><p><em>Onde posso me esconder aqui?</em></p></li><li><p><em>O que realmente está acontecendo aqui?</em></p></li></ul><p><strong>Visitar a Oficina:</strong> uma vez por caçada, você pode usar sua @UUID[Item.b32PoRRnOnkT0Oe2]{Bloodstone} para chegar à @UUID[.GO4X5KxhJeMdz6TK]{Oficina} por um caminho dentro de um sonho.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GO4X5KxhJeMdz6TK",
+      "name": "Oficina",
+      "type": "text",
+      "sort": 700000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>A oficina é um lugar entre a realidade humana e a dos Antigos: uma espécie de limbo acessível apenas a quem possui uma <strong>Bloodstone</strong>. Ao usá-la, seu corpo se torna uma estátua de pedra na realidade, e seu espírito percorre um caminho dentro de um sonho.</p><p>Quando visita a oficina durante a caçada, você pode descansar e tomar fôlego. Escolha duas ações da lista abaixo:</p><p><strong>Rezar diante do túmulo do primeiro caçador:</strong> role seu atributo mais baixo e recupere Sangue igual ao maior resultado:</p><table><tbody><tr><td><p><strong>6s</strong></p></td><td><p>O primeiro caçador derrama o próprio sangue por você: você recupera todo o Sangue.</p></td></tr><tr><td><p><strong>6</strong></p></td><td><p>O primeiro caçador abençoa você: você recupera 3 de Sangue.</p></td></tr><tr><td><p><strong>4/5</strong></p></td><td><p>O primeiro caçador sussurra no seu ouvido: você recupera 2 de Sangue.</p></td></tr><tr><td><p><strong>1-3</strong></p></td><td><p>O primeiro caçador olha para você: você recupera 1 de Sangue.</p></td></tr></tbody></table><p><strong>Reparar o equipamento:</strong> recupere todos os espaços de armadura comum usados.</p><p><strong>Reabastecer seus recursos:</strong> recupere todas as balas da Arma de Fogo.</p><p><strong>Usar o altar das Runas Antigas:</strong> gaste 4 de Discernimento para adicionar um ◆ a um Atributo.</p><p>Então seu espírito volta ao corpo, que ganha vida novamente.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "ownership": {
+    "default": 2
+  },
+  "flags": {}
+}
