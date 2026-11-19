@@ -44,7 +44,7 @@ You need the [PDF](https://matteosciutteri.itch.io/bloodstone) to play.
 
 The import brings the Hunter, 32 items (origins, memories, attire, trick weapons, firearms, tools and bandolier items), the Bloodstone - Player and Bloodstone - GM journals, a cover scene and the map of Heliwyr, four roll tables for the GM, the roll and clock macros, and a reading of the Oath of Hunters.
 
-Give each player a copy of the Hunter. On the Attributes tab, the **Roll** button beside Prowess, Resolve and Wit opens the Action Roll. On the Items tab, the **Use** button beside a trick weapon or a firearm rolls it. The Resist macro rolls Resist. The chat card reads the result and says what to mark; the sheet is not changed for you.
+Give each player a copy of the Hunter. On the Attributes tab, the **Roll** button beside Prowess, Resolve and Wit opens the Action Roll. On the Items tab, the **Use** button beside a trick weapon or a firearm rolls it. The Resist macro rolls Resist. The Bloodstone Rolls macro puts every roll in one window, for the hotbar. The chat card reads the result and says what to mark; the sheet is not changed for you.
 
 TAF gives every new actor the world's default attributes. To make them Bloodstone's, open the Hunter as GM, open the sheet's header menu (⋮) and choose **Save Attributes as Defaults**.
 

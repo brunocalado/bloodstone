@@ -3,7 +3,7 @@
   "name": "Firearm",
   "type": "script",
   "img": "icons/weapons/guns/gun-pistol-brass.webp",
-  "command": "// Firearm: Parry, Stun or Reload.\n// TAF's Roll and Use buttons pass the clicked item in the scope; the hotbar passes none.\nreturn game.modules.get(\"bloodstone\").api.firearm({ item: scope.item, actor });",
+  "command": "// Firearm: Parry, Stun or Reload.\n// TAF's Roll and Use buttons pass the clicked item in the scope; the hotbar passes none.\nreturn bloodstone.firearm({ item: scope.item, actor });",
   "scope": "global",
   "folder": "owisQcQKDGOxWTi1",
   "sort": 400000,

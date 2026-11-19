@@ -1,0 +1,14 @@
+{
+  "_id": "OtTrZU3nUMPvGV0a",
+  "name": "Bloodstone Rolls",
+  "type": "script",
+  "img": "icons/sundries/gaming/dice-pair-white-green.webp",
+  "command": "// One window with a button for each roll: Action Roll, Resist, Firearm and each trick weapon.\nreturn bloodstone.rollMenu({ actor });",
+  "scope": "global",
+  "folder": "owisQcQKDGOxWTi1",
+  "sort": 50000,
+  "ownership": {
+    "default": 1
+  },
+  "flags": {}
+}

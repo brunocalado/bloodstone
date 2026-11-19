@@ -7,7 +7,7 @@
  */
 
 /**
- * Bloodstone's rolls, exposed as the module API. Pack macros are one-line calls into these, and
+ * Bloodstone's rolls, exposed as the global `bloodstone`. Pack macros are one-line calls into these, and
  * TAF's Roll / Use buttons run those macros, so the logic lives here as reviewable module code
  * instead of script strings escaped into compendium JSON. A chat-type trigger macro
  * (`/r @active.value d6`) would need no code, but it cannot read the result tier, apply the
@@ -217,6 +217,35 @@ export async function firearm({ item, actor } = {}) {
     text: outcome,
     reminder: `Mark ${plural(marked, "Silver Bullet")}.`
   });
+}
+
+/**
+ * One window with a button per roll, so the hotbar needs a single macro. Trick weapons get a
+ * button each, from the actor's own items: without the item the Action Roll has no form or
+ * Imbrue to offer.
+ * @param {{actor?: Actor}} scope
+ */
+export async function rollMenu({ actor } = {}) {
+  actor = resolveActor(null, actor);
+  if (!actor) return;
+  const weapons = actor.items.filter(i => i.getFlag(MODULE_ID, "trickWeapon") in TRICK_WEAPONS);
+
+  const choice = await DialogV2.wait({
+    window: { title: "Bloodstone Rolls", icon: "fa-solid fa-dice-d6" },
+    content: `<p>${escapeHTML(actor.name)}: choose a roll.</p>`,
+    buttons: [
+      { action: "action", label: "Action Roll", icon: "fa-solid fa-dice-d6" },
+      { action: "resist", label: "Resist", icon: "fa-solid fa-shield-halved" },
+      { action: "firearm", label: "Firearm", icon: "fa-solid fa-gun" },
+      ...weapons.map(w => ({ action: `trick-${w.id}`, label: w.name, icon: "fa-solid fa-axe" }))
+    ]
+  });
+
+  if (choice === "action") return actionRoll({ actor });
+  if (choice === "resist") return resist({ actor });
+  if (choice === "firearm") return firearm({ actor });
+  const weapon = weapons.find(w => choice === `trick-${w.id}`);
+  if (weapon) return actionRoll({ item: weapon });
 }
 
 /* -------------------------------------------- */

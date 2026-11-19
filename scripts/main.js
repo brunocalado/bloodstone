@@ -7,9 +7,10 @@
  */
 
 import { MODULE_ID } from "./constants.js";
-import { actionRoll, resist, firearm } from "./rolls.js";
+import { actionRoll, resist, firearm, rollMenu } from "./rolls.js";
 
 Hooks.once("init", () => {
   // Pack macros are one-line calls into this, so the roll logic lives in reviewable module code.
-  game.modules.get(MODULE_ID).api = { actionRoll, resist, firearm };
+  // A global named after the module keeps those calls short: bloodstone.actionRoll().
+  globalThis[MODULE_ID] = { actionRoll, resist, firearm, rollMenu };
 });
