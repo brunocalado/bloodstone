@@ -2,3 +2,9 @@ WORKSPACE
 bloodstone.lock
 .gitignore
 plans/
+# Rulebook PDFs and their Markdown conversions: authoring reference, not ours to redistribute
+source/
+node_modules/
+# Compendium packs are built from packs/_source by `npm run pack`
+packs/*
+!packs/_source/

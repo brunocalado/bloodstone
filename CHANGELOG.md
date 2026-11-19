@@ -1,5 +1,6 @@
 # Unreleased
 - [Changed] The module's code is now licensed under GPL v3 (was MIT).
+- [Changed] Releases are built by a GitHub workflow from JSON sources; install and update through the GitHub release manifest.
 
 # 0.1.0
 v12
