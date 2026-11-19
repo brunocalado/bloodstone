@@ -1,0 +1,95 @@
+{
+  "_id": "zlIGtpk250Xvl0lr",
+  "name": "Dangers and Obstacles",
+  "img": "icons/sundries/gaming/dice-runed-brown.webp",
+  "description": "",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "dphZCqVHeHfh8pUB",
+      "type": "text",
+      "name": "A group of armed citizens",
+      "description": "<p>A group of armed citizens</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "Oa0dJSe7c6JLQ32O",
+      "type": "text",
+      "name": "Cultists praying to the beast",
+      "description": "<p>Cultists praying to the beast</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fSOqWEFywXj2k6K2",
+      "type": "text",
+      "name": "Gregor, the graveyard keeper",
+      "description": "<p><strong>Gregor</strong>, the graveyard keeper</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4JCkPZiEf9cknElV",
+      "type": "text",
+      "name": "Souls moaning in the dark",
+      "description": "<p>Souls moaning in the dark</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "QWv6itju513pQVD8",
+      "type": "text",
+      "name": "A flock of three-eyed ravens",
+      "description": "<p>A flock of three-eyed ravens</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "HnZHhl7SVTQTSlqU",
+      "type": "text",
+      "name": "A giant demonic boar",
+      "description": "<p>A giant demonic boar</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "O5e76ndZWvqjU2yb",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

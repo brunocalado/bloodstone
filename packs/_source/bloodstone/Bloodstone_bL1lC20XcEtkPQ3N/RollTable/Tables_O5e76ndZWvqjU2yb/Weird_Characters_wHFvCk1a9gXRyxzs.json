@@ -1,0 +1,95 @@
+{
+  "_id": "wHFvCk1a9gXRyxzs",
+  "name": "Weird Characters",
+  "img": "icons/sundries/gaming/dice-runed-brown.webp",
+  "description": "",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "udm8YCa7NEHyTw6k",
+      "type": "text",
+      "name": "Camilla, woman of the night",
+      "description": "<p><strong>Camilla</strong>, woman of the night</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "u3iNwnn3lwWu1v12",
+      "type": "text",
+      "name": "Niklas, a skeptical man",
+      "description": "<p><strong>Niklas</strong>, a skeptical man</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "v5f1qVSR7eHew6Pz",
+      "type": "text",
+      "name": "Carrol, chapel dweller",
+      "description": "<p><strong>Carrol</strong>, chapel dweller</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0qeRlhei7sx0ToF4",
+      "type": "text",
+      "name": "Valea, nun of the lost church",
+      "description": "<p><strong>Valea</strong>, nun of the lost church</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "jqMTOMwIUIVO1vDD",
+      "type": "text",
+      "name": "Lucille, retired hunter",
+      "description": "<p><strong>Lucille</strong>, retired hunter</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "V3SRZsjDcaCS0RwH",
+      "type": "text",
+      "name": "Errik, physician",
+      "description": "<p><strong>Errik</strong>, physician</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "O5e76ndZWvqjU2yb",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

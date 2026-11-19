@@ -1,0 +1,95 @@
+{
+  "_id": "4eMPkdxSJnVgxK3j",
+  "name": "Locations",
+  "img": "icons/sundries/gaming/dice-runed-brown.webp",
+  "description": "",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rY3ez75WATctA99D",
+      "type": "text",
+      "name": "Abandoned Church",
+      "description": "<p>Abandoned Church</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "cCEwo4Qjv98gmmTS",
+      "type": "text",
+      "name": "Hive of Bones",
+      "description": "<p>Hive of Bones</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "QV5Q5TK5XCZfRUMA",
+      "type": "text",
+      "name": "Upper Iron Bridge",
+      "description": "<p>Upper Iron Bridge</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "PWL2RYKsdLn3LCpu",
+      "type": "text",
+      "name": "Path of Old Chains",
+      "description": "<p>Path of Old Chains</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "SNZAz59d8N0YmPkH",
+      "type": "text",
+      "name": "Lost Archive of Madness",
+      "description": "<p>Lost Archive of Madness</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fdYvhVEw7CD11Skb",
+      "type": "text",
+      "name": "Broken Gates",
+      "description": "<p>Broken Gates</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "O5e76ndZWvqjU2yb",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

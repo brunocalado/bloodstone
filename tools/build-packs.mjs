@@ -26,6 +26,10 @@
  *
  * Both directions start from an empty destination, so a document deleted on one side does not
  * linger on the other.
+ *
+ * A Scene file keeps `_stats.coreVersion`. Without it the server treats the scene as older than
+ * 14.353 and its levels migration replaces `levels` with one rebuilt from the pre-v14 top-level
+ * background fields, so the background image is lost on import.
  */
 
 import { compilePack, extractPack } from "@foundryvtt/foundryvtt-cli";

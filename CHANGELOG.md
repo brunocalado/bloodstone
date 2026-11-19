@@ -7,6 +7,9 @@
 - [Added] Action Roll, Resist and Firearm rolls with the v1.4 result tables, available to macros as `game.modules.get("bloodstone").api`.
 - [Added] A TAF Hunter with the v1.4 tracks (5 Blood, 3 Stamina, 4 Insight, 6 Silver Bullets), roll buttons on Prowess, Resolve and Wit, and Use buttons on each trick weapon and firearm.
 - [Changed] Player journal rewritten for game version 1.4, with an Action Roll page.
+- [Added] The Heliwyr map as a scene, with the cathedrals' special rules in the GM journal.
+- [Changed] GM journal rewritten for game version 1.4.
+- [Breaking][Changed] Clock macros use Global Progress Clocks instead of Challenge Tracker.
 
 # 0.1.0
 v12

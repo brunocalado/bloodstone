@@ -1,0 +1,14 @@
+{
+  "_id": "LFbTwb5WL1Tsw1Wv",
+  "name": "Night's Clock",
+  "type": "script",
+  "img": "modules/bloodstone/assets/icons/clock-bw-8.svg",
+  "command": "// Night's Clock — the v1.4 special 8-segment clock that ends Act I\nwindow.clockDatabase.addClock({ name: \"Night's Clock\", max: 8 });",
+  "scope": "global",
+  "folder": "fmmQZM6FKYqouD4Z",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

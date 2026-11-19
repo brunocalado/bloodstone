@@ -1,0 +1,156 @@
+{
+  "_id": "KT3p508DoTmbDRWs",
+  "name": "Bloodstone - GM",
+  "folder": null,
+  "sort": 200000,
+  "pages": [
+    {
+      "_id": "7zoaqYOVP8mZxffz",
+      "name": "Game Master Agenda",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<ul><li><p>Convey a cursed city during the night of the Hunt.</p></li><li><p>Introduce weird and enigmatic characters.</p></li><li><p>Fill Hunters' lives with horror and darkness.</p></li><li><p>Play to find out.</p></li></ul><h2>Setting</h2><p>The city of <strong>Heliwyr</strong> is damned. Decades ago, a mad priest officiated an ancient ritual, awakening a wicked force that branded every inhabitant, corrupting their blood.</p><p>On nights with a <strong>blood moon</strong>, the curse awakens, depriving the inhabitants of their minds. Few are those who manage to resist the call of cursed blood, locking themselves up in the house and praying to the gods who have abandoned these places.</p><p>Most of them, on the other hand, give vent to their madness, with depraved and violent actions, wandering through the streets of the city armed with torches and pitchforks, looking for victims to kill and torture, and then eat their meat.</p><p>Finally, those who decide to follow the path of the priest, voluntarily feeding on the corrupt blood of people, become <strong>Apostles</strong>: almost immortal creatures, with bestial features, devoid of any humanity.</p><p>On this blood moon night, a group of hunters has been sent to the city of Heliwyr, to stop the madness once and for all.</p><blockquote><p><em>We were born wrapped in darkness, covered in blood. But the light touched us, and now our eyes are open. The Hunt is our way, the Hunt is our purpose.</em></p></blockquote><h2>The Hunt</h2><p>BLOODSTONE is an action-packed horror game with a dark, gothic feel.</p><p>Player Characters (PC) are a group of <strong>hunters</strong>, sent to the city of Heliwyr on a blood moon night, to hunt down an Apostle who is attempting to ascend, opening a gateway to the realm of the Ancients. What awaits them is a risky, probably deadly task: the city is besieged by citizens maddened by the mark of the beast, and reaching the <strong>Cathedral</strong> will require courage and strategy.</p><p>As a GM you present obstacles and risky situations to the Players, asking how they want to deal with them. Don't try to tell a story - that's not your job.</p><p>Your role is to conceive a decaying, corrupted city and bring it to life, imagining its desperate inhabitants, its abandoned and dark places, and the dangers that haunt it. Let yourself be surprised by what will happen: the story you will play will naturally arise from the choices of the Players facing the dangers you have imagined.</p><p>The game has a high pace: the <strong>Hunt</strong> is a race against the clock. The Hunters arrive in the city of Heliwyr at dusk, and they must find the place where the Apostle is hiding, before midnight strikes. Only in this way they will be able to prevent the ritual.</p><p>BLOODSTONE is designed for <em>one-shot</em> games: every time we play, we play different Hunters, who will face new obstacles and challenges every time. The blood moon nights in Heliwyr never end.</p><p>The Action Roll, with Position, Effect and the result table, is on the players' @UUID[JournalEntry.t3pSbCOssfwvNPwg.JournalEntryPage.qIyhoXP1Yog2Xa75]{Action Roll} page.</p><hr><p><em>Bloodstone is a game by Matteo Sciutteri (matteosciutteri.itch.io), licensed under CC BY-NC-SA 4.0. This work is based on Blades in the Dark, product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license.</em></p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "7y4bT1CKN7ztSIJi",
+      "name": "Running the Game",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>A game of BLOODSTONE is organized in three Acts: <em>the hunt</em>, <em>the final battle</em>, and <em>the epitaph</em>.</p><h2>Preparing</h2><p>Before the game, prepare some ideas. Look for evocative images that can help you visualize <strong>your</strong> Heliwyr, so you can convey this idea to other players.</p><blockquote><p><em>What is the city like? Does it rise along a river? Or is it perched on top of a mountain? What smell hangs in the air? What shape do the spires of the tall towers have? What alien creatures are represented in the large statues found around the University?</em></p></blockquote><p>Detail three or four <strong>locations</strong> in the city, and join them together, establishing links between the areas. At least one of these areas must be connected to the <strong>Cathedral</strong>: the place where the PCs will meet the <strong>Apostle</strong>. You should have a diagram like that:</p><ul><li><p><strong>Start</strong> → Old City Gates</p></li><li><p>Old City Gates → Forbidden Tomb</p></li><li><p>Forbidden Tomb → Abandoned District, through a secret passage</p></li><li><p>Abandoned District → Bridge, through a tunnel</p></li><li><p>Old City Gates → Bridge</p></li><li><p>Bridge → <strong>Cathedral</strong></p></li></ul><p>When you detail a place, mark at least <strong>three points of interest</strong> (items or area elements that hide pieces of the city's history).</p><p>Whenever a PC observes or interacts with one of these points of interest, enrich the description with strange and alienating details. Don't give an explanation of things! Show the madness of the city, both in the architecture and in the details, and let the players wonder about them.</p><p>Then reward the PC with <strong>1 Insight</strong>.</p><p>For <strong>Act I</strong>, you will also need some <strong>obstacles</strong> and <strong>enemies</strong> to face. Use the @UUID[.ASgnj3KYHNMsTrx2]{tables} as inspiration, or invent everything from scratch, perhaps taking inspiration from books or movies that you like.</p><h2>Act I: The Hunt</h2><p>As the GM your task is to introduce the initial situation: the hunters have arrived in Heliwyr and they will now have to traverse the labyrinthine streets of the city, facing the maddened citizens marked by the beast, to gather information on the Apostle's whereabouts. Briefly describe the scene.</p><p>After introducing the arrival of the hunters to the city, you must immediately present them with an obstacle to deal with. Whether it's a group of violent villagers, a blood-corrupted creature, or a danger to face, the important thing is that <strong>the PCs immediately have something to solve</strong>, to get the game going.</p><p>Following the first obstacle, ask them what they want to do. Point out the places they can visit, and let them decide where to go and why.</p><p>Describe what they see as they enter the bowels of the city. <strong>Keep the tension high.</strong> Wandering around Heliwyr must be a surreal and frightening experience: any kind of horror can be hidden around every corner. Use the sparks of inspiration found in this manual if you wish.</p><p>When the PCs arrive at the new location, introduce the new situation.</p><p>The game continues in this way until one of these two events takes place: the @UUID[.tRujNlivxEYsNrd7]{Night's Clock} strikes midnight or the PCs reach the Cathedral. In both cases <strong>Act I</strong> ends, and <strong>Act II</strong> begins.</p><h2>Act II: The Final Battle</h2><p>If the Hunters reach the Cathedral in time, they find the Apostle officiating the ritual, which is still incomplete. If, on the other hand, the Night's Clock arrives at midnight, the Apostle completes the ritual and now they have unsealed the cursed power of the Ancients. They will be the one to reach the PCs in the place where they are.</p><p><strong>Introduce the Apostle</strong>: what monstrosity has defaced their flesh? Describe what they are doing and how they are preparing to do battle with the Hunters.</p><p>The Apostle is a formidable opponent: they take the initiative and lash out against the Hunters, they do not wait for them to make the first move. Ask the PCs how they react and then let them try to find a way to deal with it.</p><p>When the fight is over (successful or not) <strong>Act II</strong> ends, and <strong>Act III</strong> begins.</p><h2>Act III: Epitaphs</h2><p>Hunters who survived can greet the dawn. Ask each PC to describe what they think and how defeating an Apostle changed them. <em>Will they hunt again? Or will they retire? Will they be able to find peace, after all the horrors they saw in Heliwyr?</em></p><p>If no Hunter has survived, the Apostle has prevailed and it will be you, the GM, who will describe how the horror of the Ancients befalls the city and the whole world.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "T0IEjau6RbP1MtIH",
+      "name": "Consequences and Harm",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Reduced Effect:</strong> their Effect level is reduced.</p><p><strong>Complication:</strong> introduce an immediate problem that results from the action, create or advance a danger's clock, advance the Night's Clock, or consume their resources (i.e. bullets).</p><p><strong>Lost Opportunity:</strong> the circumstances have shifted and they lost their opportunity.</p><p><strong>Worse Position:</strong> put them on a bad position.</p><p><strong>Harm:</strong> deal 1-5 Harms to the hunter involved, based on the Position.</p><p>The PC marks Blood per each Harm suffered. If the PC marks the last Blood, they are <strong>dead</strong>.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "tRujNlivxEYsNrd7",
+      "name": "Progress Clocks",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The simplest obstacles can be overcome with simple success. However, complex obstacles or particularly powerful enemies may require more effort on the part of the characters.</p><p>When you need to keep track of similar situations, you can use <strong>progress clocks</strong>.</p><p>A progress clock is a circle divided into segments. The greater the complexity of the obstacle or the danger of the threat, the more segments that make up a clock: <strong>4</strong>, <strong>6</strong>, or <strong>8</strong>. When all the segments are filled, the clock is completed, and the obstacle is overcome. You can also use them to track an event over time or a countdown.</p><p>Advancing a progress clock depends on the Effect level: <strong>limited</strong> marks 1 segment, <strong>standard</strong> marks 2 segments and <strong>great</strong> marks 3 segments.</p><h2>The Night's Clock</h2><p>The Night's Clock is a special <strong>8-sides</strong> clock that you <strong>must</strong> create at the beginning of the game. With it, you'll keep track of the time left before midnight.</p><p>You can advance it choosing that as <strong>Consequence</strong>, or when the characters move from one place to another in the city.</p><p>When this clock is completed, <strong>Act II</strong> begins.</p><h2>In Foundry</h2><p>Clocks live in the <strong>Global Progress Clocks</strong> module. Each macro below adds a clock to it; rename a clock, and fill or empty its segments, in that module's own window.</p><ul><li><p>@UUID[Macro.LFbTwb5WL1Tsw1Wv]{Night's Clock}</p></li><li><p>@UUID[Macro.qk5zL4D1b9wJE6NI]{Clock (4)}</p></li><li><p>@UUID[Macro.DIOFAZ4Np4ME0eDu]{Clock (6)}</p></li><li><p>@UUID[Macro.dHNvWkxbzm6mIU3O]{Clock (8)}</p></li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "orVlH7u4RuzjuVbC",
+      "name": "Heliwyr, the Red City",
+      "type": "text",
+      "sort": 500000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Heliwyr</strong>, the red city (or the damned city), is the oldest city in the kingdom. Once rich and thriving, it fell out of favor following the curse of the Ancients.</p><p>Now it is a pile of dirt, abandoned and decaying houses, tangled and dark streets. The few inhabitants who have not left the city are shy, frightened, or insane.</p><p>When describing the city to players, get ideas from these elements:</p><blockquote><p><em>Tall gothic buildings, decaying houses covered with mold, distant violins playing requiem of death. Flickering street lights, piles of debris inhabited by rats, bridges and crumbling roofs. Labyrinthine sewers and deconsecrated churches. Spires intertwined in an unnatural way. Inhabitants barricaded in their house, frightened, crying and squirming. Furious, thin and smelly dogs, seeking prey. Damned by the mark of the beast roam the city. Madmen screaming and cursing, cursing the gods. Squares with macabre statues and tombstones stacked one on top of the other.</em></p></blockquote>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "OMvjkDCxvfWb3pYU",
+      "name": "The Cathedrals",
+      "type": "text",
+      "sort": 600000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The @UUID[Scene.B6MTdXU9tuErrttX]{Map of Heliwyr} marks five cathedrals. Its rules note:</p><blockquote><p>At the beginning of the session, the GM chooses, without revealing it, one of the cathedrals marked on the map. This is where the Apostle is hiding and trying to awaken the power of the Ancients, the hunt's target. When the Hunters reach this cathedral, use the special rules in the left pane.</p><p>Good hunt.</p></blockquote><h2>Cathedral of the Black Chains</h2><p>The first cathedral built in the city. Illuminated by the fires of citizens who, in the grip of madness, have erected pyres along the streets praising the Ancients, it is surrounded by the disgusting smell of corrupted blood that drips from its high spires.</p><p><strong>Special Rule:</strong> The blood that flows down the towers and falls within the cathedral belongs to a <em>dying god</em>, bound through an unholy ritual to the very walls of this place to drain its power. His blood fuels the corruption of the Apostle: as long as it continues to flow, your <strong>Effect</strong> is <em>reduced by one level</em>.</p><h2>Cathedral of Wandering Shadows</h2><p>The central nave is formed by a spiral tower, whose regularly spaced perforated walls were once used to spread clerical chants throughout the neighborhood. Today, however, only the cries and laments of those marked by the curse crawl into these places in search of the comfort of darkness regurgitate into the air.</p><p><strong>Special Rule:</strong> The <em>petrified heart</em> of an Abomination, whose song can lead to madness, has been chained to the top of the tower. When you first enter this place, create the <em>Locus Madness</em> <strong>clock</strong>, divided into 4 segments. Every time you roll a 1-3 on an Action Roll, mark a section. If you complete the clock, your character is devoured by madness. You can spend <strong>2 Insight</strong> to clear a clock segment by visiting the Workshop.</p><h2>Cathedral of Broken Dawn</h2><p>More than a cathedral, it is a twisted set of towers, decaying buildings, collapsed walls, and debris. Built at the behest of <strong>Bishop Brederic</strong>, it was the seat of the <em>Truth of the Blood</em> tribunal.</p><p><strong>Special Rule:</strong> Citizens tortured and executed within these walls wake up as <strong>undead</strong> on blood moon nights. Angry, eager for revenge, they wander the corridors of the cathedral, becoming increasingly ferocious as dawn approaches, aware that when morning comes, they will be hurled back into the Abyss. When you act against them, you have <strong>-1D</strong> to your <strong>Prowess</strong> and <strong>Wit</strong> rolls. They are immune to silver bullets but fear fire.</p><h2>Cathedral of the Divine Blood</h2><p>Shrouded in the miasma of corruption is the cathedral where it all began: within these walls, the ritual that awakened the <em>beast's mark</em> was performed. In the surrounding streets, hundreds of corpses were piled up, forming mountains of bodies, arms, legs, and faces distorted by madness. Waiting to be awakened.</p><p><strong>Special Rule:</strong> When you wound the Apostle, the GM must roll 1D for each Hunter still alive. On a roll of 6, the screams will awaken a <strong>Corpse Pile</strong> [<em>Colossal, Cruel.</em> <strong>Moves:</strong> crush a target, rolling to escape or destroy, tear off a piece of its body, and use it as a weapon].</p><h2>Cathedral of the Li[…]</h2><p><em>On the map this entry is printed under ink blots. Only the legible words are kept here; each […] marks a gap.</em></p><p>This cathedra[…]e Lady Lya[…]na […]ng, a dream tha[…] never ends. Durin[…]night of the 6th mo[…]of the 60th year[…]Beast</p><p><strong>Special Ru[…]</strong>[…]he beginning of […]e night, you will lose ev[…]</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ASgnj3KYHNMsTrx2",
+      "name": "Tables",
+      "type": "text",
+      "sort": 700000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<blockquote><p>Set the chat roll mode to <strong>Private GM Roll</strong> or <strong>Self Roll</strong> before drawing, so the players don't see the result.</p></blockquote><ul><li><p>@UUID[RollTable.zlIGtpk250Xvl0lr]{Dangers and Obstacles}</p></li><li><p>@UUID[RollTable.4eMPkdxSJnVgxK3j]{Locations}</p></li><li><p>@UUID[RollTable.wHFvCk1a9gXRyxzs]{Weird Characters}</p></li><li><p>@UUID[RollTable.oqSBhU20UnvDmmxi]{Apostles}</p></li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "AdiXwLQWmADNRtwN",
+      "name": "Running it on TAF",
+      "type": "text",
+      "sort": 800000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>The Hunter</h2><p>Give each player a copy of the @UUID[Actor.c6vtPlB97k7nIf3c]{Hunter}. On the Attributes tab, the <strong>Roll</strong> button beside Prowess, Resolve and Wit opens the Action Roll. On the Items tab, the <strong>Use</strong> button beside a trick weapon or a firearm rolls it.</p><p>The @UUID[Macro.OnJlC6a6vo9Bql9P]{Resist} macro rolls Resist. The macros @UUID[Macro.bimj3flVylgi1m5A]{0d}, @UUID[Macro.JoaQu7a0GV6n5oSR]{1d}, @UUID[Macro.7eDdcabv9EZTmwCM]{2d}, @UUID[Macro.aNChbVthkg6LYNYx]{3d}, @UUID[Macro.kKQhNxydR0FcI239]{4d}, @UUID[Macro.PqlOa1iZKzyFbAKi]{5d}, @UUID[Macro.jmMaP32HcqcoajVI]{6d}, @UUID[Macro.XaSGdYtjdPpph5mr]{7d}, @UUID[Macro.srvtCxj0dYaFLRkM]{8d}, @UUID[Macro.s8Ezzhs3FFxMI1tc]{9d} roll that many dice and keep the highest; 0d rolls 2 dice and keeps the lowest.</p><h2>Bloodstone attributes on new actors</h2><p>TAF gives every new actor the world's default attributes. To make those Bloodstone's, open the Hunter as GM, open the sheet's header menu (⋮) and choose <strong>Save Attributes as Defaults</strong>. It saves the Hunter's attributes, with their current values, as the defaults.</p><h2>Clocks</h2><p>See @UUID[.tRujNlivxEYsNrd7]{Progress Clocks}.</p><h2>Optional modules</h2><ul><li><p><strong>Dice So Nice</strong> shows the dice rolling in 3D.</p></li><li><p><strong>Dice Tray</strong> adds dice buttons below the chat.</p></li></ul>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

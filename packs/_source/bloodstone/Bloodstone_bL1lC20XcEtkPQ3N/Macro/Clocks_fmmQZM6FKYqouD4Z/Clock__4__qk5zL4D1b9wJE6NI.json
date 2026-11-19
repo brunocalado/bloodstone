@@ -1,0 +1,14 @@
+{
+  "_id": "qk5zL4D1b9wJE6NI",
+  "name": "Clock (4)",
+  "type": "script",
+  "img": "modules/bloodstone/assets/icons/clock-bw-4.svg",
+  "command": "// A 4-segment clock in Global Progress Clocks; rename it in that module's window.\nwindow.clockDatabase.addClock({ name: \"Clock\", max: 4 });",
+  "scope": "global",
+  "folder": "fmmQZM6FKYqouD4Z",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

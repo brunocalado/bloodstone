@@ -1,0 +1,37 @@
+{
+  "_id": "B6MTdXU9tuErrttX",
+  "name": "Map of Heliwyr",
+  "navigation": true,
+  "width": 4680,
+  "height": 2550,
+  "padding": 0,
+  "initialLevel": "defaultLevel0000",
+  "grid": {
+    "type": 0
+  },
+  "tokenVision": false,
+  "fog": {
+    "mode": 0
+  },
+  "levels": [
+    {
+      "_id": "defaultLevel0000",
+      "name": "Level",
+      "background": {
+        "src": "modules/bloodstone/assets/maps/heliwyr.webp",
+        "color": "#000000"
+      },
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.370"
+  }
+}

@@ -65,8 +65,8 @@ jobs:
           # extractor (such as Sqyre) don't search subfolders for module.json the
           # way Foundry's installer does.
           # Every folder the module reads at runtime must be listed: assets/ holds the
-          # macro icons, the oath sound and the package image. zip only warns about a missing
-          # folder, so a forgotten one ships silently broken.
+          # macro icons, the oath sound, the Heliwyr map and the package image. zip only
+          # warns about a missing folder, so a forgotten one ships silently broken.
           zip -r module.zip module.json LICENSE scripts styles assets packs -x "packs/_source/*"
 
       - name: Create GitHub release
