@@ -1,0 +1,14 @@
+{
+  "_id": "jmMaP32HcqcoajVI",
+  "name": "6d",
+  "type": "chat",
+  "img": "modules/bloodstone/assets/icons/n6.svg",
+  "command": "/r 6d6kh",
+  "scope": "global",
+  "folder": "owisQcQKDGOxWTi1",
+  "sort": 1100000,
+  "ownership": {
+    "default": 1
+  },
+  "flags": {}
+}

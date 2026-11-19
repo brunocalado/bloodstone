@@ -1,0 +1,14 @@
+{
+  "_id": "OnJlC6a6vo9Bql9P",
+  "name": "Resist",
+  "type": "script",
+  "img": "icons/skills/melee/maneuver-daggers-paired-orange.webp",
+  "command": "// Resist: 1d per Stamina spent.\n// TAF's Roll and Use buttons pass the clicked item in the scope; the hotbar passes none.\nreturn game.modules.get(\"bloodstone\").api.resist({ item: scope.item, actor });",
+  "scope": "global",
+  "folder": "owisQcQKDGOxWTi1",
+  "sort": 200000,
+  "ownership": {
+    "default": 1
+  },
+  "flags": {}
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "7eDdcabv9EZTmwCM",
+  "name": "2d",
+  "type": "chat",
+  "img": "modules/bloodstone/assets/icons/n2.svg",
+  "command": "/r 2d6kh",
+  "scope": "global",
+  "folder": "owisQcQKDGOxWTi1",
+  "sort": 700000,
+  "ownership": {
+    "default": 1
+  },
+  "flags": {}
+}

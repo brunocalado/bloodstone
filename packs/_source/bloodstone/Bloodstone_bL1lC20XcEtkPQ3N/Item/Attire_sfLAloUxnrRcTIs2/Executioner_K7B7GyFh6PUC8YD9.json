@@ -1,0 +1,22 @@
+{
+  "_id": "K7B7GyFh6PUC8YD9",
+  "name": "Executioner",
+  "type": "generic",
+  "img": "icons/equipment/chest/breastplate-banded-steel-gold.webp",
+  "system": {
+    "group": "Attire",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><strong>Special Armor:</strong> avoid <strong>mental Harm</strong>.</p><p>Mark the special attire slot to use this ability, according to the fictional situation. Mark the common attire slots to reduce physical Harms.</p>"
+  },
+  "effects": [],
+  "sort": 400000,
+  "flags": {},
+  "folder": "sfLAloUxnrRcTIs2",
+  "ownership": {
+    "default": 2
+  }
+}

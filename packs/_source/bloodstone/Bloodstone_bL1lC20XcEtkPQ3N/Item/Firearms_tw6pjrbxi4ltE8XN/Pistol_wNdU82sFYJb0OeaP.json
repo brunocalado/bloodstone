@@ -1,0 +1,26 @@
+{
+  "_id": "wNdU82sFYJb0OeaP",
+  "name": "Pistol",
+  "type": "generic",
+  "img": "icons/weapons/guns/gun-pistol-flintlock-metal.webp",
+  "system": {
+    "group": "Firearm",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": "Macro.FuvoSAn06XFP0lFW",
+    "description": "<p><strong>Pistol</strong> [Parry: 4+] [Stun: 6+]</p><p><strong>Parry:</strong> <em>roll 1d per each bullet you mark. With a result equal</em> [<strong>Parry</strong>] <em>you</em> <strong>interrupt</strong> <em>an enemy action.</em></p><p><strong>Stun:</strong> <em>roll 1d per every two bullets you mark. With a result equal</em> [<strong>Stun</strong>] <em>you</em> <strong>stun</strong> <em>an enemy for a few seconds.</em></p><p><strong>Reload:</strong> <em>mark any amount of</em> <strong>Blood</strong> <em>and/or</em> <strong>Silver Bullets</strong><em>. For each, roll 1d. Regain bullets equal to the</em> <strong>highest result</strong>.</p>"
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {
+    "bloodstone": {
+      "firearm": "pistol"
+    }
+  },
+  "folder": "tw6pjrbxi4ltE8XN",
+  "ownership": {
+    "default": 2
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "kKQhNxydR0FcI239",
+  "name": "4d",
+  "type": "chat",
+  "img": "modules/bloodstone/assets/icons/n4.svg",
+  "command": "/r 4d6kh",
+  "scope": "global",
+  "folder": "owisQcQKDGOxWTi1",
+  "sort": 900000,
+  "ownership": {
+    "default": 1
+  },
+  "flags": {}
+}

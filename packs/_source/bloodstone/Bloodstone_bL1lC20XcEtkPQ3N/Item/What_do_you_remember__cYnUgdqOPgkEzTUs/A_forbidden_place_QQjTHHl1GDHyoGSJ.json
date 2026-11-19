@@ -1,0 +1,22 @@
+{
+  "_id": "QQjTHHl1GDHyoGSJ",
+  "name": "A forbidden place",
+  "type": "generic",
+  "img": "icons/skills/trades/academics-study-reading-book.webp",
+  "system": {
+    "group": "Memory",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><em>A forbidden place. Candles on the floor. The gurgling of a being lying in the darkness. The cries behind you, and the sound of devoured brittle bones.</em></p><p>Set your Actions: <strong>Prowess 1</strong>, <strong>Resolve 3</strong>, <strong>Wit 2</strong>.</p>"
+  },
+  "effects": [],
+  "sort": 300000,
+  "flags": {},
+  "folder": "cYnUgdqOPgkEzTUs",
+  "ownership": {
+    "default": 2
+  }
+}

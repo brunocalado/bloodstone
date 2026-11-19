@@ -5,6 +5,8 @@
 - [Breaking][Removed] The Forged in the Dark Roller dependency.
 - [Breaking][Changed] Global Progress Clocks is now required.
 - [Added] Action Roll, Resist and Firearm rolls with the v1.4 result tables, available to macros as `game.modules.get("bloodstone").api`.
+- [Added] A TAF Hunter with the v1.4 tracks (5 Blood, 3 Stamina, 4 Insight, 6 Silver Bullets), roll buttons on Prowess, Resolve and Wit, and Use buttons on each trick weapon and firearm.
+- [Changed] Player journal rewritten for game version 1.4, with an Action Roll page.
 
 # 0.1.0
 v12

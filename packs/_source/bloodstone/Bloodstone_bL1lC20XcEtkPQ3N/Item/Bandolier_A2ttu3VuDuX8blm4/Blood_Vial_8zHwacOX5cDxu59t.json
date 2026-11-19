@@ -1,0 +1,22 @@
+{
+  "_id": "8zHwacOX5cDxu59t",
+  "name": "Blood Vial",
+  "type": "generic",
+  "img": "icons/consumables/potions/vial-cork-red.webp",
+  "system": {
+    "group": "Bandolier",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p>Mark a Bandolier slot to use it.</p><p><strong>Regain:</strong> 2 Blood using a Blood Vial.</p>"
+  },
+  "effects": [],
+  "sort": 200000,
+  "flags": {},
+  "folder": "A2ttu3VuDuX8blm4",
+  "ownership": {
+    "default": 2
+  }
+}

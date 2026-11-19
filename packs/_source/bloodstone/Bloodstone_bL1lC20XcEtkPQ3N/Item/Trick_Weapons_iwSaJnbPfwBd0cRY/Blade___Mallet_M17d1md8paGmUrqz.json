@@ -1,0 +1,26 @@
+{
+  "_id": "M17d1md8paGmUrqz",
+  "name": "Blade | Mallet",
+  "type": "generic",
+  "img": "icons/weapons/swords/shortsword-guard-silver.webp",
+  "system": {
+    "group": "Trick Weapon",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": "Macro.xpGK9Dv9QS4vC6qK",
+    "description": "<p><strong>Blade | Mallet</strong> [+Effect vs undead]</p><p><strong>Base form:</strong> <em>you can use the weapon to strike a quick and accurate blow.</em> Cost: 1 Stamina.</p><p><strong>Alternate form:</strong> <em>you can use the weapon to strike a powerful blow, with</em> <strong>increased Effect</strong>. Cost: 2 Stamina.</p><p><strong>+ Imbrued with blood:</strong> <em>you soak the blade in your own blood.</em> Gain <strong>+1d to the roll</strong> per each Blood you mark.</p>"
+  },
+  "effects": [],
+  "sort": 200000,
+  "flags": {
+    "bloodstone": {
+      "trickWeapon": "blade"
+    }
+  },
+  "folder": "iwSaJnbPfwBd0cRY",
+  "ownership": {
+    "default": 2
+  }
+}

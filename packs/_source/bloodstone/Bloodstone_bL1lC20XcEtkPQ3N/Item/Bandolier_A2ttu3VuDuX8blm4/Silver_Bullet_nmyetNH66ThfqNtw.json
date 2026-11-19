@@ -1,0 +1,22 @@
+{
+  "_id": "nmyetNH66ThfqNtw",
+  "name": "Silver Bullet",
+  "type": "generic",
+  "img": "icons/weapons/ammunition/shot-round-silver.webp",
+  "system": {
+    "group": "Bandolier",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p>Mark a Bandolier slot to use it.</p><p><strong>Reload:</strong> <em>mark any amount of</em> <strong>Blood</strong> <em>and/or</em> <strong>Silver Bullets</strong><em>. For each, roll 1d. Regain bullets equal to the</em> <strong>highest result</strong>.</p>"
+  },
+  "effects": [],
+  "sort": 600000,
+  "flags": {},
+  "folder": "A2ttu3VuDuX8blm4",
+  "ownership": {
+    "default": 2
+  }
+}

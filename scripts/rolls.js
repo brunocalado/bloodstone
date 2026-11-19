@@ -163,7 +163,7 @@ export async function firearm({ item, actor } = {}) {
       { value: "stun", label: "Stun: 1d per two bullets marked" },
       { value: "reload", label: "Reload: 1d per Blood or bullet marked" }
     ]),
-    selectField("marked", "Bullets / Blood marked", range(1, 5)),
+    selectField("marked", "Bullets / Blood marked", range(1, 6)),
     selectField("bonus", "Bonus dice (Reload only, e.g. Noble Scion)", range(0, 3))
   ].join("");
 

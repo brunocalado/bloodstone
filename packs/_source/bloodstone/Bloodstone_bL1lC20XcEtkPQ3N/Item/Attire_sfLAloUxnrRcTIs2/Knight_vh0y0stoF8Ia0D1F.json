@@ -1,0 +1,22 @@
+{
+  "_id": "vh0y0stoF8Ia0D1F",
+  "name": "Knight",
+  "type": "generic",
+  "img": "icons/equipment/chest/breastplate-collared-steel.webp",
+  "system": {
+    "group": "Attire",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><strong>Special Armor:</strong> <strong>Protect</strong> with no <strong>Consequence</strong>.</p><p>Mark the special attire slot to use this ability, according to the fictional situation. Mark the common attire slots to reduce physical Harms.</p>"
+  },
+  "effects": [],
+  "sort": 500000,
+  "flags": {},
+  "folder": "sfLAloUxnrRcTIs2",
+  "ownership": {
+    "default": 2
+  }
+}

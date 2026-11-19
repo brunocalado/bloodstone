@@ -1,0 +1,14 @@
+{
+  "_id": "xpGK9Dv9QS4vC6qK",
+  "name": "Trick Weapon",
+  "type": "script",
+  "img": "icons/skills/melee/strike-axe-blood-red.webp",
+  "command": "// Trick Weapon: the Action Roll, with the clicked weapon's form and Imbrue.\n// TAF's Roll and Use buttons pass the clicked item in the scope; the hotbar passes none.\nreturn game.modules.get(\"bloodstone\").api.actionRoll({ item: scope.item, actor });",
+  "scope": "global",
+  "folder": "owisQcQKDGOxWTi1",
+  "sort": 300000,
+  "ownership": {
+    "default": 1
+  },
+  "flags": {}
+}

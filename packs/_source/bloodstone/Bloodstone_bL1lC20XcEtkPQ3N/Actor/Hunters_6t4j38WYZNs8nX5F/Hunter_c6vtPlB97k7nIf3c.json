@@ -1,0 +1,439 @@
+{
+  "_id": "c6vtPlB97k7nIf3c",
+  "name": "Hunter",
+  "type": "player",
+  "img": "icons/skills/melee/strike-dagger-skull-white.webp",
+  "folder": "6t4j38WYZNs8nX5F",
+  "system": {
+    "content": "<h2>Getting started</h2><p>Drag onto this sheet an <strong>Origin</strong>, a <strong>Memory</strong>, an <strong>Attire</strong>, a <strong>Trick Weapon</strong> and a <strong>Firearm</strong> from the Items directory, then set Prowess, Resolve and Wit from your Memory.</p><p>Blood, Stamina and the Gear tracks count what you have left: lower them when you mark. Insight starts at 0 and counts up to 4.</p><ul><li><p>@UUID[JournalEntry.t3pSbCOssfwvNPwg.JournalEntryPage.qIyhoXP1Yog2Xa75]{Action Roll}</p></li><li><p>@UUID[JournalEntry.t3pSbCOssfwvNPwg.JournalEntryPage.oXrRoOTl85izY2xw]{Hunter's Information}</p></li><li><p>@UUID[JournalEntry.t3pSbCOssfwvNPwg.JournalEntryPage.z5bmn5BAu4OP0F0d]{Special Actions}</p></li><li><p>@UUID[Macro.OnJlC6a6vo9Bql9P]{Resist}: 1d per Stamina spent</p></li></ul>",
+    "carryCapacity": {
+      "default": null,
+      "origin": null,
+      "memory": null,
+      "attire": null,
+      "trick_weapon": null,
+      "firearm": null,
+      "bandolier": null,
+      "tools": null
+    }
+  },
+  "prototypeToken": {
+    "name": "Hunter",
+    "actorLink": true,
+    "disposition": 1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "attr.blood"
+    },
+    "bar2": {
+      "attribute": "attr.stamina"
+    },
+    "texture": {
+      "src": "icons/skills/melee/strike-dagger-skull-white.webp"
+    }
+  },
+  "items": [
+    {
+      "_id": "utOUTRxQLWqwRD3M",
+      "name": "Blood",
+      "type": "attribute",
+      "system": {
+        "group": null,
+        "key": "blood",
+        "aboveTheFold": true,
+        "trigger": null,
+        "value": 5,
+        "min": 0,
+        "max": 5,
+        "showMax": true
+      },
+      "effects": [],
+      "sort": 100000,
+      "flags": {}
+    },
+    {
+      "_id": "CtfeIyswDl1ypMpj",
+      "name": "Stamina",
+      "type": "attribute",
+      "system": {
+        "group": null,
+        "key": "stamina",
+        "aboveTheFold": true,
+        "trigger": null,
+        "value": 3,
+        "min": 0,
+        "max": 3,
+        "showMax": true
+      },
+      "effects": [],
+      "sort": 200000,
+      "flags": {}
+    },
+    {
+      "_id": "eMDVy5U6FdaKtRxd",
+      "name": "Insight",
+      "type": "attribute",
+      "system": {
+        "group": null,
+        "key": "insight",
+        "aboveTheFold": true,
+        "trigger": null,
+        "value": 0,
+        "min": 0,
+        "max": 4,
+        "showMax": true
+      },
+      "effects": [],
+      "sort": 300000,
+      "flags": {}
+    },
+    {
+      "_id": "crfIvY2ttp8zICyh",
+      "name": "Prowess",
+      "type": "attribute",
+      "system": {
+        "group": "Actions",
+        "key": "prowess",
+        "aboveTheFold": false,
+        "trigger": "Macro.UCn2tE9ecIF5FNUV",
+        "value": 0,
+        "min": 0,
+        "max": 3,
+        "showMax": false
+      },
+      "effects": [],
+      "sort": 400000,
+      "flags": {}
+    },
+    {
+      "_id": "Ws3w3ytfSsJL13i0",
+      "name": "Resolve",
+      "type": "attribute",
+      "system": {
+        "group": "Actions",
+        "key": "resolve",
+        "aboveTheFold": false,
+        "trigger": "Macro.UCn2tE9ecIF5FNUV",
+        "value": 0,
+        "min": 0,
+        "max": 3,
+        "showMax": false
+      },
+      "effects": [],
+      "sort": 500000,
+      "flags": {}
+    },
+    {
+      "_id": "Xv6TqSPOmkC05P2M",
+      "name": "Wit",
+      "type": "attribute",
+      "system": {
+        "group": "Actions",
+        "key": "wit",
+        "aboveTheFold": false,
+        "trigger": "Macro.UCn2tE9ecIF5FNUV",
+        "value": 0,
+        "min": 0,
+        "max": 3,
+        "showMax": false
+      },
+      "effects": [],
+      "sort": 600000,
+      "flags": {}
+    },
+    {
+      "_id": "JQ2bRCwZLIt705XV",
+      "name": "Bandolier",
+      "type": "attribute",
+      "system": {
+        "group": "Gear",
+        "key": "bandolier",
+        "aboveTheFold": false,
+        "trigger": null,
+        "value": 4,
+        "min": 0,
+        "max": 4,
+        "showMax": true
+      },
+      "effects": [],
+      "sort": 700000,
+      "flags": {}
+    },
+    {
+      "_id": "G0htwevU77NCt7sY",
+      "name": "Armor",
+      "type": "attribute",
+      "system": {
+        "group": "Gear",
+        "key": "armor",
+        "aboveTheFold": false,
+        "trigger": null,
+        "value": 2,
+        "min": 0,
+        "max": 2,
+        "showMax": true
+      },
+      "effects": [],
+      "sort": 800000,
+      "flags": {}
+    },
+    {
+      "_id": "YRTPClnpt8BDx1NA",
+      "name": "Special Armor",
+      "type": "attribute",
+      "system": {
+        "group": "Gear",
+        "key": "special_armor",
+        "aboveTheFold": false,
+        "trigger": null,
+        "value": 1,
+        "min": 0,
+        "max": 1,
+        "showMax": true
+      },
+      "effects": [],
+      "sort": 900000,
+      "flags": {}
+    },
+    {
+      "_id": "2rq42GHG13Ii4FxL",
+      "name": "Silver Bullets",
+      "type": "attribute",
+      "system": {
+        "group": "Gear",
+        "key": "bullets",
+        "aboveTheFold": false,
+        "trigger": null,
+        "value": 6,
+        "min": 0,
+        "max": 6,
+        "showMax": true
+      },
+      "effects": [],
+      "sort": 1000000,
+      "flags": {}
+    },
+    {
+      "_id": "ROGrAYi4MLwaBTO3",
+      "name": "Antidote",
+      "type": "generic",
+      "img": "icons/tools/laboratory/mortar-powder-green.webp",
+      "system": {
+        "group": "Bandolier",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Mark a Bandolier slot to use it.</p>"
+      },
+      "effects": [],
+      "sort": 100000,
+      "flags": {}
+    },
+    {
+      "_id": "1qw9XJaNcQKdg1cZ",
+      "name": "Blood Vial",
+      "type": "generic",
+      "img": "icons/consumables/potions/vial-cork-red.webp",
+      "system": {
+        "group": "Bandolier",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Mark a Bandolier slot to use it.</p><p><strong>Regain:</strong> 2 Blood using a Blood Vial.</p>"
+      },
+      "effects": [],
+      "sort": 200000,
+      "flags": {}
+    },
+    {
+      "_id": "37FpMXzOLX9a69nd",
+      "name": "Smoke Bomb",
+      "type": "generic",
+      "img": "icons/weapons/thrown/bomb-fuse-cloth-pink.webp",
+      "system": {
+        "group": "Bandolier",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Mark a Bandolier slot to use it.</p>"
+      },
+      "effects": [],
+      "sort": 300000,
+      "flags": {}
+    },
+    {
+      "_id": "U6qRAcmpzS6yVb3P",
+      "name": "Fire Bomb",
+      "type": "generic",
+      "img": "icons/weapons/thrown/bomb-fuse-red-black.webp",
+      "system": {
+        "group": "Bandolier",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Mark a Bandolier slot to use it.</p>"
+      },
+      "effects": [],
+      "sort": 400000,
+      "flags": {}
+    },
+    {
+      "_id": "G5QkddMYAarmYm5k",
+      "name": "Acid Bomb",
+      "type": "generic",
+      "img": "icons/weapons/thrown/bomb-fuse-brown-grey.webp",
+      "system": {
+        "group": "Bandolier",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Mark a Bandolier slot to use it.</p>"
+      },
+      "effects": [],
+      "sort": 500000,
+      "flags": {}
+    },
+    {
+      "_id": "2mr1lUqAeDrqG9t2",
+      "name": "Silver Bullet",
+      "type": "generic",
+      "img": "icons/weapons/ammunition/shot-round-silver.webp",
+      "system": {
+        "group": "Bandolier",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Mark a Bandolier slot to use it.</p><p><strong>Reload:</strong> <em>mark any amount of</em> <strong>Blood</strong> <em>and/or</em> <strong>Silver Bullets</strong><em>. For each, roll 1d. Regain bullets equal to the</em> <strong>highest result</strong>.</p>"
+      },
+      "effects": [],
+      "sort": 600000,
+      "flags": {}
+    },
+    {
+      "_id": "8KQ9qsHTQmICIvNO",
+      "name": "Bloodstone",
+      "type": "generic",
+      "img": "icons/commodities/gems/gem-rough-square-red.webp",
+      "system": {
+        "group": "Tools",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p><strong>Visit the Workshop:</strong> once per hunt, you can use your Bloodstone to reach the <strong>Workshop</strong> through a pathway inside a dream. See @UUID[JournalEntry.t3pSbCOssfwvNPwg.JournalEntryPage.GO4X5KxhJeMdz6TK]{Workshop}.</p>"
+      },
+      "effects": [],
+      "sort": 700000,
+      "flags": {}
+    },
+    {
+      "_id": "Eb3pfvpjrPWfTaCQ",
+      "name": "Hand Lantern",
+      "type": "generic",
+      "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+      "system": {
+        "group": "Tools",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>A Tool: every Hunter has all of them.</p>"
+      },
+      "effects": [],
+      "sort": 800000,
+      "flags": {}
+    },
+    {
+      "_id": "MFY1DL8zZGxlYIBb",
+      "name": "Monocular",
+      "type": "generic",
+      "img": "icons/tools/scribal/lens-blue.webp",
+      "system": {
+        "group": "Tools",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>A Tool: every Hunter has all of them.</p>"
+      },
+      "effects": [],
+      "sort": 900000,
+      "flags": {}
+    },
+    {
+      "_id": "CCy5WHcpvOcBUnFb",
+      "name": "Spirit Bell",
+      "type": "generic",
+      "img": "icons/tools/instruments/bell-gold.webp",
+      "system": {
+        "group": "Tools",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p><strong>Summon Ghost:</strong> ring your <strong>Spirit Bell</strong> and summon a ghost from another world. Ask them a question from the list below per each Insight you spent.</p><ul><li><p><em>How can I hurt them?</em></p></li><li><p><em>Who's most dangerous here?</em></p></li><li><p><em>What do they intend to do?</em></p></li><li><p><em>Where are they vulnerable?</em></p></li><li><p><em>What is hidden or lost here?</em></p></li><li><p><em>Where can I hide here?</em></p></li><li><p><em>What's really going on here?</em></p></li></ul>"
+      },
+      "effects": [],
+      "sort": 1000000,
+      "flags": {}
+    },
+    {
+      "_id": "bcNfeBsuHFniQ6YZ",
+      "name": "Climbing Gear",
+      "type": "generic",
+      "img": "icons/tools/hand/hammer-and-nail.webp",
+      "system": {
+        "group": "Tools",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>A Tool: every Hunter has all of them.</p>"
+      },
+      "effects": [],
+      "sort": 1100000,
+      "flags": {}
+    },
+    {
+      "_id": "AverTy6rMcpNgXbp",
+      "name": "Tinkering Tools",
+      "type": "generic",
+      "img": "icons/tools/hand/lockpicks-steel-grey.webp",
+      "system": {
+        "group": "Tools",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>A Tool: every Hunter has all of them.</p>"
+      },
+      "effects": [],
+      "sort": 1200000,
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

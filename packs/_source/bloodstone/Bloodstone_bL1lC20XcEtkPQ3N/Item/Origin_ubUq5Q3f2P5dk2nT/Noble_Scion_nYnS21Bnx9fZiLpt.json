@@ -1,0 +1,22 @@
+{
+  "_id": "nYnS21Bnx9fZiLpt",
+  "name": "Noble Scion",
+  "type": "generic",
+  "img": "icons/environment/people/cleric-orange.webp",
+  "system": {
+    "group": "Origin",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><strong>Signature Ability:</strong> +1d when you <strong>Reload</strong>.</p>"
+  },
+  "effects": [],
+  "sort": 400000,
+  "flags": {},
+  "folder": "ubUq5Q3f2P5dk2nT",
+  "ownership": {
+    "default": 2
+  }
+}

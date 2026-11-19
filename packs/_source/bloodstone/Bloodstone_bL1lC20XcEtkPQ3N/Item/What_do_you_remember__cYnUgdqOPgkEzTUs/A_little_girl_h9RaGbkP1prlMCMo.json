@@ -1,0 +1,22 @@
+{
+  "_id": "h9RaGbkP1prlMCMo",
+  "name": "A little girl",
+  "type": "generic",
+  "img": "icons/skills/trades/academics-study-reading-book.webp",
+  "system": {
+    "group": "Memory",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><em>A little girl smaller than you, with her face covered in soot, surrounded by older boys. Your screams to make them escape. A blade penetrating your side, kicks in your face.</em></p><p>Set your Actions: <strong>Prowess 2</strong>, <strong>Resolve 3</strong>, <strong>Wit 1</strong>.</p>"
+  },
+  "effects": [],
+  "sort": 200000,
+  "flags": {},
+  "folder": "cYnUgdqOPgkEzTUs",
+  "ownership": {
+    "default": 2
+  }
+}

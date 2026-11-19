@@ -1,0 +1,22 @@
+{
+  "_id": "GpSU9cXDTquJfX5f",
+  "name": "A fight in an alley",
+  "type": "generic",
+  "img": "icons/skills/trades/academics-study-reading-book.webp",
+  "system": {
+    "group": "Memory",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><em>A fight in an alley, your knuckles stained with blood, the leather of the straps hitting you on the back.</em></p><p>Set your Actions: <strong>Prowess 3</strong>, <strong>Resolve 2</strong>, <strong>Wit 1</strong>.</p>"
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {},
+  "folder": "cYnUgdqOPgkEzTUs",
+  "ownership": {
+    "default": 2
+  }
+}

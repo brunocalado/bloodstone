@@ -1,0 +1,22 @@
+{
+  "_id": "XkvARtvC5QmreNKq",
+  "name": "Acid Bomb",
+  "type": "generic",
+  "img": "icons/weapons/thrown/bomb-fuse-brown-grey.webp",
+  "system": {
+    "group": "Bandolier",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p>Mark a Bandolier slot to use it.</p>"
+  },
+  "effects": [],
+  "sort": 500000,
+  "flags": {},
+  "folder": "A2ttu3VuDuX8blm4",
+  "ownership": {
+    "default": 2
+  }
+}

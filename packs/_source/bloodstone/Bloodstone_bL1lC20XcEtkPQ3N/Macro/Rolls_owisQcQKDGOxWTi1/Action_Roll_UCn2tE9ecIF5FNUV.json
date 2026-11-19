@@ -1,0 +1,14 @@
+{
+  "_id": "UCn2tE9ecIF5FNUV",
+  "name": "Action Roll",
+  "type": "script",
+  "img": "icons/sundries/gaming/dice-runed-tan.webp",
+  "command": "// Action Roll. With a trick weapon's Use button, it adds the weapon's form and Imbrue.\n// TAF's Roll and Use buttons pass the clicked item in the scope; the hotbar passes none.\nreturn game.modules.get(\"bloodstone\").api.actionRoll({ item: scope.item, actor });",
+  "scope": "global",
+  "folder": "owisQcQKDGOxWTi1",
+  "sort": 100000,
+  "ownership": {
+    "default": 1
+  },
+  "flags": {}
+}

@@ -1,0 +1,14 @@
+{
+  "_id": "s8Ezzhs3FFxMI1tc",
+  "name": "9d",
+  "type": "chat",
+  "img": "modules/bloodstone/assets/icons/n9.svg",
+  "command": "/r 9d6kh",
+  "scope": "global",
+  "folder": "owisQcQKDGOxWTi1",
+  "sort": 1400000,
+  "ownership": {
+    "default": 1
+  },
+  "flags": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "U5OQcr2VB2dw4UcO",
+  "name": "Waste of Skin",
+  "type": "generic",
+  "img": "icons/environment/people/cleric-orange.webp",
+  "system": {
+    "group": "Origin",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><strong>Signature Ability:</strong> none.</p>"
+  },
+  "effects": [],
+  "sort": 500000,
+  "flags": {},
+  "folder": "ubUq5Q3f2P5dk2nT",
+  "ownership": {
+    "default": 2
+  }
+}

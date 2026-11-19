@@ -1,0 +1,22 @@
+{
+  "_id": "R1CngSJUIbxF4Tdm",
+  "name": "Lone Survivor",
+  "type": "generic",
+  "img": "icons/environment/people/cleric-orange.webp",
+  "system": {
+    "group": "Origin",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><strong>Signature Ability:</strong> you always act first.</p>"
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {},
+  "folder": "ubUq5Q3f2P5dk2nT",
+  "ownership": {
+    "default": 2
+  }
+}
