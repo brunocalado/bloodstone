@@ -1,4 +1,5 @@
 # Unreleased
+- [Removed] The 0d to 9d dice macros; the sheet's Roll and Use buttons and the Resist macro cover every roll.
 - [Changed] The module's code is now licensed under GPL v3 (was MIT).
 - [Changed] Releases are built by a GitHub workflow from JSON sources; install and update through the GitHub release manifest.
 - [Breaking][Changed] Bloodstone now runs on the Text-Based Actors (TAF) system 3.3.0 and Foundry v14; Simple Worldbuilding is no longer supported.
