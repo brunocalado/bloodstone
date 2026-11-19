@@ -1,0 +1,22 @@
+{
+  "_id": "8zHwacOX5cDxu59t",
+  "name": "Frasco de Sangue",
+  "type": "generic",
+  "img": "icons/consumables/potions/vial-cork-red.webp",
+  "system": {
+    "group": "Bandoleira",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p>Para usar, marque um espaço da Bandoleira.</p><p><strong>Recuperar:</strong> 2 de Sangue usando um Frasco de Sangue.</p>"
+  },
+  "effects": [],
+  "sort": 200000,
+  "flags": {},
+  "folder": "A2ttu3VuDuX8blm4",
+  "ownership": {
+    "default": 2
+  }
+}

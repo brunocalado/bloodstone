@@ -1,0 +1,22 @@
+{
+  "_id": "iF4PWg3vpyjGHnKL",
+  "name": "Nobre",
+  "type": "generic",
+  "img": "icons/equipment/chest/shirt-collared-grey.webp",
+  "system": {
+    "group": "Traje",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><strong>Armadura Especial:</strong> +1d em rolagens de <strong>Determinação</strong>.</p><p>Marque o espaço de traje especial para usar esta habilidade, de acordo com a situação na ficção. Marque os espaços de traje comuns para reduzir Danos físicos.</p>"
+  },
+  "effects": [],
+  "sort": 200000,
+  "flags": {},
+  "folder": "sfLAloUxnrRcTIs2",
+  "ownership": {
+    "default": 2
+  }
+}

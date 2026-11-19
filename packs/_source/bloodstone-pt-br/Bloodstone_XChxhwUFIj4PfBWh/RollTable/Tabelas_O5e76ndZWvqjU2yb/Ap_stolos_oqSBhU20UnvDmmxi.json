@@ -1,0 +1,95 @@
+{
+  "_id": "oqSBhU20UnvDmmxi",
+  "name": "Apóstolos",
+  "img": "icons/sundries/gaming/dice-runed-brown.webp",
+  "description": "",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "BWkbGJfhIZZgkLhY",
+      "type": "text",
+      "name": "Alenna, a Primeira Vigária",
+      "description": "<p><strong>Alenna</strong>, a Primeira Vigária</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "zULUZ7uPU1WaFsp0",
+      "type": "text",
+      "name": "Frederik, o Pai Perverso",
+      "description": "<p><strong>Frederik</strong>, o Pai Perverso</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fmkiMNaIXKDmFzjM",
+      "type": "text",
+      "name": "Inwaer, o Mártir Sombrio",
+      "description": "<p><strong>Inwaer</strong>, o Mártir Sombrio</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "BHVk4AglSm4mlcJI",
+      "type": "text",
+      "name": "Lyra, a Matriarca Corrupta",
+      "description": "<p><strong>Lyra</strong>, a Matriarca Corrupta</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "5YYBmNKEcnqfHR34",
+      "type": "text",
+      "name": "Urial, o Ministro das Chamas",
+      "description": "<p><strong>Urial</strong>, o Ministro das Chamas</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "ArKsrFGjoBSBBsEh",
+      "type": "text",
+      "name": "Judas, o Acusador",
+      "description": "<p><strong>Judas</strong>, o Acusador</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "O5e76ndZWvqjU2yb",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

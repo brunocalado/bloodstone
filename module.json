@@ -44,6 +44,18 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "label": "Bloodstone (Português)",
+      "name": "bloodstone-pt-br",
+      "type": "Adventure",
+      "system": "taf",
+      "path": "packs/bloodstone-pt-br",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "relationships": {

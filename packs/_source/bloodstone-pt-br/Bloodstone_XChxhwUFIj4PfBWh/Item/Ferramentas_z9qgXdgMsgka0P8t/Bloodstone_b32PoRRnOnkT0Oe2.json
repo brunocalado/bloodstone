@@ -1,0 +1,22 @@
+{
+  "_id": "b32PoRRnOnkT0Oe2",
+  "name": "Bloodstone",
+  "type": "generic",
+  "img": "icons/commodities/gems/gem-rough-square-red.webp",
+  "system": {
+    "group": "Ferramentas",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><strong>Visitar a Oficina:</strong> uma vez por caçada, você pode usar sua Bloodstone para chegar à <strong>Oficina</strong> por um caminho dentro de um sonho. Veja @UUID[JournalEntry.t3pSbCOssfwvNPwg.JournalEntryPage.GO4X5KxhJeMdz6TK]{Oficina}.</p>"
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {},
+  "folder": "z9qgXdgMsgka0P8t",
+  "ownership": {
+    "default": 2
+  }
+}

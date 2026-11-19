@@ -1,0 +1,22 @@
+{
+  "_id": "G1NWIEUVgC5Kc9oA",
+  "name": "Antídoto",
+  "type": "generic",
+  "img": "icons/tools/laboratory/mortar-powder-green.webp",
+  "system": {
+    "group": "Bandoleira",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p>Para usar, marque um espaço da Bandoleira.</p>"
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {},
+  "folder": "A2ttu3VuDuX8blm4",
+  "ownership": {
+    "default": 2
+  }
+}

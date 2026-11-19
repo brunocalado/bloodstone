@@ -1,0 +1,22 @@
+{
+  "_id": "CIfsjx0aL0XvtvTd",
+  "name": "Lanterna de Mão",
+  "type": "generic",
+  "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+  "system": {
+    "group": "Ferramentas",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p>Uma Ferramenta: todo Caçador tem todas elas.</p>"
+  },
+  "effects": [],
+  "sort": 200000,
+  "flags": {},
+  "folder": "z9qgXdgMsgka0P8t",
+  "ownership": {
+    "default": 2
+  }
+}

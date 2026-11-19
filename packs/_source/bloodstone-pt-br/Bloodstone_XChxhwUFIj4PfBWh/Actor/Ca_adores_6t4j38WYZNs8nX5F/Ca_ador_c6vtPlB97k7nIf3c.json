@@ -1,0 +1,439 @@
+{
+  "_id": "c6vtPlB97k7nIf3c",
+  "name": "Caçador",
+  "type": "player",
+  "img": "icons/skills/melee/strike-dagger-skull-white.webp",
+  "folder": "6t4j38WYZNs8nX5F",
+  "system": {
+    "content": "<h2>Primeiros passos</h2><p>Arraste para esta ficha uma <strong>Origem</strong>, uma <strong>Memória</strong>, um <strong>Traje</strong>, uma <strong>Arma Transformável</strong> e uma <strong>Arma de Fogo</strong> do diretório de Itens, depois defina Proeza, Determinação e Astúcia a partir da sua Memória.</p><p>Sangue, Vigor e as trilhas de Equipamento contam o que ainda resta: diminua-as quando marcar. Discernimento começa em 0 e sobe até 4.</p><ul><li><p>@UUID[JournalEntry.t3pSbCOssfwvNPwg.JournalEntryPage.qIyhoXP1Yog2Xa75]{Rolagem de Ação}</p></li><li><p>@UUID[JournalEntry.t3pSbCOssfwvNPwg.JournalEntryPage.oXrRoOTl85izY2xw]{Informações do Caçador}</p></li><li><p>@UUID[JournalEntry.t3pSbCOssfwvNPwg.JournalEntryPage.z5bmn5BAu4OP0F0d]{Ações Especiais}</p></li><li><p>@UUID[Macro.OnJlC6a6vo9Bql9P]{Resistir}: 1d por Vigor gasto</p></li></ul>",
+    "carryCapacity": {
+      "default": null,
+      "origem": null,
+      "memria": null,
+      "traje": null,
+      "arma_transformvel": null,
+      "arma_de_fogo": null,
+      "bandoleira": null,
+      "ferramentas": null
+    }
+  },
+  "prototypeToken": {
+    "name": "Caçador",
+    "actorLink": true,
+    "disposition": 1,
+    "displayBars": 50,
+    "bar1": {
+      "attribute": "attr.blood"
+    },
+    "bar2": {
+      "attribute": "attr.stamina"
+    },
+    "texture": {
+      "src": "icons/skills/melee/strike-dagger-skull-white.webp"
+    }
+  },
+  "items": [
+    {
+      "_id": "utOUTRxQLWqwRD3M",
+      "name": "Sangue",
+      "type": "attribute",
+      "system": {
+        "group": null,
+        "key": "blood",
+        "aboveTheFold": true,
+        "trigger": null,
+        "value": 5,
+        "min": 0,
+        "max": 5,
+        "showMax": true
+      },
+      "effects": [],
+      "sort": 100000,
+      "flags": {}
+    },
+    {
+      "_id": "CtfeIyswDl1ypMpj",
+      "name": "Vigor",
+      "type": "attribute",
+      "system": {
+        "group": null,
+        "key": "stamina",
+        "aboveTheFold": true,
+        "trigger": null,
+        "value": 3,
+        "min": 0,
+        "max": 3,
+        "showMax": true
+      },
+      "effects": [],
+      "sort": 200000,
+      "flags": {}
+    },
+    {
+      "_id": "eMDVy5U6FdaKtRxd",
+      "name": "Discernimento",
+      "type": "attribute",
+      "system": {
+        "group": null,
+        "key": "insight",
+        "aboveTheFold": true,
+        "trigger": null,
+        "value": 0,
+        "min": 0,
+        "max": 4,
+        "showMax": true
+      },
+      "effects": [],
+      "sort": 300000,
+      "flags": {}
+    },
+    {
+      "_id": "crfIvY2ttp8zICyh",
+      "name": "Proeza",
+      "type": "attribute",
+      "system": {
+        "group": "Ações",
+        "key": "prowess",
+        "aboveTheFold": false,
+        "trigger": "Macro.UCn2tE9ecIF5FNUV",
+        "value": 0,
+        "min": 0,
+        "max": 3,
+        "showMax": false
+      },
+      "effects": [],
+      "sort": 400000,
+      "flags": {}
+    },
+    {
+      "_id": "Ws3w3ytfSsJL13i0",
+      "name": "Determinação",
+      "type": "attribute",
+      "system": {
+        "group": "Ações",
+        "key": "resolve",
+        "aboveTheFold": false,
+        "trigger": "Macro.UCn2tE9ecIF5FNUV",
+        "value": 0,
+        "min": 0,
+        "max": 3,
+        "showMax": false
+      },
+      "effects": [],
+      "sort": 500000,
+      "flags": {}
+    },
+    {
+      "_id": "Xv6TqSPOmkC05P2M",
+      "name": "Astúcia",
+      "type": "attribute",
+      "system": {
+        "group": "Ações",
+        "key": "wit",
+        "aboveTheFold": false,
+        "trigger": "Macro.UCn2tE9ecIF5FNUV",
+        "value": 0,
+        "min": 0,
+        "max": 3,
+        "showMax": false
+      },
+      "effects": [],
+      "sort": 600000,
+      "flags": {}
+    },
+    {
+      "_id": "JQ2bRCwZLIt705XV",
+      "name": "Bandoleira",
+      "type": "attribute",
+      "system": {
+        "group": "Equipamento",
+        "key": "bandolier",
+        "aboveTheFold": false,
+        "trigger": null,
+        "value": 4,
+        "min": 0,
+        "max": 4,
+        "showMax": true
+      },
+      "effects": [],
+      "sort": 700000,
+      "flags": {}
+    },
+    {
+      "_id": "G0htwevU77NCt7sY",
+      "name": "Armadura",
+      "type": "attribute",
+      "system": {
+        "group": "Equipamento",
+        "key": "armor",
+        "aboveTheFold": false,
+        "trigger": null,
+        "value": 2,
+        "min": 0,
+        "max": 2,
+        "showMax": true
+      },
+      "effects": [],
+      "sort": 800000,
+      "flags": {}
+    },
+    {
+      "_id": "YRTPClnpt8BDx1NA",
+      "name": "Armadura Especial",
+      "type": "attribute",
+      "system": {
+        "group": "Equipamento",
+        "key": "special_armor",
+        "aboveTheFold": false,
+        "trigger": null,
+        "value": 1,
+        "min": 0,
+        "max": 1,
+        "showMax": true
+      },
+      "effects": [],
+      "sort": 900000,
+      "flags": {}
+    },
+    {
+      "_id": "2rq42GHG13Ii4FxL",
+      "name": "Balas de Prata",
+      "type": "attribute",
+      "system": {
+        "group": "Equipamento",
+        "key": "bullets",
+        "aboveTheFold": false,
+        "trigger": null,
+        "value": 6,
+        "min": 0,
+        "max": 6,
+        "showMax": true
+      },
+      "effects": [],
+      "sort": 1000000,
+      "flags": {}
+    },
+    {
+      "_id": "ROGrAYi4MLwaBTO3",
+      "name": "Antídoto",
+      "type": "generic",
+      "img": "icons/tools/laboratory/mortar-powder-green.webp",
+      "system": {
+        "group": "Bandoleira",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Para usar, marque um espaço da Bandoleira.</p>"
+      },
+      "effects": [],
+      "sort": 100000,
+      "flags": {}
+    },
+    {
+      "_id": "1qw9XJaNcQKdg1cZ",
+      "name": "Frasco de Sangue",
+      "type": "generic",
+      "img": "icons/consumables/potions/vial-cork-red.webp",
+      "system": {
+        "group": "Bandoleira",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Para usar, marque um espaço da Bandoleira.</p><p><strong>Recuperar:</strong> 2 de Sangue usando um Frasco de Sangue.</p>"
+      },
+      "effects": [],
+      "sort": 200000,
+      "flags": {}
+    },
+    {
+      "_id": "37FpMXzOLX9a69nd",
+      "name": "Bomba de Fumaça",
+      "type": "generic",
+      "img": "icons/weapons/thrown/bomb-fuse-cloth-pink.webp",
+      "system": {
+        "group": "Bandoleira",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Para usar, marque um espaço da Bandoleira.</p>"
+      },
+      "effects": [],
+      "sort": 300000,
+      "flags": {}
+    },
+    {
+      "_id": "U6qRAcmpzS6yVb3P",
+      "name": "Bomba Incendiária",
+      "type": "generic",
+      "img": "icons/weapons/thrown/bomb-fuse-red-black.webp",
+      "system": {
+        "group": "Bandoleira",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Para usar, marque um espaço da Bandoleira.</p>"
+      },
+      "effects": [],
+      "sort": 400000,
+      "flags": {}
+    },
+    {
+      "_id": "G5QkddMYAarmYm5k",
+      "name": "Bomba de Ácido",
+      "type": "generic",
+      "img": "icons/weapons/thrown/bomb-fuse-brown-grey.webp",
+      "system": {
+        "group": "Bandoleira",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Para usar, marque um espaço da Bandoleira.</p>"
+      },
+      "effects": [],
+      "sort": 500000,
+      "flags": {}
+    },
+    {
+      "_id": "2mr1lUqAeDrqG9t2",
+      "name": "Bala de Prata",
+      "type": "generic",
+      "img": "icons/weapons/ammunition/shot-round-silver.webp",
+      "system": {
+        "group": "Bandoleira",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Para usar, marque um espaço da Bandoleira.</p><p><strong>Recarregar:</strong> <em>marque qualquer quantidade de</em> <strong>Sangue</strong> <em>e/ou</em> <strong>Balas de Prata</strong><em>. Para cada uma, role 1d. Recupere balas igual ao</em> <strong>maior resultado</strong>.</p>"
+      },
+      "effects": [],
+      "sort": 600000,
+      "flags": {}
+    },
+    {
+      "_id": "8KQ9qsHTQmICIvNO",
+      "name": "Bloodstone",
+      "type": "generic",
+      "img": "icons/commodities/gems/gem-rough-square-red.webp",
+      "system": {
+        "group": "Ferramentas",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p><strong>Visitar a Oficina:</strong> uma vez por caçada, você pode usar sua Bloodstone para chegar à <strong>Oficina</strong> por um caminho dentro de um sonho. Veja @UUID[JournalEntry.t3pSbCOssfwvNPwg.JournalEntryPage.GO4X5KxhJeMdz6TK]{Oficina}.</p>"
+      },
+      "effects": [],
+      "sort": 700000,
+      "flags": {}
+    },
+    {
+      "_id": "Eb3pfvpjrPWfTaCQ",
+      "name": "Lanterna de Mão",
+      "type": "generic",
+      "img": "icons/sundries/lights/lantern-iron-yellow.webp",
+      "system": {
+        "group": "Ferramentas",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Uma Ferramenta: todo Caçador tem todas elas.</p>"
+      },
+      "effects": [],
+      "sort": 800000,
+      "flags": {}
+    },
+    {
+      "_id": "MFY1DL8zZGxlYIBb",
+      "name": "Monóculo",
+      "type": "generic",
+      "img": "icons/tools/scribal/lens-blue.webp",
+      "system": {
+        "group": "Ferramentas",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Uma Ferramenta: todo Caçador tem todas elas.</p>"
+      },
+      "effects": [],
+      "sort": 900000,
+      "flags": {}
+    },
+    {
+      "_id": "CCy5WHcpvOcBUnFb",
+      "name": "Sino Espiritual",
+      "type": "generic",
+      "img": "icons/tools/instruments/bell-gold.webp",
+      "system": {
+        "group": "Ferramentas",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p><strong>Invocar Fantasma:</strong> toque seu <strong>Sino Espiritual</strong> e invoque um fantasma de outro mundo. Faça ao fantasma uma pergunta da lista abaixo para cada Discernimento que você gastou.</p><ul><li><p><em>Como posso feri-los?</em></p></li><li><p><em>Quem é o mais perigoso aqui?</em></p></li><li><p><em>O que eles pretendem fazer?</em></p></li><li><p><em>Onde eles são vulneráveis?</em></p></li><li><p><em>O que está escondido ou perdido aqui?</em></p></li><li><p><em>Onde posso me esconder aqui?</em></p></li><li><p><em>O que realmente está acontecendo aqui?</em></p></li></ul>"
+      },
+      "effects": [],
+      "sort": 1000000,
+      "flags": {}
+    },
+    {
+      "_id": "bcNfeBsuHFniQ6YZ",
+      "name": "Equipamento de Escalada",
+      "type": "generic",
+      "img": "icons/tools/hand/hammer-and-nail.webp",
+      "system": {
+        "group": "Ferramentas",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Uma Ferramenta: todo Caçador tem todas elas.</p>"
+      },
+      "effects": [],
+      "sort": 1100000,
+      "flags": {}
+    },
+    {
+      "_id": "AverTy6rMcpNgXbp",
+      "name": "Ferramentas de Conserto",
+      "type": "generic",
+      "img": "icons/tools/hand/lockpicks-steel-grey.webp",
+      "system": {
+        "group": "Ferramentas",
+        "weight": 0,
+        "includeWeightInGrandTotal": true,
+        "quantity": 1,
+        "equipped": true,
+        "trigger": null,
+        "description": "<p>Uma Ferramenta: todo Caçador tem todas elas.</p>"
+      },
+      "effects": [],
+      "sort": 1200000,
+      "flags": {}
+    }
+  ],
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

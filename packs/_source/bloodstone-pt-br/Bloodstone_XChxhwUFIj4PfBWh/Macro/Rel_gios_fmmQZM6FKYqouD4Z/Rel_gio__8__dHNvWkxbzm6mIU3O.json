@@ -1,0 +1,14 @@
+{
+  "_id": "dHNvWkxbzm6mIU3O",
+  "name": "Relógio (8)",
+  "type": "script",
+  "img": "modules/bloodstone/assets/icons/clock-bw-8.svg",
+  "command": "// A 8-segment clock in Global Progress Clocks; rename it in that module's window.\nwindow.clockDatabase.addClock({ name: \"Relógio\", max: 8 });",
+  "scope": "global",
+  "folder": "fmmQZM6FKYqouD4Z",
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

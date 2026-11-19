@@ -1,0 +1,22 @@
+{
+  "_id": "h9RaGbkP1prlMCMo",
+  "name": "Uma garotinha",
+  "type": "generic",
+  "img": "icons/skills/trades/academics-study-reading-book.webp",
+  "system": {
+    "group": "Memória",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><em>Uma garotinha menor que você, com o rosto coberto de fuligem, cercada por garotos mais velhos. Seus gritos para que fugissem. Uma lâmina penetrando seu flanco, chutes no seu rosto.</em></p><p>Defina suas Ações: <strong>Proeza 2</strong>, <strong>Determinação 3</strong>, <strong>Astúcia 1</strong>.</p>"
+  },
+  "effects": [],
+  "sort": 200000,
+  "flags": {},
+  "folder": "cYnUgdqOPgkEzTUs",
+  "ownership": {
+    "default": 2
+  }
+}

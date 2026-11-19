@@ -1,0 +1,26 @@
+{
+  "_id": "M17d1md8paGmUrqz",
+  "name": "Lâmina | Marreta",
+  "type": "generic",
+  "img": "icons/weapons/swords/shortsword-guard-silver.webp",
+  "system": {
+    "group": "Arma Transformável",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": "Macro.xpGK9Dv9QS4vC6qK",
+    "description": "<p><strong>Lâmina | Marreta</strong> [+Efeito contra mortos-vivos]</p><p><strong>Forma base:</strong> <em>você pode usar a arma para desferir um golpe rápido e preciso.</em> Custo: 1 de Vigor.</p><p><strong>Forma alternativa:</strong> <em>você pode usar a arma para desferir um golpe poderoso, com</em> <strong>Efeito aumentado</strong>. Custo: 2 de Vigor.</p><p><strong>+ Embebida em sangue:</strong> <em>você embebe a lâmina no seu próprio sangue.</em> Ganhe <strong>+1d na rolagem</strong> para cada Sangue que você marcar.</p>"
+  },
+  "effects": [],
+  "sort": 200000,
+  "flags": {
+    "bloodstone": {
+      "trickWeapon": "blade"
+    }
+  },
+  "folder": "iwSaJnbPfwBd0cRY",
+  "ownership": {
+    "default": 2
+  }
+}

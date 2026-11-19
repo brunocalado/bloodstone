@@ -1,0 +1,26 @@
+{
+  "_id": "l5gyuihwOt243eYb",
+  "name": "Machado | Machado Longo",
+  "type": "generic",
+  "img": "icons/weapons/axes/axe-battle-blackened.webp",
+  "system": {
+    "group": "Arma Transformável",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": "Macro.xpGK9Dv9QS4vC6qK",
+    "description": "<p><strong>Machado | Machado Longo</strong> [grande alcance]</p><p><strong>Forma base:</strong> <em>você pode usar a arma para desferir um golpe rápido e preciso.</em> Custo: 1 de Vigor.</p><p><strong>Forma alternativa:</strong> <em>você pode usar a arma para desferir um golpe poderoso, com</em> <strong>Efeito aumentado</strong>. Custo: 2 de Vigor.</p><p><strong>+ Embebida em sangue:</strong> <em>você embebe a lâmina no seu próprio sangue.</em> Ganhe <strong>+1d na rolagem</strong> para cada Sangue que você marcar.</p>"
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {
+    "bloodstone": {
+      "trickWeapon": "axe"
+    }
+  },
+  "folder": "iwSaJnbPfwBd0cRY",
+  "ownership": {
+    "default": 2
+  }
+}

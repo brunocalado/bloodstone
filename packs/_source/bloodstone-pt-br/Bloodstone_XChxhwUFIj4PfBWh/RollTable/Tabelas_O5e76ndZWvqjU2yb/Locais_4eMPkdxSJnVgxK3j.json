@@ -1,0 +1,95 @@
+{
+  "_id": "4eMPkdxSJnVgxK3j",
+  "name": "Locais",
+  "img": "icons/sundries/gaming/dice-runed-brown.webp",
+  "description": "",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "rY3ez75WATctA99D",
+      "type": "text",
+      "name": "Igreja Abandonada",
+      "description": "<p>Igreja Abandonada</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "cCEwo4Qjv98gmmTS",
+      "type": "text",
+      "name": "Colmeia de Ossos",
+      "description": "<p>Colmeia de Ossos</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "QV5Q5TK5XCZfRUMA",
+      "type": "text",
+      "name": "Ponte de Ferro Superior",
+      "description": "<p>Ponte de Ferro Superior</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "PWL2RYKsdLn3LCpu",
+      "type": "text",
+      "name": "Caminho das Correntes Antigas",
+      "description": "<p>Caminho das Correntes Antigas</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "SNZAz59d8N0YmPkH",
+      "type": "text",
+      "name": "Arquivo Perdido da Loucura",
+      "description": "<p>Arquivo Perdido da Loucura</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fdYvhVEw7CD11Skb",
+      "type": "text",
+      "name": "Portões Quebrados",
+      "description": "<p>Portões Quebrados</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "O5e76ndZWvqjU2yb",
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "UGliwRCtrktjDDHu",
+  "name": "Infância Conturbada",
+  "type": "generic",
+  "img": "icons/environment/people/cleric-orange.webp",
+  "system": {
+    "group": "Origem",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><strong>Habilidade Característica:</strong> você sempre sabe quando alguém está mentindo.</p>"
+  },
+  "effects": [],
+  "sort": 200000,
+  "flags": {},
+  "folder": "ubUq5Q3f2P5dk2nT",
+  "ownership": {
+    "default": 2
+  }
+}

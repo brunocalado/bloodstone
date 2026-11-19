@@ -1,0 +1,22 @@
+{
+  "_id": "5FJdlfquFW9xAS8d",
+  "name": "Ferramentas de Conserto",
+  "type": "generic",
+  "img": "icons/tools/hand/lockpicks-steel-grey.webp",
+  "system": {
+    "group": "Ferramentas",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p>Uma Ferramenta: todo Caçador tem todas elas.</p>"
+  },
+  "effects": [],
+  "sort": 600000,
+  "flags": {},
+  "folder": "z9qgXdgMsgka0P8t",
+  "ownership": {
+    "default": 2
+  }
+}

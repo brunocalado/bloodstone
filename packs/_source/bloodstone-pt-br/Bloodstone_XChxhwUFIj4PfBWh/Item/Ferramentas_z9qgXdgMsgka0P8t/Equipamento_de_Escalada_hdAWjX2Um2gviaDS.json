@@ -1,0 +1,22 @@
+{
+  "_id": "hdAWjX2Um2gviaDS",
+  "name": "Equipamento de Escalada",
+  "type": "generic",
+  "img": "icons/tools/hand/hammer-and-nail.webp",
+  "system": {
+    "group": "Ferramentas",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p>Uma Ferramenta: todo Caçador tem todas elas.</p>"
+  },
+  "effects": [],
+  "sort": 500000,
+  "flags": {},
+  "folder": "z9qgXdgMsgka0P8t",
+  "ownership": {
+    "default": 2
+  }
+}

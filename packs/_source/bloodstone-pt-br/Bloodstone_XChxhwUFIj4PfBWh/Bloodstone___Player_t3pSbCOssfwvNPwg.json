@@ -1,0 +1,138 @@
+{
+  "_id": "t3pSbCOssfwvNPwg",
+  "name": "Bloodstone - Player",
+  "folder": null,
+  "sort": 100000,
+  "pages": [
+    {
+      "_id": "nIXr3ZFH8xdj1shI",
+      "name": "Oath of Hunters",
+      "type": "text",
+      "sort": 100000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<blockquote><p><em>We were born wrapped in darkness, covered in blood. But the light touched us, and now our eyes are open. The Hunt is our way, the Hunt is our purpose.</em></p></blockquote><p>You are a <strong>Hunter</strong>. You have vowed to follow the path of blood and to put an end to the aberrations caused by the lust for power.</p><p>On this blood moon night, you were asked to go to the city of <strong>Heliwyr</strong>. An Apostle is attempting to ascend, opening a gate between our world and the Ancients one, which will devour the entire city. Your task is to get to the city's <strong>Cathedral</strong> before it's too late.</p><p>You'll have to explore a cursed city, whose crazed citizens wander the streets armed with pitchforks, cursing the fallen gods, looking for strangers to murder. In the darkness of the cursed night, buried horrors await you, to test your blood and mind. You will risk eternal damnation on this mission.</p><p>But the Hunt cannot stop. So, take your gear and your weapons: the carriage is about to leave. It will take you and your companions to the city's gates.</p><p>Good hunt.</p><h2>Player Agenda</h2><ul><li><p>Embrace the dangers of the Hunt. Use your gear.</p></li><li><p>Ask questions, use the answers to take action.</p></li><li><p>Explore the Heliwyr's weirdness and madness.</p></li><li><p>Accept the risk, don't be afraid of death.</p></li></ul><h2>Audio</h2><p>The GM can play a reading of the oath to the table: @UUID[Playlist.EEqO0UpifYcbA1Ac.PlaylistSound.4MTFXwPFMII6Ho4b]{Oath of Hunters - Portuguese (Brazil)}.</p><p>Want to add a reading in your language? Share the audio file in the <a href=\"https://github.com/brunocalado/bloodstone/issues\">module's issues</a>.</p><hr><p><em>Bloodstone is a game by Matteo Sciutteri, licensed under CC BY-NC-SA 4.0. This work is based on Blades in the Dark, product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license.</em></p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "qIyhoXP1Yog2Xa75",
+      "name": "Action Roll",
+      "type": "text",
+      "sort": 200000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>When a Hunter faces a risky situation, the outcome is determined by the <strong>Action Roll</strong>.</p><p>The Hunter describes what they want to accomplish and what <strong>Attribute</strong> and <strong>Gear</strong> they will employ to do so.</p><h2>Position and Effect</h2><p>The GM assesses the situation saying if the Hunter is in a <em>controlled</em>, <em>risky</em> or <em>desperate</em> <strong>Position</strong>. The worse the Position, the harder the consequences.</p><p>The GM will also tell the <strong>Effect</strong> level the Hunter would accomplish (<em>great</em>, <em>standard</em> or <em>limited</em>) and possible outcomes of the roll. Some <strong>Gear</strong> or <strong>Ability</strong> can improve the Effect level.</p><p>The Hunter can then raise or lower the Effect at the cost of a worse Position or vice-versa.</p><h2>Gather the dice</h2><ul><li><p>A number equal to the Attribute rating.</p></li><li><p>Bonus dice from Stamina, Blood, or Assist.</p></li></ul><p>If they end up with zero or less dice to roll, they roll 2 dice and keep the lowest.</p><h2>Read the result</h2><p>The Hunter rolls all the dice and reads the single highest result (two or more sixes are the \"6s\" in the table). Player and GM work together narrating the action, but the GM has final say over the outcome and is the one declaring the <strong>Consequences</strong>.</p><table><tbody><tr><td><p><strong>6s</strong></p></td><td><p><strong>Critical.</strong> They succeed with increased Effect.</p></td></tr><tr><td><p><strong>6</strong></p></td><td><p><strong>Success.</strong> It goes as well as intended.</p></td></tr><tr><td><p><strong>4/5</strong></p></td><td><p><strong>Partial Success.</strong> They do it but also suffer a Consequence: <em>Harm</em>, <em>Reduced Effect</em>, <em>Lost Opportunity</em>, <em>Worse Position</em> or <em>Complication</em>.</p></td></tr><tr><td><p><strong>1-3</strong></p></td><td><p><strong>Fail.</strong> Things go bad and they suffer the Consequences.</p></td></tr></tbody></table><h2>In Foundry</h2><p>Click the roll button beside Prowess, Resolve or Wit on your Hunter, or run the @UUID[Macro.UCn2tE9ecIF5FNUV]{Action Roll} macro. Choose the Push, bonus dice, Position and Effect: the chat card reads the result and says what to mark. Nothing is marked for you; change the numbers on your sheet. The 0d to 9d macros roll plain dice.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "8UhfEyLF7gbjXatU",
+      "name": "The Awakening",
+      "type": "text",
+      "sort": 300000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Your dream is agitated. Fragments of your past, from when you were a child. You're trying to bring order to the chaos of your mind.</p><p><strong>Who were you once?</strong> Choose your <strong>Origin</strong>:</p><ul><li><p>@UUID[Item.R1CngSJUIbxF4Tdm]{Lone Survivor}: you always act first.</p></li><li><p>@UUID[Item.UGliwRCtrktjDDHu]{Troubled Childhood}: you always know when someone is lying.</p></li><li><p>@UUID[Item.64zHs3qUCOhqBgbJ]{Violent Past}: +Effect when you unleash physical violence.</p></li><li><p>@UUID[Item.nYnS21Bnx9fZiLpt]{Noble Scion}: +1d when you <strong>Reload</strong>.</p></li><li><p>@UUID[Item.U5OQcr2VB2dw4UcO]{Waste of Skin}: none.</p></li></ul><p>The first scene that emerges in your memory is the one closest to your true visceral nature: a scene from your childhood that marked your life, leaving an indelible taint on your flesh and spirit, and making you who you are today.</p><p><strong>What do you remember?</strong> Choose one and mark the <strong>Attributes</strong>:</p><ul><li><p>@UUID[Item.GpSU9cXDTquJfX5f]{A fight in an alley}: <em>A fight in an alley, your knuckles stained with blood, the leather of the straps hitting you on the back.</em> [Prowess 3, Resolve 2, Wit 1]</p></li><li><p>@UUID[Item.h9RaGbkP1prlMCMo]{A little girl}: <em>A little girl smaller than you, with her face covered in soot, surrounded by older boys. Your screams to make them escape. A blade penetrating your side, kicks in your face.</em> [Prowess 2, Resolve 3, Wit 1]</p></li><li><p>@UUID[Item.QQjTHHl1GDHyoGSJ]{A forbidden place}: <em>A forbidden place. Candles on the floor. The gurgling of a being lying in the darkness. The cries behind you, and the sound of devoured brittle bones.</em> [Prowess 1, Resolve 3, Wit 2]</p></li></ul><p>You wake up screaming. Your head is spinning. The pungent smell of disinfectant hangs in the air. You get up slowly. On a chair there are your clothes. <strong>What type are your clothes?</strong> Choose your <strong>Attire</strong>:</p><ul><li><p>@UUID[Item.N1pgixlwhDD1Ivpp]{Hunter}: avoid <strong>Harm</strong> in combat.</p></li><li><p>@UUID[Item.iF4PWg3vpyjGHnKL]{Noble}: +1d to <strong>Resolve</strong> rolls.</p></li><li><p>@UUID[Item.yK2v1Awbbkp69TiZ]{Priest}: avoid <strong>occult Consequences</strong>.</p></li><li><p>@UUID[Item.K7B7GyFh6PUC8YD9]{Executioner}: avoid <strong>mental Harm</strong>.</p></li><li><p>@UUID[Item.vh0y0stoF8Ia0D1F]{Knight}: <strong>Protect</strong> with no <strong>Consequence</strong>.</p></li><li><p>@UUID[Item.voQlsOJxkgACwaTJ]{Student}: +1d to <strong>Wit</strong> rolls.</p></li></ul><p>You look around: you are in a kind of clinic.</p><p>«Ah, well awake, stranger.» An old man in a wheelchair appears from the dark. «I am Master Edwin. We found you in the midst of a pile of corpses, covered in blood. You were the only survivor.»</p><p>You don't remember anything. Everything is so blurry…</p><p>«Don't worry: we will take care of you. What's your name?», Master Edwin asks you. <strong>What's your name?</strong> Give your Hunter a name.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "XgO6dxZzosyedBOn",
+      "name": "The Hunter's Path",
+      "type": "text",
+      "sort": 400000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>It's been months since your awakening. You joined Master Edwin's hunters. You have been trained, you met other hunters like you.</p><p>As a hunter, you have a Trick Weapon and a Firearm. With a silver blade, a Trick Weapon allows you to damage all kind of creatures. It has two usage modes: <em>base form</em> and <em>alternate form</em>. Also, you can <em>imbrue the weapon</em> with your own blood to gain extra dice during a roll using it.</p><p>A Firearm is used to parry attacks or stun enemies.</p><p><strong>What are your weapons?</strong> Choose your <strong>Trick Weapon</strong>:</p><ul><li><p>@UUID[Item.l5gyuihwOt243eYb]{Axe | Long Axe} [great range]</p></li><li><p>@UUID[Item.M17d1md8paGmUrqz]{Blade | Mallet} [+Effect vs undead]</p></li><li><p>@UUID[Item.DkrhlY29eRB1B5W8]{Cleaver | Saw Spear} [+Effect vs beast]</p></li></ul><p>And your <strong>Firearm</strong>:</p><ul><li><p>@UUID[Item.wNdU82sFYJb0OeaP]{Pistol} [Parry: 4+] [Stun: 6+]</p></li><li><p>@UUID[Item.u0HE3layibpDNiHm]{Blunderbuss} [Parry: 6+] [Stun: 4+]</p></li><li><p>@UUID[Item.kxvyBtjWqC2BAiLL]{Rifle} [Parry: 5+] [Stun: 5+]</p></li></ul><p>On your Hunter, the button beside each weapon rolls it.</p><h2>Stamina</h2><p>You learned how your body works. You have ◆◆◆ <strong>Stamina</strong>, and you can spend them to <strong>Push</strong>, <strong>Resist</strong> or use your <strong>Trick Weapon</strong>. Remember to use your Stamina strategically: if you spend one or more points and fail the Action Roll, you will regain these ◆ spent only after you face the <strong>Consequence</strong> of the action.</p><p>To complete your training, read aloud the @UUID[.nIXr3ZFH8xdj1shI]{Oath of Hunters}. Welcome, good hunter.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "oXrRoOTl85izY2xw",
+      "name": "Hunter's Information",
+      "type": "text",
+      "sort": 500000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h2>Blood</h2><p><strong>Mark:</strong> suffering Harms or using the Trick Weapon.</p><p><strong>Regain:</strong> 2 using a @UUID[Item.8zHwacOX5cDxu59t]{Blood Vial}.</p><p><strong>Mark last one:</strong> you're dead.</p><h2>Stamina</h2><p><strong>Spend:</strong> Push or Resist, or using the Trick Weapon.</p><p><strong>Regain all:</strong> after the Consequence of any action.</p><h2>Insight</h2><p><strong>Gain:</strong> exploring the world and its weirdness.</p><p><strong>Spend:</strong> Summon Ghosts or in the Workshop.</p><h2>Actions</h2><p><strong>Prowess</strong> covers all actions involving fighting, athletics, physical toughness and strength.</p><p><strong>Resolve</strong> covers all actions involving willpower, fortitude, charisma and persuasion.</p><p><strong>Wit</strong> covers all actions involving awareness, reflexes, smarts and arcane.</p><h2>On your Hunter</h2><p>Blood (5), Stamina (3), Bandolier (4), Armor (2), Special Armor (1) and Silver Bullets (6) count what you have left, as on the paper sheet: lower the number by one for each mark, and raise it when you regain or refresh.</p><p><strong>Insight</strong> counts the other way: it starts at 0 and you gain up to 4.</p><p><strong>Prowess</strong>, <strong>Resolve</strong> and <strong>Wit</strong> start at 0. Set them from your Memory (one Action at 3, one at 2, one at 1, as the Memory says).</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "z5bmn5BAu4OP0F0d",
+      "name": "Special Actions",
+      "type": "text",
+      "sort": 600000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Push:</strong> during an Action Roll, you can add <strong>+1d to your roll</strong> per each ◆ Stamina spent.</p><p><strong>Resist:</strong> reduce or avoid <strong>Consequences</strong>. Describe how you do it, then roll 1d per each ◆ Stamina spent. Roll it with the @UUID[Macro.OnJlC6a6vo9Bql9P]{Resist} macro.</p><table><tbody><tr><td><p><strong>6s</strong></p></td><td><p><strong>Perfect.</strong> You avoid the consequence completely and refresh 1 Blood.</p></td></tr><tr><td><p><strong>6</strong></p></td><td><p><strong>Good.</strong> You avoid the consequence completely.</p></td></tr><tr><td><p><strong>4/5</strong></p></td><td><p><strong>Close.</strong> You partially reduce the consequence.</p></td></tr><tr><td><p><strong>1-3</strong></p></td><td><p><strong>Bad.</strong> You suffer the full consequence.</p></td></tr></tbody></table><p><strong>Assist:</strong> help another Hunter who is facing an Action Roll. Describe how you assist. Spend ◆◆ Stamina to <strong>give +1d</strong> to them. You expose yourself to the consequences. Only one PC may assist a given roll.</p><p><strong>Protect:</strong> step in to <strong>protect another Hunter</strong>, suffering the consequences in their place. Describe how you intervene.</p><p><strong>Set up:</strong> perform a setup action to <strong>support indirectly</strong> another Hunter. Make an Action Roll to improve the Position or the Effect (your call) of their next Action Roll.</p><p><strong>Use the Armor:</strong> mark the common attire slots to <strong>reduce</strong> physical Harms.</p><p><strong>Use the Special Armor:</strong> mark the special attire slot to use your <strong>special ability</strong>, according to the fictional situation.</p><p><strong>Summon Ghost:</strong> ring your @UUID[Item.3QCcuCT6oOxJ8VON]{Spirit Bell} and summon a ghost from another world. Ask them a question from the list below per each Insight you spent.</p><ul><li><p><em>How can I hurt them?</em></p></li><li><p><em>Who's most dangerous here?</em></p></li><li><p><em>What do they intend to do?</em></p></li><li><p><em>Where are they vulnerable?</em></p></li><li><p><em>What is hidden or lost here?</em></p></li><li><p><em>Where can I hide here?</em></p></li><li><p><em>What's really going on here?</em></p></li></ul><p><strong>Visit the Workshop:</strong> once per hunt, you can use your @UUID[Item.b32PoRRnOnkT0Oe2]{Bloodstone} to reach the @UUID[.GO4X5KxhJeMdz6TK]{Workshop} through a pathway inside a dream.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    },
+    {
+      "_id": "GO4X5KxhJeMdz6TK",
+      "name": "Workshop",
+      "type": "text",
+      "sort": 700000,
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The workshop is a place between human reality and that of the Ancients: it is a sort of limbo accessible only to those who own a <strong>Bloodstone</strong>. Using it, your body becomes a stone statue in reality, and your spirit travels a pathway inside a dream.</p><p>When you visit the workshop while hunting, you can rest and take a breath. Choose two actions from the list below:</p><p><strong>Pray in front of the tomb of the first hunter:</strong> roll your lower attribute and regain Blood equal to the highest result:</p><table><tbody><tr><td><p><strong>6s</strong></p></td><td><p>The first hunter spills their blood for you: You regain all Blood.</p></td></tr><tr><td><p><strong>6</strong></p></td><td><p>The first hunter blesses you: You regain 3 Blood.</p></td></tr><tr><td><p><strong>4/5</strong></p></td><td><p>The first hunter whispers in your ear: You regain 2 Blood.</p></td></tr><tr><td><p><strong>1-3</strong></p></td><td><p>The first hunter looks at you: You regain 1 Blood.</p></td></tr></tbody></table><p><strong>Repair equipment:</strong> refresh all common armor slots used.</p><p><strong>Refill your resources:</strong> refresh all Firearm bullets.</p><p><strong>Use the altar of the Ancient Runes:</strong> spend 4 Insight to add one ◆ to an Attribute.</p><p>Then your spirit returns to your body, which comes to life again.</p>"
+      },
+      "ownership": {
+        "default": -1
+      },
+      "flags": {}
+    }
+  ],
+  "ownership": {
+    "default": 2
+  },
+  "flags": {}
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "GpSU9cXDTquJfX5f",
+  "name": "Uma briga num beco",
+  "type": "generic",
+  "img": "icons/skills/trades/academics-study-reading-book.webp",
+  "system": {
+    "group": "Memória",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><em>Uma briga num beco, os nós dos dedos manchados de sangue, o couro das correias batendo nas suas costas.</em></p><p>Defina suas Ações: <strong>Proeza 3</strong>, <strong>Determinação 2</strong>, <strong>Astúcia 1</strong>.</p>"
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {},
+  "folder": "cYnUgdqOPgkEzTUs",
+  "ownership": {
+    "default": 2
+  }
+}

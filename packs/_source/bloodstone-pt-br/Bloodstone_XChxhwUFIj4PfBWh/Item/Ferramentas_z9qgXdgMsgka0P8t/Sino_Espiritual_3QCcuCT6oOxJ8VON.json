@@ -1,0 +1,22 @@
+{
+  "_id": "3QCcuCT6oOxJ8VON",
+  "name": "Sino Espiritual",
+  "type": "generic",
+  "img": "icons/tools/instruments/bell-gold.webp",
+  "system": {
+    "group": "Ferramentas",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><strong>Invocar Fantasma:</strong> toque seu <strong>Sino Espiritual</strong> e invoque um fantasma de outro mundo. Faça ao fantasma uma pergunta da lista abaixo para cada Discernimento que você gastou.</p><ul><li><p><em>Como posso feri-los?</em></p></li><li><p><em>Quem é o mais perigoso aqui?</em></p></li><li><p><em>O que eles pretendem fazer?</em></p></li><li><p><em>Onde eles são vulneráveis?</em></p></li><li><p><em>O que está escondido ou perdido aqui?</em></p></li><li><p><em>Onde posso me esconder aqui?</em></p></li><li><p><em>O que realmente está acontecendo aqui?</em></p></li></ul>"
+  },
+  "effects": [],
+  "sort": 400000,
+  "flags": {},
+  "folder": "z9qgXdgMsgka0P8t",
+  "ownership": {
+    "default": 2
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "EEqO0UpifYcbA1Ac",
+  "name": "Juramento dos Caçadores",
+  "description": "",
+  "mode": -1,
+  "channel": "music",
+  "sounds": [
+    {
+      "_id": "4MTFXwPFMII6Ho4b",
+      "name": "Juramento dos Caçadores - Português (Brasil)",
+      "description": "",
+      "path": "modules/bloodstone/assets/sounds/oath-pt-bt.ogg",
+      "channel": "music",
+      "repeat": false,
+      "volume": 0.5,
+      "sort": 0,
+      "flags": {}
+    }
+  ],
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

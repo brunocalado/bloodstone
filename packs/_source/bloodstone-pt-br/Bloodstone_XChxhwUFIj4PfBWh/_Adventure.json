@@ -1,0 +1,88 @@
+{
+  "_id": "XChxhwUFIj4PfBWh",
+  "name": "Bloodstone",
+  "img": "modules/bloodstone/assets/bloodstone.webp",
+  "caption": "A cidade de Heliwyr está condenada. Décadas atrás, um sacerdote louco celebrou um ritual antigo, despertando uma força perversa que marcou cada habitante, corrompendo seu sangue. Nas noites de lua de sangue, a maldição desperta, privando os habitantes de suas mentes. Aqueles que decidem seguir o caminho do sacerdote, alimentando-se voluntariamente do sangue corrompido das pessoas, tornam-se Apóstolos: criaturas quase imortais, de feições bestiais, desprovidas de qualquer humanidade.",
+  "description": "<p>BLOODSTONE é um RPG de mesa de terror repleto de ação, com uma atmosfera sombria e gótica.</p><p>Os jogadores são um grupo de caçadores, enviados à cidade de Heliwyr numa noite de lua de sangue para caçar um Apóstolo que tenta ascender, abrindo um portal para o reino dos Antigos.</p><p>O jogo tem ritmo acelerado: a Caçada é uma corrida contra o relógio.</p><p>BLOODSTONE foi feito para sessões únicas: toda vez que jogamos, jogamos com Caçadores diferentes, que enfrentarão novos obstáculos e desafios a cada vez: as noites de lua de sangue em Heliwyr nunca terminam.</p><p>Saiba mais em: <a href=\"https://matteosciutteri.itch.io/bloodstone\">https://matteosciutteri.itch.io/bloodstone</a></p>",
+  "actors": [
+    "Actor/Ca_adores_6t4j38WYZNs8nX5F/Ca_ador_c6vtPlB97k7nIf3c.json"
+  ],
+  "combats": [],
+  "items": [
+    "Item/Origem_ubUq5Q3f2P5dk2nT/Sobrevivente_Solit_rio_R1CngSJUIbxF4Tdm.json",
+    "Item/Origem_ubUq5Q3f2P5dk2nT/Inf_ncia_Conturbada_UGliwRCtrktjDDHu.json",
+    "Item/Origem_ubUq5Q3f2P5dk2nT/Passado_Violento_64zHs3qUCOhqBgbJ.json",
+    "Item/Origem_ubUq5Q3f2P5dk2nT/Herdeiro_Nobre_nYnS21Bnx9fZiLpt.json",
+    "Item/Origem_ubUq5Q3f2P5dk2nT/Peso_Morto_U5OQcr2VB2dw4UcO.json",
+    "Item/Do_que_voc__se_lembra__cYnUgdqOPgkEzTUs/Uma_briga_num_beco_GpSU9cXDTquJfX5f.json",
+    "Item/Do_que_voc__se_lembra__cYnUgdqOPgkEzTUs/Uma_garotinha_h9RaGbkP1prlMCMo.json",
+    "Item/Do_que_voc__se_lembra__cYnUgdqOPgkEzTUs/Um_lugar_proibido_QQjTHHl1GDHyoGSJ.json",
+    "Item/Traje_sfLAloUxnrRcTIs2/Ca_ador_N1pgixlwhDD1Ivpp.json",
+    "Item/Traje_sfLAloUxnrRcTIs2/Nobre_iF4PWg3vpyjGHnKL.json",
+    "Item/Traje_sfLAloUxnrRcTIs2/Sacerdote_yK2v1Awbbkp69TiZ.json",
+    "Item/Traje_sfLAloUxnrRcTIs2/Carrasco_K7B7GyFh6PUC8YD9.json",
+    "Item/Traje_sfLAloUxnrRcTIs2/Cavaleiro_vh0y0stoF8Ia0D1F.json",
+    "Item/Traje_sfLAloUxnrRcTIs2/Estudante_voQlsOJxkgACwaTJ.json",
+    "Item/Armas_Transform_veis_iwSaJnbPfwBd0cRY/Machado___Machado_Longo_l5gyuihwOt243eYb.json",
+    "Item/Armas_Transform_veis_iwSaJnbPfwBd0cRY/L_mina___Marreta_M17d1md8paGmUrqz.json",
+    "Item/Armas_Transform_veis_iwSaJnbPfwBd0cRY/Cutelo___Lan_a_Serra_DkrhlY29eRB1B5W8.json",
+    "Item/Armas_de_Fogo_tw6pjrbxi4ltE8XN/Pistola_wNdU82sFYJb0OeaP.json",
+    "Item/Armas_de_Fogo_tw6pjrbxi4ltE8XN/Bacamarte_u0HE3layibpDNiHm.json",
+    "Item/Armas_de_Fogo_tw6pjrbxi4ltE8XN/Rifle_kxvyBtjWqC2BAiLL.json",
+    "Item/Bandoleira_A2ttu3VuDuX8blm4/Ant_doto_G1NWIEUVgC5Kc9oA.json",
+    "Item/Bandoleira_A2ttu3VuDuX8blm4/Frasco_de_Sangue_8zHwacOX5cDxu59t.json",
+    "Item/Bandoleira_A2ttu3VuDuX8blm4/Bomba_de_Fuma_a_Y4TDcimLQHBpCVpe.json",
+    "Item/Bandoleira_A2ttu3VuDuX8blm4/Bomba_Incendi_ria_fQ6QZHjfoGLCVLsj.json",
+    "Item/Bandoleira_A2ttu3VuDuX8blm4/Bomba_de__cido_XkvARtvC5QmreNKq.json",
+    "Item/Bandoleira_A2ttu3VuDuX8blm4/Bala_de_Prata_nmyetNH66ThfqNtw.json",
+    "Item/Ferramentas_z9qgXdgMsgka0P8t/Bloodstone_b32PoRRnOnkT0Oe2.json",
+    "Item/Ferramentas_z9qgXdgMsgka0P8t/Lanterna_de_M_o_CIfsjx0aL0XvtvTd.json",
+    "Item/Ferramentas_z9qgXdgMsgka0P8t/Mon_culo_P2iGv9zfAtXFIkQA.json",
+    "Item/Ferramentas_z9qgXdgMsgka0P8t/Sino_Espiritual_3QCcuCT6oOxJ8VON.json",
+    "Item/Ferramentas_z9qgXdgMsgka0P8t/Equipamento_de_Escalada_hdAWjX2Um2gviaDS.json",
+    "Item/Ferramentas_z9qgXdgMsgka0P8t/Ferramentas_de_Conserto_5FJdlfquFW9xAS8d.json"
+  ],
+  "scenes": [
+    "Bloodstone_OSa5DfAx8PrwfoV4.json",
+    "Mapa_de_Heliwyr_B6MTdXU9tuErrttX.json"
+  ],
+  "journal": [
+    "Bloodstone___Player_t3pSbCOssfwvNPwg.json",
+    "Bloodstone___GM_KT3p508DoTmbDRWs.json"
+  ],
+  "tables": [
+    "RollTable/Tabelas_O5e76ndZWvqjU2yb/Perigos_e_Obst_culos_zlIGtpk250Xvl0lr.json",
+    "RollTable/Tabelas_O5e76ndZWvqjU2yb/Locais_4eMPkdxSJnVgxK3j.json",
+    "RollTable/Tabelas_O5e76ndZWvqjU2yb/Personagens_Estranhos_wHFvCk1a9gXRyxzs.json",
+    "RollTable/Tabelas_O5e76ndZWvqjU2yb/Ap_stolos_oqSBhU20UnvDmmxi.json"
+  ],
+  "macros": [
+    "Macro/Rolagens_owisQcQKDGOxWTi1/Rolagens_de_Bloodstone_OtTrZU3nUMPvGV0a.json",
+    "Macro/Rolagens_owisQcQKDGOxWTi1/Rolagem_de_A__o_UCn2tE9ecIF5FNUV.json",
+    "Macro/Rolagens_owisQcQKDGOxWTi1/Resistir_OnJlC6a6vo9Bql9P.json",
+    "Macro/Rolagens_owisQcQKDGOxWTi1/Arma_Transform_vel_xpGK9Dv9QS4vC6qK.json",
+    "Macro/Rolagens_owisQcQKDGOxWTi1/Arma_de_Fogo_FuvoSAn06XFP0lFW.json",
+    "Macro/Rel_gios_fmmQZM6FKYqouD4Z/Rel_gio_da_Noite_LFbTwb5WL1Tsw1Wv.json",
+    "Macro/Rel_gios_fmmQZM6FKYqouD4Z/Rel_gio__4__qk5zL4D1b9wJE6NI.json",
+    "Macro/Rel_gios_fmmQZM6FKYqouD4Z/Rel_gio__6__DIOFAZ4Np4ME0eDu.json",
+    "Macro/Rel_gios_fmmQZM6FKYqouD4Z/Rel_gio__8__dHNvWkxbzm6mIU3O.json"
+  ],
+  "cards": [],
+  "playlists": [
+    "Juramento_dos_Ca_adores_EEqO0UpifYcbA1Ac.json"
+  ],
+  "folders": [
+    "Actor/Ca_adores_6t4j38WYZNs8nX5F/_Folder.json",
+    "Item/Origem_ubUq5Q3f2P5dk2nT/_Folder.json",
+    "Item/Do_que_voc__se_lembra__cYnUgdqOPgkEzTUs/_Folder.json",
+    "Item/Traje_sfLAloUxnrRcTIs2/_Folder.json",
+    "Item/Armas_Transform_veis_iwSaJnbPfwBd0cRY/_Folder.json",
+    "Item/Armas_de_Fogo_tw6pjrbxi4ltE8XN/_Folder.json",
+    "Item/Bandoleira_A2ttu3VuDuX8blm4/_Folder.json",
+    "Item/Ferramentas_z9qgXdgMsgka0P8t/_Folder.json",
+    "Macro/Rolagens_owisQcQKDGOxWTi1/_Folder.json",
+    "RollTable/Tabelas_O5e76ndZWvqjU2yb/_Folder.json",
+    "Macro/Rel_gios_fmmQZM6FKYqouD4Z/_Folder.json"
+  ],
+  "_key": "!adventures!XChxhwUFIj4PfBWh"
+}

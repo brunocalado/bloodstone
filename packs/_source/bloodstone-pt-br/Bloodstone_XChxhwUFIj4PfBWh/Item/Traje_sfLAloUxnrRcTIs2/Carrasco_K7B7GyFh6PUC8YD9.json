@@ -1,0 +1,22 @@
+{
+  "_id": "K7B7GyFh6PUC8YD9",
+  "name": "Carrasco",
+  "type": "generic",
+  "img": "icons/equipment/chest/breastplate-banded-steel-gold.webp",
+  "system": {
+    "group": "Traje",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><strong>Armadura Especial:</strong> evite <strong>Dano mental</strong>.</p><p>Marque o espaço de traje especial para usar esta habilidade, de acordo com a situação na ficção. Marque os espaços de traje comuns para reduzir Danos físicos.</p>"
+  },
+  "effects": [],
+  "sort": 400000,
+  "flags": {},
+  "folder": "sfLAloUxnrRcTIs2",
+  "ownership": {
+    "default": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "QQjTHHl1GDHyoGSJ",
+  "name": "Um lugar proibido",
+  "type": "generic",
+  "img": "icons/skills/trades/academics-study-reading-book.webp",
+  "system": {
+    "group": "Memória",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><em>Um lugar proibido. Velas no chão. O gorgolejar de um ser deitado na escuridão. Os gritos atrás de você, e o som de ossos quebradiços sendo devorados.</em></p><p>Defina suas Ações: <strong>Proeza 1</strong>, <strong>Determinação 3</strong>, <strong>Astúcia 2</strong>.</p>"
+  },
+  "effects": [],
+  "sort": 300000,
+  "flags": {},
+  "folder": "cYnUgdqOPgkEzTUs",
+  "ownership": {
+    "default": 2
+  }
+}

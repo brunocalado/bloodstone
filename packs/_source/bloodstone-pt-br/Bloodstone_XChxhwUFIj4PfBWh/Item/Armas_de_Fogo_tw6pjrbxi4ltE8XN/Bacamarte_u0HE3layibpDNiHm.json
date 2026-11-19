@@ -1,0 +1,26 @@
+{
+  "_id": "u0HE3layibpDNiHm",
+  "name": "Bacamarte",
+  "type": "generic",
+  "img": "icons/weapons/guns/gun-blunderbuss-gold.webp",
+  "system": {
+    "group": "Arma de Fogo",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": "Macro.FuvoSAn06XFP0lFW",
+    "description": "<p><strong>Bacamarte</strong> [Aparar: 6+] [Atordoar: 4+]</p><p><strong>Aparar:</strong> <em>role 1d para cada bala que você marcar. Com um resultado igual a</em> [<strong>Aparar</strong>] <em>você</em> <strong>interrompe</strong> <em>uma ação inimiga.</em></p><p><strong>Atordoar:</strong> <em>role 1d a cada duas balas que você marcar. Com um resultado igual a</em> [<strong>Atordoar</strong>] <em>você</em> <strong>atordoa</strong> <em>um inimigo por alguns segundos.</em></p><p><strong>Recarregar:</strong> <em>marque qualquer quantidade de</em> <strong>Sangue</strong> <em>e/ou</em> <strong>Balas de Prata</strong><em>. Para cada uma, role 1d. Recupere balas igual ao</em> <strong>maior resultado</strong>.</p>"
+  },
+  "effects": [],
+  "sort": 200000,
+  "flags": {
+    "bloodstone": {
+      "firearm": "blunderbuss"
+    }
+  },
+  "folder": "tw6pjrbxi4ltE8XN",
+  "ownership": {
+    "default": 2
+  }
+}

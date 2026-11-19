@@ -1,0 +1,22 @@
+{
+  "_id": "nmyetNH66ThfqNtw",
+  "name": "Bala de Prata",
+  "type": "generic",
+  "img": "icons/weapons/ammunition/shot-round-silver.webp",
+  "system": {
+    "group": "Bandoleira",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p>Para usar, marque um espaço da Bandoleira.</p><p><strong>Recarregar:</strong> <em>marque qualquer quantidade de</em> <strong>Sangue</strong> <em>e/ou</em> <strong>Balas de Prata</strong><em>. Para cada uma, role 1d. Recupere balas igual ao</em> <strong>maior resultado</strong>.</p>"
+  },
+  "effects": [],
+  "sort": 600000,
+  "flags": {},
+  "folder": "A2ttu3VuDuX8blm4",
+  "ownership": {
+    "default": 2
+  }
+}

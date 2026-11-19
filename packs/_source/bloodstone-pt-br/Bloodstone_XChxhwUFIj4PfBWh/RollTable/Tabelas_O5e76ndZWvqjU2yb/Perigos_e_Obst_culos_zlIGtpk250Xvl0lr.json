@@ -1,0 +1,95 @@
+{
+  "_id": "zlIGtpk250Xvl0lr",
+  "name": "Perigos e Obstáculos",
+  "img": "icons/sundries/gaming/dice-runed-brown.webp",
+  "description": "",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "dphZCqVHeHfh8pUB",
+      "type": "text",
+      "name": "Um grupo de cidadãos armados",
+      "description": "<p>Um grupo de cidadãos armados</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "Oa0dJSe7c6JLQ32O",
+      "type": "text",
+      "name": "Cultistas rezando para a besta",
+      "description": "<p>Cultistas rezando para a besta</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "fSOqWEFywXj2k6K2",
+      "type": "text",
+      "name": "Gregor, o guardião do cemitério",
+      "description": "<p><strong>Gregor</strong>, o guardião do cemitério</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "4JCkPZiEf9cknElV",
+      "type": "text",
+      "name": "Almas gemendo no escuro",
+      "description": "<p>Almas gemendo no escuro</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "QWv6itju513pQVD8",
+      "type": "text",
+      "name": "Um bando de corvos de três olhos",
+      "description": "<p>Um bando de corvos de três olhos</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "HnZHhl7SVTQTSlqU",
+      "type": "text",
+      "name": "Um javali demoníaco gigante",
+      "description": "<p>Um javali demoníaco gigante</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "O5e76ndZWvqjU2yb",
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

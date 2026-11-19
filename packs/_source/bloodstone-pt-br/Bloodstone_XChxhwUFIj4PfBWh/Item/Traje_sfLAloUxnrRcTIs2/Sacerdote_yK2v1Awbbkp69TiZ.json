@@ -1,0 +1,22 @@
+{
+  "_id": "yK2v1Awbbkp69TiZ",
+  "name": "Sacerdote",
+  "type": "generic",
+  "img": "icons/equipment/chest/robe-layered-white.webp",
+  "system": {
+    "group": "Traje",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><strong>Armadura Especial:</strong> evite <strong>Consequências do oculto</strong>.</p><p>Marque o espaço de traje especial para usar esta habilidade, de acordo com a situação na ficção. Marque os espaços de traje comuns para reduzir Danos físicos.</p>"
+  },
+  "effects": [],
+  "sort": 300000,
+  "flags": {},
+  "folder": "sfLAloUxnrRcTIs2",
+  "ownership": {
+    "default": 2
+  }
+}

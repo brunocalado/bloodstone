@@ -1,0 +1,22 @@
+{
+  "_id": "N1pgixlwhDD1Ivpp",
+  "name": "Caçador",
+  "type": "generic",
+  "img": "icons/equipment/chest/vest-leather-tattered-white.webp",
+  "system": {
+    "group": "Traje",
+    "weight": 0,
+    "includeWeightInGrandTotal": true,
+    "quantity": 1,
+    "equipped": true,
+    "trigger": null,
+    "description": "<p><strong>Armadura Especial:</strong> evite <strong>Dano</strong> em combate.</p><p>Marque o espaço de traje especial para usar esta habilidade, de acordo com a situação na ficção. Marque os espaços de traje comuns para reduzir Danos físicos.</p>"
+  },
+  "effects": [],
+  "sort": 100000,
+  "flags": {},
+  "folder": "sfLAloUxnrRcTIs2",
+  "ownership": {
+    "default": 2
+  }
+}

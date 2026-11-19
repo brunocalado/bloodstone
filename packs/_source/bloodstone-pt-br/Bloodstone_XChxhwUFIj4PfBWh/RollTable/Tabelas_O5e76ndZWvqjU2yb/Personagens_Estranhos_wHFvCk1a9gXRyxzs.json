@@ -1,0 +1,95 @@
+{
+  "_id": "wHFvCk1a9gXRyxzs",
+  "name": "Personagens Estranhos",
+  "img": "icons/sundries/gaming/dice-runed-brown.webp",
+  "description": "",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "udm8YCa7NEHyTw6k",
+      "type": "text",
+      "name": "Camilla, mulher da noite",
+      "description": "<p><strong>Camilla</strong>, mulher da noite</p>",
+      "range": [
+        1,
+        1
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "u3iNwnn3lwWu1v12",
+      "type": "text",
+      "name": "Niklas, um homem cético",
+      "description": "<p><strong>Niklas</strong>, um homem cético</p>",
+      "range": [
+        2,
+        2
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "v5f1qVSR7eHew6Pz",
+      "type": "text",
+      "name": "Carrol, habitante da capela",
+      "description": "<p><strong>Carrol</strong>, habitante da capela</p>",
+      "range": [
+        3,
+        3
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "0qeRlhei7sx0ToF4",
+      "type": "text",
+      "name": "Valea, freira da igreja perdida",
+      "description": "<p><strong>Valea</strong>, freira da igreja perdida</p>",
+      "range": [
+        4,
+        4
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "jqMTOMwIUIVO1vDD",
+      "type": "text",
+      "name": "Lucille, caçadora aposentada",
+      "description": "<p><strong>Lucille</strong>, caçadora aposentada</p>",
+      "range": [
+        5,
+        5
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    },
+    {
+      "_id": "V3SRZsjDcaCS0RwH",
+      "type": "text",
+      "name": "Errik, médico",
+      "description": "<p><strong>Errik</strong>, médico</p>",
+      "range": [
+        6,
+        6
+      ],
+      "weight": 1,
+      "drawn": false,
+      "flags": {}
+    }
+  ],
+  "folder": "O5e76ndZWvqjU2yb",
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
