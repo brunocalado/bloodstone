@@ -117,6 +117,70 @@
     "Notify": {
       "NoActor": "Select your Hunter's token or assign a character.",
       "StunTooFew": "Stun rolls 1 die per two bullets marked: mark at least 2."
+    },
+    "Hunt": {
+      "Title": "Start the Hunt",
+      "Intro": "Every choice starts drawn from the Adventure's tables. Change any of them, or press the die to draw again. Only you see the result.",
+      "Start": "Start the Hunt",
+      "Reroll": "Draw again",
+      "Field": {
+        "Cathedral": "Cathedral (secret)",
+        "Apostle": "Apostle",
+        "Obstacle": "Opening obstacle",
+        "Character": "Weird character",
+        "Location": "Location {n}",
+        "District": "Location {n}: district"
+      },
+      "District": {
+        "oldHeliwyr": "Old Heliwyr",
+        "whispering": "Whispering District",
+        "twilight": "The Twilight",
+        "forgotten": "Forgotten Places",
+        "alchemists": "Alchemists Hamlet",
+        "centralHeliwyr": "Central Heliwyr",
+        "drowned": "The Drowned",
+        "firstDawn": "The First Dawn",
+        "lanternAlleys": "Lantern Alleys"
+      },
+      "JournalName": "The Hunt: {apostle}",
+      "Page": {
+        "Overview": "The Night",
+        "Obstacle": "Opening Obstacle",
+        "Character": "Weird Character"
+      },
+      "Overview": {
+        "Route": "Route",
+        "Start": "Arrival",
+        "Opening": "Opening",
+        "OpeningText": "Right after the Hunters arrive, present {obstacle}. Somewhere along the way they may meet {character}.",
+        "Prepare": "Before play",
+        "Clock": "The Night's Clock is on the clocks window. Advance it when the Hunters move between places, or as a Consequence.",
+        "Describe": "Picture your Heliwyr: its smells, its spires, its statues.",
+        "Points": "Give each location three points of interest. A Hunter who observes or interacts with one gains 1 Insight.",
+        "Enemies": "Give each location its obstacles and enemies."
+      },
+      "Cathedral": {
+        "Secret": "Secret. The Apostle {apostle} hides here. When the Hunters reach this cathedral, its special rule applies."
+      },
+      "Apostle": {
+        "Prompt": "What monstrosity has defaced their flesh? What are they doing when the Hunters arrive, and how do they prepare to fight? The Apostle takes the initiative.",
+        "Where": "Waits in {cathedral}."
+      },
+      "Location": {
+        "District": "District",
+        "LeadsTo": "Leads to",
+        "Points": "Points of interest",
+        "PointsHint": "Strange, alienating details. Don't explain them. 1 Insight for the Hunter who finds one.",
+        "Enemies": "Obstacles and enemies"
+      },
+      "Obstacle": {
+        "Text": "Present it as soon as the Hunters arrive in Heliwyr, so they immediately have something to solve."
+      },
+      "Notify": {
+        "GMOnly": "Only a GM can start the hunt.",
+        "Missing": "Import the Bloodstone Adventure first: the hunt needs its Map of Heliwyr, GM journal and tables.",
+        "Started": "The hunt is set: {journal}."
+      }
     }
   }
 }

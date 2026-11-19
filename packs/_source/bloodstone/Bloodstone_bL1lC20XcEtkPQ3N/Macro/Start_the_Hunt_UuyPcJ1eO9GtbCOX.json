@@ -1,0 +1,14 @@
+{
+  "_id": "UuyPcJ1eO9GtbCOX",
+  "name": "Start the Hunt",
+  "type": "script",
+  "img": "icons/environment/settlement/city-night-spire.webp",
+  "command": "// Draws or picks the secret cathedral, the Apostle, the locations and the opening obstacle,\n// starts the Night's Clock, and writes a GM-only journal pinned to the Map of Heliwyr.\nreturn bloodstone.startHunt();",
+  "scope": "global",
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}
