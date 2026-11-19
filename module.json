@@ -11,15 +11,21 @@
   ],
   "version": "0.1.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "12"
+    "minimum": "14",
+    "verified": "14.370"
   },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/bloodstone.css"
+  ],
   "packs": [
     {
       "label": "Bloodstone",
       "name": "bloodstone",
       "type": "Adventure",
-      "system": "worldbuilding",
+      "system": "taf",
       "path": "packs/bloodstone",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -27,22 +33,26 @@
       },
       "flags": {}
     }
-    
   ],
   "relationships": {
     "systems": [
       {
-        "id": "worldbuilding",
+        "id": "taf",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "3.3.0",
+          "verified": "3.3.0"
+        }
       }
     ],
     "requires": [
       {
-        "id": "foundryvtt-fitdroller",
+        "id": "global-progress-clocks",
         "type": "module",
-        "manifest": "https://raw.githubusercontent.com/drewg13/foundryvtt-fitdroller/main/module.json",
-        "compatibility": {}
+        "manifest": "https://github.com/CarlosFdez/global-progress-clocks/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "1.3.3"
+        }
       }
     ]
   },

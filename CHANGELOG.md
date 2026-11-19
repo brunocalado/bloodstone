@@ -1,6 +1,10 @@
 # Unreleased
 - [Changed] The module's code is now licensed under GPL v3 (was MIT).
 - [Changed] Releases are built by a GitHub workflow from JSON sources; install and update through the GitHub release manifest.
+- [Breaking][Changed] Bloodstone now runs on the Text-Based Actors (TAF) system 3.3.0 and Foundry v14; Simple Worldbuilding is no longer supported.
+- [Breaking][Removed] The Forged in the Dark Roller dependency.
+- [Breaking][Changed] Global Progress Clocks is now required.
+- [Added] Action Roll, Resist and Firearm rolls with the v1.4 result tables, available to macros as `game.modules.get("bloodstone").api`.
 
 # 0.1.0
 v12

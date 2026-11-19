@@ -1,0 +1,44 @@
+/*!
+ * Bloodstone - Action-Horror mini Forged in the Dark
+ * 2022 https://github.com/brunocalado
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 3.
+ */
+
+/* The roll result card posted as a roll message's flavor. */
+.bloodstone.roll-card {
+  --bloodstone-tier: #6b6b6b;
+  margin: 0 0 4px;
+  padding: 4px 8px;
+  border-left: 4px solid var(--bloodstone-tier);
+  font-style: normal;
+}
+
+.bloodstone.roll-card.critical { --bloodstone-tier: #8a0303; }
+.bloodstone.roll-card.success  { --bloodstone-tier: #2f6b2f; }
+.bloodstone.roll-card.partial  { --bloodstone-tier: #a6731c; }
+.bloodstone.roll-card.fail     { --bloodstone-tier: #3a3a3a; }
+.bloodstone.roll-card.neutral  { --bloodstone-tier: #4a5a7a; }
+
+.bloodstone.roll-card .title {
+  font-weight: bold;
+  font-size: var(--font-size-14, 14px);
+}
+
+.bloodstone.roll-card p {
+  margin: 2px 0;
+}
+
+.bloodstone.roll-card .detail {
+  opacity: 0.8;
+}
+
+.bloodstone.roll-card .result strong {
+  color: var(--bloodstone-tier);
+  text-transform: uppercase;
+}
+
+.bloodstone.roll-card .reminder {
+  font-style: italic;
+}
