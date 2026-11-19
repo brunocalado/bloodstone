@@ -74,15 +74,17 @@ This module follows version 1.4 of the game.
 Learn about changes at [CHANGELOG](CHANGELOG.md).
 
 # License
+The code and the content of this module are under different licenses.
+
+The code (`scripts/`, `styles/` and `tools/`) is under the GNU General Public License version 3. See [LICENSE](LICENSE).
+
+The content (the journals, the Hunter, the items, the roll tables and the map) comes from [Bloodstone](https://matteosciutteri.itch.io/bloodstone), a game by Matteo Sciutteri licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). It was adapted for Foundry VTT and is shared under the same license, so it cannot be used commercially. I requested permission in the comments on the game's page.
+
 This work is based on Blades in the Dark, product of One Seven Design, developed and authored by John Harper, and licensed for our use under the Creative Commons Attribution 3.0 Unported license.
 
-You can also check the license reading the comments at: [Bloodstone](https://matteosciutteri.itch.io/bloodstone). I requested permission in there.
-
-If I add any code it'll be under [LICENSE](LICENSE).
-
 # Assets
-- Oath - PTBT -> Oath of Hunter - Bloodstone © 2022 by Mestre Digital is licensed under CC BY-SA 4.0
-- Map of Heliwyr -> by Matteo Sciutteri, licensed under CC BY-NC-SA 4.0: https://matteosciutteri.itch.io/bloodstone
+- Oath - PTBT -> Oath of Hunter - Bloodstone © 2022 by Mestre Digital is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- Map of Heliwyr -> by Matteo Sciutteri, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/): https://matteosciutteri.itch.io/bloodstone. Converted from the game's map PDF to a WebP image for the scene.
 
 # Mestre Digital
 About this module creator: https://sites.google.com/view/mestredigitalmodules
