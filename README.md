@@ -85,6 +85,7 @@ This work is based on Blades in the Dark, product of One Seven Design, developed
 # Assets
 - Oath - PTBT -> Oath of Hunter - Bloodstone © 2022 by Mestre Digital is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - Map of Heliwyr -> by Matteo Sciutteri, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/): https://matteosciutteri.itch.io/bloodstone. Converted from the game's map PDF to a WebP image for the scene.
+- Clock icons -> from [game-icons.net](https://game-icons.net), licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 # Mestre Digital
 About this module creator: https://sites.google.com/view/mestredigitalmodules
