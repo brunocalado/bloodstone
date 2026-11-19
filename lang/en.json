@@ -1,0 +1,122 @@
+{
+  "BLOODSTONE": {
+    "Attribute": {
+      "prowess": "Prowess",
+      "resolve": "Resolve",
+      "wit": "Wit"
+    },
+    "ActionTier": {
+      "critical": { "Label": "Critical", "Text": "They succeed with increased Effect." },
+      "success": { "Label": "Success", "Text": "It goes as well as intended." },
+      "partial": {
+        "Label": "Partial Success",
+        "Text": "They do it but also suffer a Consequence: Harm, Reduced Effect, Lost Opportunity, Worse Position or Complication."
+      },
+      "fail": { "Label": "Fail", "Text": "Things go bad and they suffer the Consequences." }
+    },
+    "ResistTier": {
+      "critical": { "Label": "Perfect", "Text": "You avoid the consequence completely and refresh 1 Blood." },
+      "success": { "Label": "Good", "Text": "You avoid the consequence completely." },
+      "partial": { "Label": "Close", "Text": "You partially reduce the consequence." },
+      "fail": { "Label": "Bad", "Text": "You suffer the full consequence." }
+    },
+    "Position": {
+      "controlled": "Controlled",
+      "risky": "Risky",
+      "desperate": "Desperate"
+    },
+    "Effect": {
+      "limited": "Limited",
+      "standard": "Standard",
+      "great": "Great"
+    },
+    "Firearm": {
+      "pistol": "Pistol",
+      "blunderbuss": "Blunderbuss",
+      "rifle": "Rifle",
+      "Option": "{firearm} (Parry {parry}+, Stun {stun}+)"
+    },
+    "FirearmAction": {
+      "parry": "Parry",
+      "stun": "Stun",
+      "reload": "Reload",
+      "ParryOption": "Parry: 1d per bullet marked",
+      "StunOption": "Stun: 1d per two bullets marked",
+      "ReloadOption": "Reload: 1d per Blood or bullet marked"
+    },
+    "FirearmOutcome": {
+      "parryHit": "You interrupt an enemy action.",
+      "parryMiss": "The enemy action is not interrupted.",
+      "stunHit": "You stun an enemy for a few seconds.",
+      "stunMiss": "The enemy is not stunned."
+    },
+    "TrickWeapon": {
+      "axe": { "Base": "Axe", "Alternate": "Long Axe", "Trait": "great range" },
+      "blade": { "Base": "Blade", "Alternate": "Mallet", "Trait": "+Effect vs undead" },
+      "cleaver": { "Base": "Cleaver", "Alternate": "Saw Spear", "Trait": "+Effect vs beast" }
+    },
+    "Dialog": {
+      "ActionRoll": "Action Roll",
+      "TrickWeapon": "Trick Weapon",
+      "Resist": "Resist",
+      "Firearm": "Firearm",
+      "Rolls": "Bloodstone Rolls",
+      "ChooseRoll": "{name}: choose a roll.",
+      "Roll": "Roll"
+    },
+    "Field": {
+      "Action": "Action",
+      "Push": "Push (Stamina)",
+      "Bonus": "Bonus dice (Assist, Attire, Origin)",
+      "Position": "Position",
+      "Effect": "Effect",
+      "Form": "Form",
+      "Imbrue": "Imbrue (Blood)",
+      "StaminaSpent": "Stamina spent",
+      "Firearm": "Firearm",
+      "Marked": "Bullets / Blood marked",
+      "ReloadBonus": "Bonus dice (Reload only, e.g. Noble Scion)"
+    },
+    "Form": {
+      "Base": "{form}: base form (1 Stamina)",
+      "Alternate": "{form}: alternate form (2 Stamina, increased Effect)"
+    },
+    "Card": {
+      "ActionRollTitle": "Action Roll: {action}",
+      "Push": "Push {n}",
+      "Bonus": "Bonus {n}",
+      "Imbrue": "Imbrue {n}",
+      "PositionEffect": "{position} position, {effect} effect",
+      "PositionEffectRaised": "{position} position, {effect} effect (raised by the alternate form)",
+      "Pool": "{pool}d: {dice}",
+      "ZeroDice": "{dice}: zero dice, rolled 2 and kept the lowest",
+      "ResistPool": "{n}d: Stamina spent",
+      "ReloadPool": "{dice}d: {marked} marked",
+      "ReloadPoolBonus": "{dice}d: {marked} marked + {bonus} bonus",
+      "RegainBullet": "Regain {n} bullet.",
+      "RegainBullets": "Regain {n} bullets.",
+      "FirearmPool": "{dice}d: {marked} bullets marked, {firearm} {action} {threshold}+"
+    },
+    "Mark": {
+      "Push": "{n} Push",
+      "BaseForm": "1 base form",
+      "AlternateForm": "2 alternate form",
+      "Stamina": "{n} Stamina ({why})",
+      "Imbrued": "{n} Blood (Imbrued)"
+    },
+    "Reminder": {
+      "Mark": "Mark {marks}.",
+      "Nothing": "Nothing to mark.",
+      "Resist": "Mark {n} Stamina (Resist).",
+      "ResistPerfect": "Mark {n} Stamina (Resist). Refresh 1 Blood.",
+      "ReloadBullet": "Mark {marked} Blood and/or Silver Bullets, then regain {n} bullet.",
+      "ReloadBullets": "Mark {marked} Blood and/or Silver Bullets, then regain {n} bullets.",
+      "SilverBullet": "Mark {n} Silver Bullet.",
+      "SilverBullets": "Mark {n} Silver Bullets."
+    },
+    "Notify": {
+      "NoActor": "Select your Hunter's token or assign a character.",
+      "StunTooFew": "Stun rolls 1 die per two bullets marked: mark at least 2."
+    }
+  }
+}

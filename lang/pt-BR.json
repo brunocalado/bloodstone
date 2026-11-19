@@ -1,0 +1,122 @@
+{
+  "BLOODSTONE": {
+    "Attribute": {
+      "prowess": "Proeza",
+      "resolve": "Determinação",
+      "wit": "Astúcia"
+    },
+    "ActionTier": {
+      "critical": { "Label": "Crítico", "Text": "Consegue, com Efeito aumentado." },
+      "success": { "Label": "Sucesso", "Text": "Sai tão bem quanto o planejado." },
+      "partial": {
+        "Label": "Sucesso Parcial",
+        "Text": "Consegue, mas também sofre uma Consequência: Dano, Efeito Reduzido, Oportunidade Perdida, Posição Pior ou Complicação."
+      },
+      "fail": { "Label": "Falha", "Text": "As coisas dão errado e sofre as Consequências." }
+    },
+    "ResistTier": {
+      "critical": { "Label": "Perfeito", "Text": "Você evita a consequência por completo e recupera 1 de Sangue." },
+      "success": { "Label": "Bom", "Text": "Você evita a consequência por completo." },
+      "partial": { "Label": "Por pouco", "Text": "Você reduz a consequência em parte." },
+      "fail": { "Label": "Ruim", "Text": "Você sofre a consequência inteira." }
+    },
+    "Position": {
+      "controlled": "Controlada",
+      "risky": "Arriscada",
+      "desperate": "Desesperada"
+    },
+    "Effect": {
+      "limited": "Limitado",
+      "standard": "Padrão",
+      "great": "Grande"
+    },
+    "Firearm": {
+      "pistol": "Pistola",
+      "blunderbuss": "Bacamarte",
+      "rifle": "Rifle",
+      "Option": "{firearm} (Aparar {parry}+, Atordoar {stun}+)"
+    },
+    "FirearmAction": {
+      "parry": "Aparar",
+      "stun": "Atordoar",
+      "reload": "Recarregar",
+      "ParryOption": "Aparar: 1d por bala marcada",
+      "StunOption": "Atordoar: 1d a cada duas balas marcadas",
+      "ReloadOption": "Recarregar: 1d por Sangue ou bala marcada"
+    },
+    "FirearmOutcome": {
+      "parryHit": "Você interrompe uma ação inimiga.",
+      "parryMiss": "A ação inimiga não é interrompida.",
+      "stunHit": "Você atordoa um inimigo por alguns segundos.",
+      "stunMiss": "O inimigo não fica atordoado."
+    },
+    "TrickWeapon": {
+      "axe": { "Base": "Machado", "Alternate": "Machado Longo", "Trait": "grande alcance" },
+      "blade": { "Base": "Lâmina", "Alternate": "Marreta", "Trait": "+Efeito contra mortos-vivos" },
+      "cleaver": { "Base": "Cutelo", "Alternate": "Lança-Serra", "Trait": "+Efeito contra bestas" }
+    },
+    "Dialog": {
+      "ActionRoll": "Rolagem de Ação",
+      "TrickWeapon": "Arma Transformável",
+      "Resist": "Resistir",
+      "Firearm": "Arma de Fogo",
+      "Rolls": "Rolagens de Bloodstone",
+      "ChooseRoll": "{name}: escolha uma rolagem.",
+      "Roll": "Rolar"
+    },
+    "Field": {
+      "Action": "Ação",
+      "Push": "Forçar (Vigor)",
+      "Bonus": "Dados bônus (Ajudar, Traje, Origem)",
+      "Position": "Posição",
+      "Effect": "Efeito",
+      "Form": "Forma",
+      "Imbrue": "Embeber (Sangue)",
+      "StaminaSpent": "Vigor gasto",
+      "Firearm": "Arma de Fogo",
+      "Marked": "Balas / Sangue marcados",
+      "ReloadBonus": "Dados bônus (só Recarregar, ex.: Herdeiro Nobre)"
+    },
+    "Form": {
+      "Base": "{form}: forma base (1 de Vigor)",
+      "Alternate": "{form}: forma alternativa (2 de Vigor, Efeito aumentado)"
+    },
+    "Card": {
+      "ActionRollTitle": "Rolagem de Ação: {action}",
+      "Push": "Forçar {n}",
+      "Bonus": "Bônus {n}",
+      "Imbrue": "Embeber {n}",
+      "PositionEffect": "Posição {position}, Efeito {effect}",
+      "PositionEffectRaised": "Posição {position}, Efeito {effect} (aumentado pela forma alternativa)",
+      "Pool": "{pool}d: {dice}",
+      "ZeroDice": "{dice}: zero dados, rolou 2 e ficou com o menor",
+      "ResistPool": "{n}d: Vigor gasto",
+      "ReloadPool": "{dice}d: {marked} marcados",
+      "ReloadPoolBonus": "{dice}d: {marked} marcados + {bonus} de bônus",
+      "RegainBullet": "Recupere {n} bala.",
+      "RegainBullets": "Recupere {n} balas.",
+      "FirearmPool": "{dice}d: {marked} balas marcadas, {firearm} {action} {threshold}+"
+    },
+    "Mark": {
+      "Push": "{n} de Forçar",
+      "BaseForm": "1 da forma base",
+      "AlternateForm": "2 da forma alternativa",
+      "Stamina": "{n} de Vigor ({why})",
+      "Imbrued": "{n} de Sangue (Embebida)"
+    },
+    "Reminder": {
+      "Mark": "Marque {marks}.",
+      "Nothing": "Nada a marcar.",
+      "Resist": "Marque {n} de Vigor (Resistência).",
+      "ResistPerfect": "Marque {n} de Vigor (Resistência). Recupere 1 de Sangue.",
+      "ReloadBullet": "Marque {marked} de Sangue e/ou Balas de Prata e então recupere {n} bala.",
+      "ReloadBullets": "Marque {marked} de Sangue e/ou Balas de Prata e então recupere {n} balas.",
+      "SilverBullet": "Marque {n} Bala de Prata.",
+      "SilverBullets": "Marque {n} Balas de Prata."
+    },
+    "Notify": {
+      "NoActor": "Selecione o token do seu Caçador ou atribua um personagem.",
+      "StunTooFew": "Atordoar rola 1 dado a cada duas balas marcadas: marque pelo menos 2."
+    }
+  }
+}

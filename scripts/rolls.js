@@ -18,9 +18,7 @@
  * spend would fight the table. Each chat card ends with a reminder of what to mark instead.
  */
 
-import {
-  MODULE_ID, ACTIONS, ACTION_TIERS, RESIST_TIERS, POSITIONS, EFFECTS, FIREARMS, TRICK_WEAPONS
-} from "./constants.js";
+import { MODULE_ID, ACTIONS, POSITIONS, EFFECTS, FIREARMS, TRICK_WEAPONS } from "./constants.js";
 
 const { DialogV2 } = foundry.applications.api;
 const { escapeHTML } = foundry.utils;
@@ -38,38 +36,45 @@ const { escapeHTML } = foundry.utils;
 export async function actionRoll({ item, actor } = {}) {
   actor = resolveActor(item, actor);
   if (!actor) return;
-  const weapon = TRICK_WEAPONS[item?.getFlag(MODULE_ID, "trickWeapon")];
+  const flagged = item?.getFlag(MODULE_ID, "trickWeapon");
+  const weapon = TRICK_WEAPONS.includes(flagged) ? {
+    base: t(`TrickWeapon.${flagged}.Base`),
+    alternate: t(`TrickWeapon.${flagged}.Alternate`),
+    trait: t(`TrickWeapon.${flagged}.Trait`)
+  } : null;
   const preselected = ACTIONS.includes(item?.system?.key) ? item.system.key : ACTIONS[0];
 
   const actions = ACTIONS.map(key => {
     const attr = actor.getAttribute(key);
-    const name = attr?.name ?? capitalize(key);
+    const name = attr?.name ?? t(`Attribute.${key}`);
     const value = attr?.system.value ?? 0;
     return { value: key, label: `${name} (${value})`, selected: key === preselected, name, rating: value };
   });
 
   const fields = [
-    selectField("action", "Action", actions),
-    selectField("push", "Push (Stamina)", range(0, 3)),
-    selectField("bonus", "Bonus dice (Assist, Attire, Origin)", range(0, 3)),
-    selectField("position", "Position", POSITIONS.map(p => ({ value: p, label: capitalize(p), selected: p === "risky" }))),
-    selectField("effect", "Effect", EFFECTS.map(e => ({ value: e, label: capitalize(e), selected: e === "standard" })))
+    selectField("action", t("Field.Action"), actions),
+    selectField("push", t("Field.Push"), range(0, 3)),
+    selectField("bonus", t("Field.Bonus"), range(0, 3)),
+    selectField("position", t("Field.Position"),
+      POSITIONS.map(p => ({ value: p, label: t(`Position.${p}`), selected: p === "risky" }))),
+    selectField("effect", t("Field.Effect"),
+      EFFECTS.map(e => ({ value: e, label: t(`Effect.${e}`), selected: e === "standard" })))
   ];
   if (weapon) {
     const blood = actor.getAttribute("blood")?.system.value ?? 0;
     fields.push(
-      selectField("form", "Form", [
-        { value: "base", label: `${weapon.base}: base form (1 Stamina)`, selected: true },
-        { value: "alternate", label: `${weapon.alternate}: alternate form (2 Stamina, increased Effect)` }
+      selectField("form", t("Field.Form"), [
+        { value: "base", label: t("Form.Base", { form: weapon.base }), selected: true },
+        { value: "alternate", label: t("Form.Alternate", { form: weapon.alternate }) }
       ]),
-      selectField("imbrue", "Imbrue (Blood)", range(0, Math.max(blood, 0)))
+      selectField("imbrue", t("Field.Imbrue"), range(0, Math.max(blood, 0)))
     );
   }
 
   const data = await DialogV2.input({
-    window: { title: weapon ? "Trick Weapon" : "Action Roll", icon: "fa-solid fa-dice-d6" },
+    window: { title: t(weapon ? "Dialog.TrickWeapon" : "Dialog.ActionRoll"), icon: "fa-solid fa-dice-d6" },
     content: fields.join(""),
-    ok: { label: "Roll", icon: "fa-solid fa-dice-d6" }
+    ok: { label: t("Dialog.Roll"), icon: "fa-solid fa-dice-d6" }
   });
   if (!data) return;
 
@@ -88,32 +93,35 @@ export async function actionRoll({ item, actor } = {}) {
   if (alternate) effect = EFFECTS[Math.min(EFFECTS.indexOf(effect) + 1, EFFECTS.length - 1)];
 
   const dice = [`${action.name} ${action.rating}`];
-  if (push) dice.push(`Push ${push}`);
-  if (bonus) dice.push(`Bonus ${bonus}`);
-  if (imbrue) dice.push(`Imbrue ${imbrue}`);
+  if (push) dice.push(t("Card.Push", { n: push }));
+  if (bonus) dice.push(t("Card.Bonus", { n: bonus }));
+  if (imbrue) dice.push(t("Card.Imbrue", { n: imbrue }));
 
+  const position = POSITIONS.includes(data.position) ? data.position : "risky";
   const details = [
-    `${capitalize(POSITIONS.includes(data.position) ? data.position : "risky")} position, ${capitalize(effect)} effect`
-      + (alternate ? " (raised by the alternate form)" : ""),
-    pool > 0 ? `${pool}d: ${dice.join(" + ")}` : `${dice.join(" + ")}: zero dice, rolled 2 and kept the lowest`
+    t(alternate ? "Card.PositionEffectRaised" : "Card.PositionEffect",
+      { position: t(`Position.${position}`), effect: t(`Effect.${effect}`) }),
+    pool > 0 ? t("Card.Pool", { pool, dice: dice.join(" + ") }) : t("Card.ZeroDice", { dice: dice.join(" + ") })
   ];
   if (weapon) details.unshift(`${item.name}: ${alternate ? weapon.alternate : weapon.base} (${weapon.trait})`);
 
   const stamina = push + (weapon ? (alternate ? 2 : 1) : 0);
   const marks = [];
   if (stamina) {
-    const why = [push && `${push} Push`, weapon && `${alternate ? 2 : 1} ${alternate ? "alternate" : "base"} form`];
-    marks.push(`${stamina} Stamina (${why.filter(Boolean).join(", ")})`);
+    const why = [push && t("Mark.Push", { n: push }), weapon && t(alternate ? "Mark.AlternateForm" : "Mark.BaseForm")];
+    marks.push(t("Mark.Stamina", { n: stamina, why: why.filter(Boolean).join(", ") }));
   }
-  if (imbrue) marks.push(`${imbrue} Blood (Imbrued)`);
+  if (imbrue) marks.push(t("Mark.Imbrued", { n: imbrue }));
 
   await post(roll, actor, {
-    title: weapon ? "Trick Weapon" : `Action Roll: ${action.name}`,
+    title: weapon ? t("Dialog.TrickWeapon") : t("Card.ActionRollTitle", { action: action.name }),
     details,
     tier,
-    label: ACTION_TIERS[tier].label,
-    text: ACTION_TIERS[tier].text,
-    reminder: marks.length ? `Mark ${marks.join(" and ")}.` : "Nothing to mark."
+    label: t(`ActionTier.${tier}.Label`),
+    text: t(`ActionTier.${tier}.Text`),
+    reminder: marks.length
+      ? t("Reminder.Mark", { marks: game.i18n.getListFormatter().format(marks) })
+      : t("Reminder.Nothing")
   });
 }
 
@@ -126,9 +134,9 @@ export async function resist({ item, actor } = {}) {
   if (!actor) return;
 
   const data = await DialogV2.input({
-    window: { title: "Resist", icon: "fa-solid fa-shield-halved" },
-    content: selectField("stamina", "Stamina spent", range(1, 3)),
-    ok: { label: "Roll", icon: "fa-solid fa-dice-d6" }
+    window: { title: t("Dialog.Resist"), icon: "fa-solid fa-shield-halved" },
+    content: selectField("stamina", t("Field.StaminaSpent"), range(1, 3)),
+    ok: { label: t("Dialog.Roll"), icon: "fa-solid fa-dice-d6" }
   });
   if (!data) return;
 
@@ -137,12 +145,12 @@ export async function resist({ item, actor } = {}) {
   const tier = tierOf(readDice(roll));
 
   await post(roll, actor, {
-    title: "Resist",
-    details: [`${stamina}d: Stamina spent`],
+    title: t("Dialog.Resist"),
+    details: [t("Card.ResistPool", { n: stamina })],
     tier,
-    label: RESIST_TIERS[tier].label,
-    text: RESIST_TIERS[tier].text,
-    reminder: `Mark ${stamina} Stamina (Resist).` + (tier === "critical" ? " Refresh 1 Blood." : "")
+    label: t(`ResistTier.${tier}.Label`),
+    text: t(`ResistTier.${tier}.Text`),
+    reminder: t(tier === "critical" ? "Reminder.ResistPerfect" : "Reminder.Resist", { n: stamina })
   });
 }
 
@@ -157,65 +165,68 @@ export async function firearm({ item, actor } = {}) {
   const preselected = flagged in FIREARMS ? flagged : Object.keys(FIREARMS)[0];
 
   const content = [
-    selectField("firearm", "Firearm", Object.entries(FIREARMS).map(([key, f]) => ({
-      value: key, label: `${f.label} (Parry ${f.parry}+, Stun ${f.stun}+)`, selected: key === preselected
+    selectField("firearm", t("Field.Firearm"), Object.entries(FIREARMS).map(([key, f]) => ({
+      value: key,
+      label: t("Firearm.Option", { firearm: t(`Firearm.${key}`), parry: f.parry, stun: f.stun }),
+      selected: key === preselected
     }))),
-    selectField("action", "Action", [
-      { value: "parry", label: "Parry: 1d per bullet marked", selected: true },
-      { value: "stun", label: "Stun: 1d per two bullets marked" },
-      { value: "reload", label: "Reload: 1d per Blood or bullet marked" }
+    selectField("action", t("Field.Action"), [
+      { value: "parry", label: t("FirearmAction.ParryOption"), selected: true },
+      { value: "stun", label: t("FirearmAction.StunOption") },
+      { value: "reload", label: t("FirearmAction.ReloadOption") }
     ]),
-    selectField("marked", "Bullets / Blood marked", range(1, 6)),
-    selectField("bonus", "Bonus dice (Reload only, e.g. Noble Scion)", range(0, 3))
+    selectField("marked", t("Field.Marked"), range(1, 6)),
+    selectField("bonus", t("Field.ReloadBonus"), range(0, 3))
   ].join("");
 
   const data = await DialogV2.input({
-    window: { title: "Firearm", icon: "fa-solid fa-gun" },
+    window: { title: t("Dialog.Firearm"), icon: "fa-solid fa-gun" },
     content,
-    ok: { label: "Roll", icon: "fa-solid fa-dice-d6" }
+    ok: { label: t("Dialog.Roll"), icon: "fa-solid fa-dice-d6" }
   });
   if (!data) return;
 
-  const gun = FIREARMS[data.firearm] ?? FIREARMS[preselected];
+  const gunKey = data.firearm in FIREARMS ? data.firearm : preselected;
+  const gun = FIREARMS[gunKey];
+  const gunLabel = t(`Firearm.${gunKey}`);
   const action = ["parry", "stun", "reload"].includes(data.action) ? data.action : "parry";
+  const actionLabel = t(`FirearmAction.${action}`);
   const marked = Math.max(Number(data.marked) || 1, 1);
   const bonus = Number(data.bonus) || 0;
 
   const dice = { parry: marked, stun: Math.floor(marked / 2), reload: marked + bonus }[action];
   if (dice < 1) {
-    ui.notifications.warn("Stun rolls 1 die per two bullets marked: mark at least 2.");
+    ui.notifications.warn(t("Notify.StunTooFew"));
     return;
   }
 
   const roll = await new foundry.dice.Roll(`${dice}d6kh`).evaluate();
   const { highest } = readDice(roll);
-  const title = item ? `${item.name}: ${capitalize(action)}` : `${gun.label}: ${capitalize(action)}`;
+  const title = `${item ? item.name : gunLabel}: ${actionLabel}`;
 
   if (action === "reload") {
+    // One key per number form: English and Portuguese both inflect the noun, so "bullet" + "s" can't be built in code.
+    const one = highest === 1;
     await post(roll, actor, {
       title,
-      details: [`${dice}d: ${marked} marked` + (bonus ? ` + ${bonus} bonus` : "")],
+      details: [t(bonus ? "Card.ReloadPoolBonus" : "Card.ReloadPool", { dice, marked, bonus })],
       tier: "neutral",
-      label: "Reload",
-      text: `Regain ${plural(highest, "bullet")}.`,
-      reminder: `Mark ${marked} Blood and/or Silver Bullets, then regain ${plural(highest, "bullet")}.`
+      label: actionLabel,
+      text: t(one ? "Card.RegainBullet" : "Card.RegainBullets", { n: highest }),
+      reminder: t(one ? "Reminder.ReloadBullet" : "Reminder.ReloadBullets", { marked, n: highest })
     });
     return;
   }
 
   const threshold = gun[action];
   const hit = highest >= threshold;
-  const outcome = {
-    parry: hit ? "You interrupt an enemy action." : "The enemy action is not interrupted.",
-    stun: hit ? "You stun an enemy for a few seconds." : "The enemy is not stunned."
-  }[action];
   await post(roll, actor, {
     title,
-    details: [`${dice}d: ${marked} bullets marked, ${gun.label} ${capitalize(action)} ${threshold}+`],
+    details: [t("Card.FirearmPool", { dice, marked, firearm: gunLabel, action: actionLabel, threshold })],
     tier: hit ? "success" : "fail",
-    label: hit ? "Success" : "Fail",
-    text: outcome,
-    reminder: `Mark ${plural(marked, "Silver Bullet")}.`
+    label: t(`ActionTier.${hit ? "success" : "fail"}.Label`),
+    text: t(`FirearmOutcome.${action}${hit ? "Hit" : "Miss"}`),
+    reminder: t(marked === 1 ? "Reminder.SilverBullet" : "Reminder.SilverBullets", { n: marked })
   });
 }
 
@@ -228,15 +239,15 @@ export async function firearm({ item, actor } = {}) {
 export async function rollMenu({ actor } = {}) {
   actor = resolveActor(null, actor);
   if (!actor) return;
-  const weapons = actor.items.filter(i => i.getFlag(MODULE_ID, "trickWeapon") in TRICK_WEAPONS);
+  const weapons = actor.items.filter(i => TRICK_WEAPONS.includes(i.getFlag(MODULE_ID, "trickWeapon")));
 
   const choice = await DialogV2.wait({
-    window: { title: "Bloodstone Rolls", icon: "fa-solid fa-dice-d6" },
-    content: `<p>${escapeHTML(actor.name)}: choose a roll.</p>`,
+    window: { title: t("Dialog.Rolls"), icon: "fa-solid fa-dice-d6" },
+    content: `<p>${t("Dialog.ChooseRoll", { name: escapeHTML(actor.name) })}</p>`,
     buttons: [
-      { action: "action", label: "Action Roll", icon: "fa-solid fa-dice-d6" },
-      { action: "resist", label: "Resist", icon: "fa-solid fa-shield-halved" },
-      { action: "firearm", label: "Firearm", icon: "fa-solid fa-gun" },
+      { action: "action", label: t("Dialog.ActionRoll"), icon: "fa-solid fa-dice-d6" },
+      { action: "resist", label: t("Dialog.Resist"), icon: "fa-solid fa-shield-halved" },
+      { action: "firearm", label: t("Dialog.Firearm"), icon: "fa-solid fa-gun" },
       ...weapons.map(w => ({ action: `trick-${w.id}`, label: w.name, icon: "fa-solid fa-axe" }))
     ]
   });
@@ -255,7 +266,7 @@ export async function rollMenu({ actor } = {}) {
 /** The actor rolling: the clicked item's owner, else the macro's speaker. */
 function resolveActor(item, actor) {
   const owner = item?.parent ?? actor;
-  if (!owner) ui.notifications.warn("Select your Hunter's token or assign a character.");
+  if (!owner) ui.notifications.warn(t("Notify.NoActor"));
   return owner ?? null;
 }
 
@@ -308,10 +319,7 @@ function range(min, max) {
   return Array.from({ length: max - min + 1 }, (_, i) => ({ value: min + i, label: String(min + i), selected: i === 0 }));
 }
 
-function plural(n, noun) {
-  return `${n} ${noun}${n === 1 ? "" : "s"}`;
-}
-
-function capitalize(s) {
-  return s.charAt(0).toUpperCase() + s.slice(1);
+/** A string from lang/, translated when the roll runs: the client's language, never a stored one. */
+function t(key, data) {
+  return game.i18n.localize(`BLOODSTONE.${key}`, data);
 }

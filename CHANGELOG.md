@@ -1,4 +1,5 @@
 # Unreleased
+- [Added] Brazilian Portuguese (pt-BR) for the roll windows and chat cards.
 - [Added] A Bloodstone Rolls macro (`bloodstone.rollMenu()`): one window with a button for each roll, for the hotbar.
 - [Removed] The 0d to 9d dice macros; the sheet's Roll and Use buttons and the Resist macro cover every roll.
 - [Changed] The module's code is now licensed under GPL v3 (was MIT).
