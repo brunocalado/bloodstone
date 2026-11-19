@@ -65,7 +65,9 @@ export async function startHunt() {
   const data = await DialogV2.input({
     window: { title: t("Hunt.Title"), icon: "fa-solid fa-moon" },
     position: { width: 520 },
-    content: `<p>${escapeHTML(t("Hunt.Intro"))}</p>` + fields.map(f => selectField(f, chosen[f.name])).join(""),
+    content: `<p>${escapeHTML(t("Hunt.Intro"))}</p>`
+      + `<button type="button" data-reroll-all><i class="fa-solid fa-dice"></i> ${escapeHTML(t("Hunt.RerollAll"))}</button>`
+      + fields.map(f => selectField(f, chosen[f.name])).join(""),
     ok: { label: t("Hunt.Start"), icon: "fa-solid fa-moon" },
     render: (_event, dialog) => {
       // Draws run one after another: two in flight at once would each exclude the other's old
@@ -80,6 +82,17 @@ export async function startHunt() {
           form.elements[field.name].value = await draw(field, taken);
         }));
       });
+      // Draws every field afresh. A field only avoids the group values already drawn in this pass,
+      // so it may land on its previous value, as a fresh roll would.
+      const all = dialog.element.querySelector("button[data-reroll-all]");
+      all.addEventListener("click", () => queue = queue.then(async () => {
+        const form = all.form;
+        const drawn = {};
+        for (const field of fields) {
+          const taken = fields.filter(f => f.group && (f.group === field.group) && (f.name in drawn)).map(f => drawn[f.name]);
+          drawn[field.name] = form.elements[field.name].value = await draw(field, taken);
+        }
+      }));
     }
   });
   if (!data) return;

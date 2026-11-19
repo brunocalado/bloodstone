@@ -120,9 +120,10 @@
     },
     "Hunt": {
       "Title": "Começar a Caçada",
-      "Intro": "Cada escolha já vem sorteada das tabelas da aventura. Troque qualquer uma ou clique no dado para sortear de novo. Só você vê o resultado.",
+      "Intro": "Cada escolha já vem sorteada das tabelas da aventura. Sorteie tudo de novo, clique no dado ao lado de uma escolha para sortear só ela, ou troque-a na lista. Só você vê o resultado.",
       "Start": "Começar a Caçada",
       "Reroll": "Sortear de novo",
+      "RerollAll": "Sortear tudo",
       "Field": {
         "Cathedral": "Catedral (secreta)",
         "Apostle": "Apóstolo",

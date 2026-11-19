@@ -1,5 +1,5 @@
 # Unreleased
-- [Added] A Start the Hunt macro (`bloodstone.startHunt()`): draws or lets the GM pick the secret cathedral, the Apostle, three locations, the opening obstacle and a weird character, starts the Night's Clock, and writes a GM-only journal pinned to the Map of Heliwyr as notes.
+- [Added] A Start the Hunt macro (`bloodstone.startHunt()`): draws (one by one or all at once) or lets the GM pick the secret cathedral, the Apostle, three locations, the opening obstacle and a weird character, starts the Night's Clock, and writes a GM-only journal pinned to the Map of Heliwyr as notes.
 - [Added] A Brazilian Portuguese (pt-BR) Bloodstone Adventure compendium.
 - [Added] Brazilian Portuguese (pt-BR) for the roll windows and chat cards.
 - [Added] A Bloodstone Rolls macro (`bloodstone.rollMenu()`): one window with a button for each roll, for the hotbar.

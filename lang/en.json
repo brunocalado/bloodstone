@@ -120,9 +120,10 @@
     },
     "Hunt": {
       "Title": "Start the Hunt",
-      "Intro": "Every choice starts drawn from the Adventure's tables. Change any of them, or press the die to draw again. Only you see the result.",
+      "Intro": "Every choice starts drawn from the Adventure's tables. Draw everything again, press the die beside one choice to draw only it, or change it in its list. Only you see the result.",
       "Start": "Start the Hunt",
       "Reroll": "Draw again",
+      "RerollAll": "Draw everything",
       "Field": {
         "Cathedral": "Cathedral (secret)",
         "Apostle": "Apostle",
