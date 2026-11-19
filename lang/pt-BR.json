@@ -117,6 +117,70 @@
     "Notify": {
       "NoActor": "Selecione o token do seu Caçador ou atribua um personagem.",
       "StunTooFew": "Atordoar rola 1 dado a cada duas balas marcadas: marque pelo menos 2."
+    },
+    "Hunt": {
+      "Title": "Começar a Caçada",
+      "Intro": "Cada escolha já vem sorteada das tabelas da aventura. Troque qualquer uma ou clique no dado para sortear de novo. Só você vê o resultado.",
+      "Start": "Começar a Caçada",
+      "Reroll": "Sortear de novo",
+      "Field": {
+        "Cathedral": "Catedral (secreta)",
+        "Apostle": "Apóstolo",
+        "Obstacle": "Obstáculo de abertura",
+        "Character": "Personagem estranho",
+        "Location": "Local {n}",
+        "District": "Local {n}: distrito"
+      },
+      "District": {
+        "oldHeliwyr": "Old Heliwyr",
+        "whispering": "Whispering District",
+        "twilight": "The Twilight",
+        "forgotten": "Forgotten Places",
+        "alchemists": "Alchemists Hamlet",
+        "centralHeliwyr": "Central Heliwyr",
+        "drowned": "The Drowned",
+        "firstDawn": "The First Dawn",
+        "lanternAlleys": "Lantern Alleys"
+      },
+      "JournalName": "A Caçada: {apostle}",
+      "Page": {
+        "Overview": "A Noite",
+        "Obstacle": "Obstáculo de Abertura",
+        "Character": "Personagem Estranho"
+      },
+      "Overview": {
+        "Route": "Rota",
+        "Start": "Chegada",
+        "Opening": "Abertura",
+        "OpeningText": "Logo que os Caçadores chegarem, apresente {obstacle}. Em algum ponto do caminho, eles podem encontrar {character}.",
+        "Prepare": "Antes de jogar",
+        "Clock": "O Relógio da Noite está na janela de relógios. Avance-o quando os Caçadores se deslocarem entre lugares, ou como Consequência.",
+        "Describe": "Imagine a sua Heliwyr: os cheiros, as torres, as estátuas.",
+        "Points": "Dê a cada local três pontos de interesse. O Caçador que observar ou interagir com um deles ganha 1 de Discernimento.",
+        "Enemies": "Dê a cada local seus obstáculos e inimigos."
+      },
+      "Cathedral": {
+        "Secret": "Segredo. O Apóstolo {apostle} se esconde aqui. Quando os Caçadores chegarem a esta catedral, vale a regra especial dela."
+      },
+      "Apostle": {
+        "Prompt": "Que monstruosidade desfigurou a carne do Apóstolo? O que ele está fazendo quando os Caçadores chegam, e como se prepara para lutar? O Apóstolo toma a iniciativa.",
+        "Where": "Espera em {cathedral}."
+      },
+      "Location": {
+        "District": "Distrito",
+        "LeadsTo": "Leva a",
+        "Points": "Pontos de interesse",
+        "PointsHint": "Detalhes estranhos e perturbadores. Não os explique. 1 de Discernimento para o Caçador que encontrar um.",
+        "Enemies": "Obstáculos e inimigos"
+      },
+      "Obstacle": {
+        "Text": "Apresente-o assim que os Caçadores chegarem a Heliwyr, para que tenham logo algo a resolver."
+      },
+      "Notify": {
+        "GMOnly": "Só um Mestre pode começar a caçada.",
+        "Missing": "Importe primeiro a aventura Bloodstone: a caçada precisa do Mapa de Heliwyr, do journal do Mestre e das tabelas.",
+        "Started": "A caçada está pronta: {journal}."
+      }
     }
   }
 }
