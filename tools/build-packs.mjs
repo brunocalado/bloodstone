@@ -19,6 +19,10 @@
  * Foundry, close the world (LevelDB opens in one process at a time) and run `unpack` before
  * committing; after pulling, run `pack`.
  *
+ * The content ships as one Adventure, not as a pack per document type: the import lands every
+ * document in the world with its ids, so world-relative links (`@UUID[Item.<id>]`) and the
+ * attributes' `trigger` macros (`Macro.<id>`) keep resolving, and players import in one step.
+ *
  * The Adventure is stored expanded: one file per embedded document, in folders by document type,
  * so a content edit is a one-file diff instead of a change inside one huge Adventure document.
  * Only `_Adventure.json` carries a `_key`; it lists every embedded file by relative path, and

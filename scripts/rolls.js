@@ -9,7 +9,9 @@
 /**
  * Bloodstone's rolls, exposed as the module API. Pack macros are one-line calls into these, and
  * TAF's Roll / Use buttons run those macros, so the logic lives here as reviewable module code
- * instead of script strings escaped into compendium JSON.
+ * instead of script strings escaped into compendium JSON. A chat-type trigger macro
+ * (`/r @active.value d6`) would need no code, but it cannot read the result tier, apply the
+ * zero-dice rule (roll 2, keep the lowest) or add Push and bonus dice.
  *
  * Nothing is deducted from the actor. Under v1.4, Stamina spent on a failed roll is regained only
  * after the Consequence lands, and the GM sets Consequences in the fiction, so automating the
