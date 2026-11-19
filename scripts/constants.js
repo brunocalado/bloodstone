@@ -71,3 +71,19 @@ export const DISTRICTS = {
 
 /** How many locations the hunt lays out between the arrival and the cathedral. */
 export const HUNT_LOCATIONS = 3;
+
+/**
+ * Shapes the routes between the locations can take, after the diagram in the rules: the Hunters
+ * arrive at location 0, the routes branch, and at least one location leads to the cathedral ("c").
+ * A third entry marks a route through a passage (secret passage, tunnel...). Every location has a
+ * way out, so none is a dead end.
+ */
+export const HUNT_ROUTES = [
+  [[0, 1], [0, 2], [1, 2, "passage"], [2, "c"]],
+  [[0, 1], [0, 2], [1, "c"], [2, "c", "passage"]],
+  [[0, 1], [1, 2], [2, "c"], [1, "c", "passage"]],
+  [[0, 1], [0, 2], [2, 1, "passage"], [1, "c"]]
+];
+
+/** Kinds of passage a route can go through (names in lang/). */
+export const PASSAGES = ["secret", "tunnel", "sewers", "rooftops"];

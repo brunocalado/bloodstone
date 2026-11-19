@@ -174,6 +174,8 @@
         "PointsHint": "Strange, alienating details. Don't explain them. 1 Insight for the Hunter who finds one.",
         "Enemies": "Obstacles and enemies"
       },
+      "Route": { "Via": "{place} ({passage})" },
+      "Passage": { "secret": "secret passage", "tunnel": "tunnel", "sewers": "sewers", "rooftops": "rooftops" },
       "Obstacle": {
         "Text": "Present it as soon as the Hunters arrive in Heliwyr, so they immediately have something to solve."
       },
