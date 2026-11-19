@@ -1,3 +1,6 @@
+# Unreleased
+- [Changed] The module's code is now licensed under GPL v3 (was MIT).
+
 # 0.1.0
 v12
 
