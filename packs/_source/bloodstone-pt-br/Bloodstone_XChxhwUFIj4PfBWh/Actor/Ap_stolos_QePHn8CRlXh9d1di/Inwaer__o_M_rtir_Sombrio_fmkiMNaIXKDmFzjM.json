@@ -1,0 +1,25 @@
+{
+  "_id": "fmkiMNaIXKDmFzjM",
+  "name": "Inwaer, o Mártir Sombrio",
+  "type": "player",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "QePHn8CRlXh9d1di",
+  "system": {
+    "content": ""
+  },
+  "prototypeToken": {
+    "name": "Inwaer, o Mártir Sombrio",
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

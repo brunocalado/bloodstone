@@ -1,0 +1,25 @@
+{
+  "_id": "V3SRZsjDcaCS0RwH",
+  "name": "Errik, physician",
+  "type": "player",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "jfwa2jzPrquv47a1",
+  "system": {
+    "content": ""
+  },
+  "prototypeToken": {
+    "name": "Errik, physician",
+    "actorLink": false,
+    "disposition": 0,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

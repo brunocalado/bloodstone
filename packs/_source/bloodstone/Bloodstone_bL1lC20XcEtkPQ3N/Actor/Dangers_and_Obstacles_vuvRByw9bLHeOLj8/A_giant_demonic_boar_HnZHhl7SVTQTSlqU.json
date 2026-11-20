@@ -1,0 +1,25 @@
+{
+  "_id": "HnZHhl7SVTQTSlqU",
+  "name": "A giant demonic boar",
+  "type": "player",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "vuvRByw9bLHeOLj8",
+  "system": {
+    "content": ""
+  },
+  "prototypeToken": {
+    "name": "A giant demonic boar",
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

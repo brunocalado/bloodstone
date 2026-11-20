@@ -1,4 +1,5 @@
 # Unreleased
+- [Added] An actor for each Apostle, danger and weird character in the GM tables, with a blank sheet for the GM to fill and a token to place; the Start the Hunt pages link to them.
 - [Added] A Start the Hunt macro (`bloodstone.startHunt()`): draws (one by one or all at once) or lets the GM pick the secret cathedral, the Apostle, three locations, the opening obstacle and a weird character, starts the Night's Clock, and writes a GM-only journal pinned to the Map of Heliwyr as notes.
 - [Added] A Brazilian Portuguese (pt-BR) Bloodstone Adventure compendium.
 - [Added] Brazilian Portuguese (pt-BR) for the roll windows and chat cards.

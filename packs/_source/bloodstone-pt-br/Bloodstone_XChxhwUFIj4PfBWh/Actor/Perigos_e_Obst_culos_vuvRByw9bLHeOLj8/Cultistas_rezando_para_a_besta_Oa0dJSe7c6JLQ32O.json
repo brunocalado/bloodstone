@@ -1,0 +1,25 @@
+{
+  "_id": "Oa0dJSe7c6JLQ32O",
+  "name": "Cultistas rezando para a besta",
+  "type": "player",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "vuvRByw9bLHeOLj8",
+  "system": {
+    "content": ""
+  },
+  "prototypeToken": {
+    "name": "Cultistas rezando para a besta",
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

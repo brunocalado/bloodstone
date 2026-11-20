@@ -1,0 +1,25 @@
+{
+  "_id": "0qeRlhei7sx0ToF4",
+  "name": "Valea, freira da igreja perdida",
+  "type": "player",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "jfwa2jzPrquv47a1",
+  "system": {
+    "content": ""
+  },
+  "prototypeToken": {
+    "name": "Valea, freira da igreja perdida",
+    "actorLink": false,
+    "disposition": 0,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

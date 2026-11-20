@@ -1,0 +1,25 @@
+{
+  "_id": "ArKsrFGjoBSBBsEh",
+  "name": "Judas, the Accuser",
+  "type": "player",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "QePHn8CRlXh9d1di",
+  "system": {
+    "content": ""
+  },
+  "prototypeToken": {
+    "name": "Judas, the Accuser",
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

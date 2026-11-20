@@ -1,0 +1,25 @@
+{
+  "_id": "u3iNwnn3lwWu1v12",
+  "name": "Niklas, a skeptical man",
+  "type": "player",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "jfwa2jzPrquv47a1",
+  "system": {
+    "content": ""
+  },
+  "prototypeToken": {
+    "name": "Niklas, a skeptical man",
+    "actorLink": false,
+    "disposition": 0,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

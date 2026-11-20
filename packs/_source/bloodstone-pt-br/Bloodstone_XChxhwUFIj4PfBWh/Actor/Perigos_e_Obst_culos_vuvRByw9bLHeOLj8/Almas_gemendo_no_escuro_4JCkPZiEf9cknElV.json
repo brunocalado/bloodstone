@@ -1,0 +1,25 @@
+{
+  "_id": "4JCkPZiEf9cknElV",
+  "name": "Almas gemendo no escuro",
+  "type": "player",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "vuvRByw9bLHeOLj8",
+  "system": {
+    "content": ""
+  },
+  "prototypeToken": {
+    "name": "Almas gemendo no escuro",
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

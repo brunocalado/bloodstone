@@ -1,0 +1,25 @@
+{
+  "_id": "jqMTOMwIUIVO1vDD",
+  "name": "Lucille, caçadora aposentada",
+  "type": "player",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "jfwa2jzPrquv47a1",
+  "system": {
+    "content": ""
+  },
+  "prototypeToken": {
+    "name": "Lucille, caçadora aposentada",
+    "actorLink": false,
+    "disposition": 0,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

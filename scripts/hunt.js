@@ -114,6 +114,9 @@ export async function startHunt() {
   const ids = { overview: randomID(), cathedral: randomID(), apostle: randomID(), obstacle: randomID(),
     character: randomID() };
   const link = (id, name) => `@UUID[.${id}]{${escapeHTML(name)}}`;
+  // The Adventure's NPC actors carry the id of their table result, so a drawn result finds its actor.
+  const actorLine = r => game.actors.has(r.id)
+    ? `<p>${t("Hunt.ActorLink", { actor: `@UUID[Actor.${r.id}]{${escapeHTML(r.name)}}` })}</p>` : "";
   const cathedralLink = link(ids.cathedral, cathedral.name);
   const apostleLink = link(ids.apostle, apostle.name);
 
@@ -143,7 +146,7 @@ export async function startHunt() {
     page(ids.cathedral, cathedral.name,
       `<blockquote><p>${t("Hunt.Cathedral.Secret", { apostle: apostleLink })}</p></blockquote>${cathedral.html}`),
     page(ids.apostle, apostle.name,
-      `${apostle.description}<p>${t("Hunt.Apostle.Where", { cathedral: cathedralLink })}</p>`
+      `${apostle.description}${actorLine(apostle)}<p>${t("Hunt.Apostle.Where", { cathedral: cathedralLink })}</p>`
       + `<p><em>${escapeHTML(t("Hunt.Apostle.Prompt"))}</em></p>`),
     ...locations.map(l => {
       const out = routes.filter(r => r.from === l).map(via).join(", ");
@@ -156,8 +159,8 @@ export async function startHunt() {
         + `<h2>${escapeHTML(t("Hunt.Location.Enemies"))}</h2><p>…</p>`);
     }),
     page(ids.obstacle, t("Hunt.Page.Obstacle"),
-      `<h2>${escapeHTML(obstacle.name)}</h2>${obstacle.description}<p><em>${escapeHTML(t("Hunt.Obstacle.Text"))}</em></p>`),
-    page(ids.character, t("Hunt.Page.Character"), `<h2>${escapeHTML(character.name)}</h2>${character.description}`)
+      `<h2>${escapeHTML(obstacle.name)}</h2>${obstacle.description}${actorLine(obstacle)}<p><em>${escapeHTML(t("Hunt.Obstacle.Text"))}</em></p>`),
+    page(ids.character, t("Hunt.Page.Character"), `<h2>${escapeHTML(character.name)}</h2>${character.description}${actorLine(character)}`)
   ].map((p, i) => ({ ...p, sort: (i + 1) * 100000 }));
 
   const journal = await foundry.documents.JournalEntry.implementation.create({

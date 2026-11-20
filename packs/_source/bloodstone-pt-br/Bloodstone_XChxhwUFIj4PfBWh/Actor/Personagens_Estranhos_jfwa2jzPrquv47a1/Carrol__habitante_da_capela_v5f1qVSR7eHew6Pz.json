@@ -1,0 +1,25 @@
+{
+  "_id": "v5f1qVSR7eHew6Pz",
+  "name": "Carrol, habitante da capela",
+  "type": "player",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "jfwa2jzPrquv47a1",
+  "system": {
+    "content": ""
+  },
+  "prototypeToken": {
+    "name": "Carrol, habitante da capela",
+    "actorLink": false,
+    "disposition": 0,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

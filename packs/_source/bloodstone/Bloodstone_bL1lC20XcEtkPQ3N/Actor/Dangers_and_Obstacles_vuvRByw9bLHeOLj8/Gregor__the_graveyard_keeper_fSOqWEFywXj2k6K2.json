@@ -1,0 +1,25 @@
+{
+  "_id": "fSOqWEFywXj2k6K2",
+  "name": "Gregor, the graveyard keeper",
+  "type": "player",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": "vuvRByw9bLHeOLj8",
+  "system": {
+    "content": ""
+  },
+  "prototypeToken": {
+    "name": "Gregor, the graveyard keeper",
+    "actorLink": false,
+    "disposition": -1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg"
+    }
+  },
+  "items": [],
+  "effects": [],
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {}
+}

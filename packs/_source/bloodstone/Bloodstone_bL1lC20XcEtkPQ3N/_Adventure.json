@@ -5,7 +5,25 @@
   "caption": "The city of Heliwyr is damned. Decades ago, a mad priest officiated an ancient ritual, awakening a wicked force that branded every inhabitant, corrupting their blood. On nights with a blood moon, the curse awakens, depriving the inhabitants of their minds. Those who decide to follow the path of the priest, voluntarily feeding on the corrupt blood of people, become Apostles: almost immortal creatures, with bestial features, devoid of any humanity.",
   "description": "<p>BLOODSTONE is an action-packed horror tabletop roleplaying game with a dark, gothic feel.</p><p>The players are a group of hunters, sent to the city of Heliwyr on a blood moon night, to hunt down an Apostle who is attempting to ascend, opening a gateway to the realm of the Ancients.</p><p>The game has a high pace: the Hunt is a race against the clock.</p><p>BLOODSTONE is designed for one-shot games: every time we play, we play different Hunters, who will face new obstacles and challenges every time: the blood moon nights in Heliwyr never end.</p><p>Learn more at: <a href=\"https://matteosciutteri.itch.io/bloodstone\">https://matteosciutteri.itch.io/bloodstone</a></p>",
   "actors": [
-    "Actor/Hunters_6t4j38WYZNs8nX5F/Hunter_c6vtPlB97k7nIf3c.json"
+    "Actor/Hunters_6t4j38WYZNs8nX5F/Hunter_c6vtPlB97k7nIf3c.json",
+    "Actor/Apostles_QePHn8CRlXh9d1di/Alenna__the_First_Vicar_BWkbGJfhIZZgkLhY.json",
+    "Actor/Apostles_QePHn8CRlXh9d1di/Frederik__the_Wicked_Father_zULUZ7uPU1WaFsp0.json",
+    "Actor/Apostles_QePHn8CRlXh9d1di/Inwaer__the_Dark_Martyr_fmkiMNaIXKDmFzjM.json",
+    "Actor/Apostles_QePHn8CRlXh9d1di/Lyra__the_Corrupt_Matriarch_BHVk4AglSm4mlcJI.json",
+    "Actor/Apostles_QePHn8CRlXh9d1di/Urial__the_Minister_of_Flames_5YYBmNKEcnqfHR34.json",
+    "Actor/Apostles_QePHn8CRlXh9d1di/Judas__the_Accuser_ArKsrFGjoBSBBsEh.json",
+    "Actor/Dangers_and_Obstacles_vuvRByw9bLHeOLj8/A_group_of_armed_citizens_dphZCqVHeHfh8pUB.json",
+    "Actor/Dangers_and_Obstacles_vuvRByw9bLHeOLj8/Cultists_praying_to_the_beast_Oa0dJSe7c6JLQ32O.json",
+    "Actor/Dangers_and_Obstacles_vuvRByw9bLHeOLj8/Gregor__the_graveyard_keeper_fSOqWEFywXj2k6K2.json",
+    "Actor/Dangers_and_Obstacles_vuvRByw9bLHeOLj8/Souls_moaning_in_the_dark_4JCkPZiEf9cknElV.json",
+    "Actor/Dangers_and_Obstacles_vuvRByw9bLHeOLj8/A_flock_of_three_eyed_ravens_QWv6itju513pQVD8.json",
+    "Actor/Dangers_and_Obstacles_vuvRByw9bLHeOLj8/A_giant_demonic_boar_HnZHhl7SVTQTSlqU.json",
+    "Actor/Weird_Characters_jfwa2jzPrquv47a1/Camilla__woman_of_the_night_udm8YCa7NEHyTw6k.json",
+    "Actor/Weird_Characters_jfwa2jzPrquv47a1/Niklas__a_skeptical_man_u3iNwnn3lwWu1v12.json",
+    "Actor/Weird_Characters_jfwa2jzPrquv47a1/Carrol__chapel_dweller_v5f1qVSR7eHew6Pz.json",
+    "Actor/Weird_Characters_jfwa2jzPrquv47a1/Valea__nun_of_the_lost_church_0qeRlhei7sx0ToF4.json",
+    "Actor/Weird_Characters_jfwa2jzPrquv47a1/Lucille__retired_hunter_jqMTOMwIUIVO1vDD.json",
+    "Actor/Weird_Characters_jfwa2jzPrquv47a1/Errik__physician_V3SRZsjDcaCS0RwH.json"
   ],
   "combats": [],
   "items": [
@@ -83,7 +101,10 @@
     "Item/Tools_z9qgXdgMsgka0P8t/_Folder.json",
     "Macro/Rolls_owisQcQKDGOxWTi1/_Folder.json",
     "RollTable/Tables_O5e76ndZWvqjU2yb/_Folder.json",
-    "Macro/Clocks_fmmQZM6FKYqouD4Z/_Folder.json"
+    "Macro/Clocks_fmmQZM6FKYqouD4Z/_Folder.json",
+    "Actor/Apostles_QePHn8CRlXh9d1di/_Folder.json",
+    "Actor/Dangers_and_Obstacles_vuvRByw9bLHeOLj8/_Folder.json",
+    "Actor/Weird_Characters_jfwa2jzPrquv47a1/_Folder.json"
   ],
   "_key": "!adventures!bL1lC20XcEtkPQ3N"
 }

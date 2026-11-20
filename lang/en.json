@@ -122,6 +122,7 @@
       "Title": "Start the Hunt",
       "Intro": "Every choice starts drawn from the Adventure's tables. Draw everything again, press the die beside one choice to draw only it, or change it in its list. Only you see the result.",
       "Start": "Start the Hunt",
+      "ActorLink": "Drag onto the map: {actor}",
       "Reroll": "Draw again",
       "RerollAll": "Draw everything",
       "Field": {

@@ -5,7 +5,25 @@
   "caption": "A cidade de Heliwyr está condenada. Décadas atrás, um sacerdote louco celebrou um ritual antigo, despertando uma força perversa que marcou cada habitante, corrompendo seu sangue. Nas noites de lua de sangue, a maldição desperta, privando os habitantes de suas mentes. Aqueles que decidem seguir o caminho do sacerdote, alimentando-se voluntariamente do sangue corrompido das pessoas, tornam-se Apóstolos: criaturas quase imortais, de feições bestiais, desprovidas de qualquer humanidade.",
   "description": "<p>BLOODSTONE é um RPG de mesa de terror repleto de ação, com uma atmosfera sombria e gótica.</p><p>Os jogadores são um grupo de caçadores, enviados à cidade de Heliwyr numa noite de lua de sangue para caçar um Apóstolo que tenta ascender, abrindo um portal para o reino dos Antigos.</p><p>O jogo tem ritmo acelerado: a Caçada é uma corrida contra o relógio.</p><p>BLOODSTONE foi feito para sessões únicas: toda vez que jogamos, jogamos com Caçadores diferentes, que enfrentarão novos obstáculos e desafios a cada vez: as noites de lua de sangue em Heliwyr nunca terminam.</p><p>Saiba mais em: <a href=\"https://matteosciutteri.itch.io/bloodstone\">https://matteosciutteri.itch.io/bloodstone</a></p>",
   "actors": [
-    "Actor/Ca_adores_6t4j38WYZNs8nX5F/Ca_ador_c6vtPlB97k7nIf3c.json"
+    "Actor/Ca_adores_6t4j38WYZNs8nX5F/Ca_ador_c6vtPlB97k7nIf3c.json",
+    "Actor/Ap_stolos_QePHn8CRlXh9d1di/Alenna__a_Primeira_Vig_ria_BWkbGJfhIZZgkLhY.json",
+    "Actor/Ap_stolos_QePHn8CRlXh9d1di/Frederik__o_Pai_Perverso_zULUZ7uPU1WaFsp0.json",
+    "Actor/Ap_stolos_QePHn8CRlXh9d1di/Inwaer__o_M_rtir_Sombrio_fmkiMNaIXKDmFzjM.json",
+    "Actor/Ap_stolos_QePHn8CRlXh9d1di/Lyra__a_Matriarca_Corrupta_BHVk4AglSm4mlcJI.json",
+    "Actor/Ap_stolos_QePHn8CRlXh9d1di/Urial__o_Ministro_das_Chamas_5YYBmNKEcnqfHR34.json",
+    "Actor/Ap_stolos_QePHn8CRlXh9d1di/Judas__o_Acusador_ArKsrFGjoBSBBsEh.json",
+    "Actor/Perigos_e_Obst_culos_vuvRByw9bLHeOLj8/Um_grupo_de_cidad_os_armados_dphZCqVHeHfh8pUB.json",
+    "Actor/Perigos_e_Obst_culos_vuvRByw9bLHeOLj8/Cultistas_rezando_para_a_besta_Oa0dJSe7c6JLQ32O.json",
+    "Actor/Perigos_e_Obst_culos_vuvRByw9bLHeOLj8/Gregor__o_guardi_o_do_cemit_rio_fSOqWEFywXj2k6K2.json",
+    "Actor/Perigos_e_Obst_culos_vuvRByw9bLHeOLj8/Almas_gemendo_no_escuro_4JCkPZiEf9cknElV.json",
+    "Actor/Perigos_e_Obst_culos_vuvRByw9bLHeOLj8/Um_bando_de_corvos_de_tr_s_olhos_QWv6itju513pQVD8.json",
+    "Actor/Perigos_e_Obst_culos_vuvRByw9bLHeOLj8/Um_javali_demon_aco_gigante_HnZHhl7SVTQTSlqU.json",
+    "Actor/Personagens_Estranhos_jfwa2jzPrquv47a1/Camilla__mulher_da_noite_udm8YCa7NEHyTw6k.json",
+    "Actor/Personagens_Estranhos_jfwa2jzPrquv47a1/Niklas__um_homem_c_tico_u3iNwnn3lwWu1v12.json",
+    "Actor/Personagens_Estranhos_jfwa2jzPrquv47a1/Carrol__habitante_da_capela_v5f1qVSR7eHew6Pz.json",
+    "Actor/Personagens_Estranhos_jfwa2jzPrquv47a1/Valea__freira_da_igreja_perdida_0qeRlhei7sx0ToF4.json",
+    "Actor/Personagens_Estranhos_jfwa2jzPrquv47a1/Lucille__ca_adora_aposentada_jqMTOMwIUIVO1vDD.json",
+    "Actor/Personagens_Estranhos_jfwa2jzPrquv47a1/Errik__m_dico_V3SRZsjDcaCS0RwH.json"
   ],
   "combats": [],
   "items": [
@@ -83,7 +101,10 @@
     "Item/Ferramentas_z9qgXdgMsgka0P8t/_Folder.json",
     "Macro/Rolagens_owisQcQKDGOxWTi1/_Folder.json",
     "RollTable/Tabelas_O5e76ndZWvqjU2yb/_Folder.json",
-    "Macro/Rel_gios_fmmQZM6FKYqouD4Z/_Folder.json"
+    "Macro/Rel_gios_fmmQZM6FKYqouD4Z/_Folder.json",
+    "Actor/Ap_stolos_QePHn8CRlXh9d1di/_Folder.json",
+    "Actor/Perigos_e_Obst_culos_vuvRByw9bLHeOLj8/_Folder.json",
+    "Actor/Personagens_Estranhos_jfwa2jzPrquv47a1/_Folder.json"
   ],
   "_key": "!adventures!XChxhwUFIj4PfBWh"
 }
