@@ -42,13 +42,15 @@ You need the [PDF](https://matteosciutteri.itch.io/bloodstone) to play.
 </thead>
 </table>
 
-The import brings the Hunter, an actor for each Apostle, danger and weird character in the GM tables (a name and a blank sheet, for an image and a token), 32 items (origins, memories, attire, trick weapons, firearms, tools and bandolier items), the Bloodstone - Player and Bloodstone - GM journals, a cover scene and the map of Heliwyr, four roll tables for the GM, the roll and clock macros, and a reading of the Oath of Hunters.
+The import brings the Hunter, an actor for each Apostle, danger and weird character in the GM tables (a name and a blank sheet, for an image and a token), 32 items (origins, memories, attire, trick weapons, firearms, tools and bandolier items), the Bloodstone - Player and Bloodstone - GM journals, a cover scene and the map of Heliwyr, four roll tables for the GM, the roll, clock and Start the Hunt macros, and a reading of the Oath of Hunters.
 
 Give each player a copy of the Hunter. On the Attributes tab, the **Roll** button beside Prowess, Resolve and Wit opens the Action Roll. On the Items tab, the **Use** button beside a trick weapon or a firearm rolls it. The Resist macro rolls Resist. The Bloodstone Rolls macro puts every roll in one window, for the hotbar. The chat card reads the result and says what to mark; the sheet is not changed for you.
 
-TAF gives every new actor the world's default attributes. To make them Bloodstone's, open the Hunter as GM, open the sheet's header menu (⋮) and choose **Save Attributes as Defaults**.
+TAF gives every new actor the world's default attributes. To make them Bloodstone's, open the Hunter as GM, open the sheet's header menu (⋮) and choose **Save Attributes as Defaults**. Do it after importing the adventure: an actor imported without attributes, like the non-player characters, also gets the defaults.
 
 The Clocks macro folder holds the Night's Clock (8 segments) and clocks of 4, 6 and 8 segments. Each macro adds its clock to Global Progress Clocks. The Bloodstone - GM journal explains when to use them.
+
+Before the session, the GM runs the Start the Hunt macro. It draws from the tables the secret cathedral, the Apostle, three locations, the opening obstacle and a weird character, and the GM can change any of them or draw again. Then it creates the Night's Clock and a journal only the GM sees, with a page for each choice, pinned to the map of Heliwyr as notes, with hidden arrows for the routes between the places.
 
 # Installation
 
