@@ -1,11 +1,7 @@
 # Bloodstone - Action-Horror mini Forged in the Dark
 The city of Heliwyr is damned. Decades ago, a mad priest officiated an ancient ritual, awakening a wicked force that branded every inhabitant, corrupting their blood. On nights with a blood moon, the curse awakens, depriving the inhabitants of their minds. Those who decide to follow the path of the priest, voluntarily feeding on the corrupt blood of people, become Apostles: almost immortal creatures, with bestial features, devoid of any humanity.
 
-BLOODSTONE is an action-packed horror tabletop roleplaying game with a dark, gothic feel.
-The players are a group of hunters, sent to the city of Heliwyr on a blood moon night, to hunt down an Apostle who is attempting to ascend, opening a gateway to the realm of the Ancients. 
-
-The game has a high pace: the Hunt is a race against the clock. 
-BLOODSTONE is designed for one-shot games: every time we play, we play different Hunters, who will face new obstacles and challenges every time: the blood moon nights in Heliwyr never end.
+Bloodstone is a gothic horror tabletop roleplaying game, Forged in the Dark, made for one-shots. The players are Hunters sent to Heliwyr on a blood moon night to stop an Apostle who is trying to ascend and open a gateway to the realm of the Ancients. The Hunt is a race against the clock, and every game brings new Hunters and new obstacles.
 
 This module brings Bloodstone to Foundry VTT on the Text-Based Actors system: a Hunter with roll buttons, the gear, the player and GM journals for game version 1.4, the four GM tables, the map of Heliwyr, and clocks through Global Progress Clocks.
 
@@ -21,7 +17,9 @@ This module brings Bloodstone to Foundry VTT on the Text-Based Actors system: a 
 </thead>
 </table>
 
-# Documentation
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Donate-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mestredigital) [![More Modules](https://img.shields.io/badge/Foundry%20VTT-More%20Modules-red?style=for-the-badge&logo=gamepad)](https://mestredigital.online/pages/projetos-en)
+
+# How to use it
 You need Foundry VTT v14, the Text-Based Actors (TAF) system 3.3.0 and the Global Progress Clocks module. Dice So Nice and Dice Tray are optional: the first shows the dice rolling in 3D, the second adds dice buttons below the chat.
 
 You need the [PDF](https://matteosciutteri.itch.io/bloodstone) to play.
@@ -53,11 +51,6 @@ The Clocks macro folder holds the Night's Clock (8 segments) and clocks of 4, 6 
 Before the session, the GM runs the Start the Hunt macro. It draws from the tables the secret cathedral, the Apostle, three locations, the opening obstacle and a weird character, and the GM can change any of them or draw again. Then it creates the Night's Clock and a journal only the GM sees, with a page for each choice, pinned to the map of Heliwyr as notes, with hidden arrows for the routes between the places.
 
 # Installation
-
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-Donate-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/mestredigital) [![More Modules](https://img.shields.io/badge/Foundry%20VTT-More%20Modules-red?style=for-the-badge&logo=gamepad)](https://mestredigital.online/pages/projetos-en)
-
-## Installation
 Search **Bloodstone** in the Foundry VTT module browser.
 
 ## Manual installation
